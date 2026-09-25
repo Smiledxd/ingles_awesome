@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S01 · Alfabeto y saludos</title>
+    <meta
+      name="description"
+      content="Sesión 1 de inglés: el alfabeto, cómo deletrear tu nombre y tu email, y saludos y despedidas."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔤</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/estilos.css" />
+  </head>
+  <body data-sesion="S01" data-numero="1">
+    <main class="contenedor">
+      <header class="cabecera">
+        <nav class="migas"><a href="../index.html">← Todas las sesiones</a></nav>
+        <h1>Sesión 1 · Hola, inglés</h1>
+        <p class="subtitulo">
+          El alfabeto, deletrear tu nombre y tu email, y saludar y despedirte.
+        </p>
+        <ul class="etiquetas">
+          <li>Fase 1 · Base</li>
+          <li>Semana 1</li>
+          <li>≈ 60 min</li>
+        </ul>
+      </header>
+
+      <div data-aviso-audio></div>
+
+      <section class="bloque">
+        <h2>Tu hora de hoy</h2>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <td>10 min</td>
+              <td>
+                Tarjetas: abre la <a href="../tarjetas/index.html">app de tarjetas</a>. Hoy es tu
+                primer día: las 12 palabras de esta sesión ya están ahí.
+              </td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Secciones 1, 2 y 4: warm-up, concepto y ejercicios.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Sección 3: escucha y repite en voz alta.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Sección 5: escribe tu producción y pégala en el chat para que te la corrijan.</td>
+            </tr>
+            <tr>
+              <td>5 min</td>
+              <td>Secciones 6 y 7: palabras nuevas y checklist de cierre.</td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota">
+          🔊 Cada frase tiene dos botones: <b>▶</b> velocidad normal y <b>🐢</b> lento. Usa
+          audífonos si puedes y repite siempre en voz alta.
+        </p>
+      </section>
+
+      <!-- 1. Warm-up -->
+      <section class="bloque" id="warmup">
+        <h2><span class="num">1</span> Warm-up <span class="minutos">2 min</span></h2>
+        <p>
+          Es la primera sesión, así que no hay nada que repasar todavía. Responde en voz alta lo que
+          ya sepas (sin miedo a fallar) y luego mira la respuesta.
+        </p>
+        <ol class="warmup">
+          <li>
+            ¿Cómo saludas en inglés a alguien a las 8 de la mañana?
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">Good morning!</span>
+                <span class="audio" data-say="Good morning!"></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            ¿Cuántas letras tiene el alfabeto inglés?
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                26: las mismas que el español, pero sin la «ñ». Lo que cambia es cómo se llaman.
+              </p>
+            </details>
+          </li>
+          <li>
+            ¿Cómo se lee el símbolo <code>@</code> en un email en inglés?
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">at</span> <span class="audio" data-say="at"></span> — nunca
+                «arroba».
+              </p>
+            </details>
+          </li>
+        </ol>
+      </section>
+
+      <!-- 2. Concepto -->
+      <section class="bloque" id="concepto">
+        <h2><span class="num">2</span> Concepto: el alfabeto y cómo deletrear</h2>
+        <p>
+          En una entrevista o en el trabajo vas a deletrear todo el tiempo: tu nombre, tu apellido,
+          tu email, el nombre de un archivo o de una tabla. Por eso empezamos por aquí. El truco:
+          las letras en inglés tienen <b>nombres distintos</b> a los del español, pero se agrupan
+          por el sonido de su vocal. Aprende los grupos y ya tienes las 26.
+        </p>
+
+        <h3>Las 26 letras (toca cada una para escucharla)</h3>
+        <div class="alfabeto">
+          <button type="button" class="letra" data-say="A"><b>A</b><span>éi</span></button>
+          <button type="button" class="letra" data-say="B"><b>B</b><span>bí</span></button>
+          <button type="button" class="letra" data-say="C"><b>C</b><span>sí</span></button>
+          <button type="button" class="letra" data-say="D"><b>D</b><span>dí</span></button>
+          <button type="button" class="letra" data-say="E"><b>E</b><span>í</span></button>
+          <button type="button" class="letra" data-say="F"><b>F</b><span>éf</span></button>
+          <button type="button" class="letra" data-say="G"><b>G</b><span>yí</span></button>
+          <button type="button" class="letra" data-say="H"><b>H</b><span>éich</span></button>
+          <button type="button" class="letra" data-say="I"><b>I</b><span>ái</span></button>
+          <button type="button" class="letra" data-say="J"><b>J</b><span>yéi</span></button>
+          <button type="button" class="letra" data-say="K"><b>K</b><span>kéi</span></button>
+          <button type="button" class="letra" data-say="L"><b>L</b><span>él</span></button>
+          <button type="button" class="letra" data-say="M"><b>M</b><span>ém</span></button>
+          <button type="button" class="letra" data-say="N"><b>N</b><span>én</span></button>
+          <button type="button" class="letra" data-say="O"><b>O</b><span>óu</span></button>
+          <button type="button" class="letra" data-say="P"><b>P</b><span>pí</span></button>
+          <button type="button" class="letra" data-say="Q"><b>Q</b><span>kiú</span></button>
+          <button type="button" class="letra" data-say="R"><b>R</b><span>ár</span></button>
+          <button type="button" class="letra" data-say="S"><b>S</b><span>és</span></button>
+          <button type="button" class="letra" data-say="T"><b>T</b><span>tí</span></button>
+          <button type="button" class="letra" data-say="U"><b>U</b><span>iú</span></button>
+          <button type="button" class="letra" data-say="V"><b>V</b><span>ví</span></button>
+          <button type="button" class="letra" data-say="W"><b>W</b><span>dábol-iu</span></button>
+          <button type="button" class="letra" data-say="X"><b>X</b><span>éks</span></button>
+          <button type="button" class="letra" data-say="Y"><b>Y</b><span>uái</span></button>
+          <button type="button" class="letra" data-say="Z"><b>Z</b><span>zí</span></button>
+        </div>
+        <p class="estado">
+          La pronunciación en español es solo una ayuda aproximada: guíate siempre por el audio.
+        </p>
+
+        <h3>Los 7 grupos de sonido</h3>
+        <div class="grupos">
+          <div class="grupo">
+            <span class="letras">A H J K</span>
+            <span class="audio" data-say="A, H, J, K."></span>
+            <span class="es">Sonido «ei», como en <i>day</i>.</span>
+          </div>
+          <div class="grupo">
+            <span class="letras">B C D E G P T V Z</span>
+            <span class="audio" data-say="B, C, D, E, G, P, T, V, Z."></span>
+            <span class="es"
+              >Sonido «i» largo, como en <i>see</i>. En EE. UU. la Z se dice «zí» (en el Reino
+              Unido, «zed»).</span
+            >
+          </div>
+          <div class="grupo">
+            <span class="letras">F L M N S X</span>
+            <span class="audio" data-say="F, L, M, N, S, X."></span>
+            <span class="es">Empiezan con «e» corta: éf, él, ém, én, és, éks.</span>
+          </div>
+          <div class="grupo">
+            <span class="letras">I Y</span>
+            <span class="audio" data-say="I, Y."></span>
+            <span class="es">Sonido «ai», como en <i>hi</i>.</span>
+          </div>
+          <div class="grupo">
+            <span class="letras">O</span>
+            <span class="audio" data-say="O."></span>
+            <span class="es">Sonido «ou», como en <i>no</i>.</span>
+          </div>
+          <div class="grupo">
+            <span class="letras">Q U W</span>
+            <span class="audio" data-say="Q, U, W."></span>
+            <span class="es">Sonido «iu», como en <i>you</i>. La W es «double U» (dos U).</span>
+          </div>
+          <div class="grupo">
+            <span class="letras">R</span>
+            <span class="audio" data-say="R."></span>
+            <span class="es">Sonido «ar», como en <i>car</i>.</span>
+          </div>
+        </div>
+
+        <p class="nota nota-aviso">
+          ⚠️ <b>Las trampas para hispanohablantes:</b> la <b>E</b> se dice «i», la <b>I</b> se dice
+          «ai» y la <b>A</b> se dice «ei». La <b>G</b> es «yi» y la <b>J</b> es «yei». Si dudas,
+          piensa en <i>email</i> (empieza con «i») y en <i>Jay</i> (J = «yei»).
+        </p>
+
+        <h3>Símbolos para dictar un email</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Símbolo</th>
+              <th>En inglés</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td><code>@</code></td>
+              <td class="en">at</td>
+              <td><span class="audio" data-say="at"></span></td>
+            </tr>
+            <tr>
+              <td><code>.</code></td>
+              <td class="en">dot</td>
+              <td><span class="audio" data-say="dot"></span></td>
+            </tr>
+            <tr>
+              <td><code>_</code></td>
+              <td class="en">underscore</td>
+              <td><span class="audio" data-say="underscore"></span></td>
+            </tr>
+            <tr>
+              <td><code>-</code></td>
+              <td class="en">dash <span class="es">(o hyphen)</span></td>
+              <td><span class="audio" data-say="dash"></span></td>
+            </tr>
+            <tr>
+              <td><code>ll</code>, <code>rr</code></td>
+              <td class="en">double L, double R <span class="es">(o «L, L»)</span></td>
+              <td><span class="audio" data-say="double L. double R."></span></td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Ejemplos</h3>
+        <p>
+          Estas frases se aprenden como <b>bloques fijos</b> (todavía no analizamos su gramática; el
+          verbo <i>to be</i> llega en la sesión 2).
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">My name is Ana Torres. T, O, R, R, E, S.</span
+              ><span class="es">Me llamo Ana Torres. T, O, R, R, E, S.</span></span
+            >
+            <span class="audio" data-say="My name is Ana Torres. T, O, R, R, E, S."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">How do you spell that?</span
+              ><span class="es">¿Cómo se escribe eso? (¿Cómo lo deletreas?)</span></span
+            >
+            <span class="audio" data-say="How do you spell that?"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">SQL: S, Q, L.</span
+              ><span class="es">SQL se deletrea «es, kiú, él».</span></span
+            >
+            <span class="audio" data-say="S, Q, L."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Excel: E, X, C, E, L.</span
+              ><span class="es">Excel: í, éks, sí, í, él.</span></span
+            >
+            <span class="audio" data-say="Excel. E, X, C, E, L."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">My email is ana.torres@gmail.com.</span
+              ><span class="es">Se dice: «ana dot torres at gmail dot com».</span></span
+            >
+            <span class="audio" data-say="My email is ana dot torres at gmail dot com."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">lima_data@outlook.com</span
+              ><span class="es">Se dice: «lima underscore data at outlook dot com».</span></span
+            >
+            <span class="audio" data-say="lima underscore data at outlook dot com."></span>
+          </li>
+        </ul>
+
+        <h3>Saludos y despedidas</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Inglés</th>
+              <th>Cuándo se usa</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td class="en">Hello / Hi</td>
+              <td>Hola (<i>hi</i> es más informal). Cualquier hora.</td>
+              <td><span class="audio" data-say="Hello. Hi."></span></td>
+            </tr>
+            <tr>
+              <td class="en">Good morning</td>
+              <td>Buenos días, hasta el mediodía.</td>
+              <td><span class="audio" data-say="Good morning."></span></td>
+            </tr>
+            <tr>
+              <td class="en">Good afternoon</td>
+              <td>Buenas tardes, del mediodía hasta las 6 p. m. aprox.</td>
+              <td><span class="audio" data-say="Good afternoon."></span></td>
+            </tr>
+            <tr>
+              <td class="en">Good evening</td>
+              <td>Buenas noches <b>al llegar</b> (saludo).</td>
+              <td><span class="audio" data-say="Good evening."></span></td>
+            </tr>
+            <tr>
+              <td class="en">Good night</td>
+              <td>Buenas noches <b>al irte</b> o antes de dormir (despedida).</td>
+              <td><span class="audio" data-say="Good night."></span></td>
+            </tr>
+            <tr>
+              <td class="en">Goodbye / Bye</td>
+              <td>Adiós (<i>bye</i> es más informal).</td>
+              <td><span class="audio" data-say="Goodbye. Bye."></span></td>
+            </tr>
+            <tr>
+              <td class="en">See you tomorrow / See you later</td>
+              <td>Hasta mañana / Hasta luego.</td>
+              <td><span class="audio" data-say="See you tomorrow. See you later."></span></td>
+            </tr>
+            <tr>
+              <td class="en">How are you? — I'm fine, thanks. And you?</td>
+              <td>¿Cómo estás? — Bien, gracias. ¿Y tú?</td>
+              <td>
+                <span class="audio" data-say="How are you? I'm fine, thanks. And you?"></span>
+              </td>
+            </tr>
+            <tr>
+              <td class="en">Nice to meet you. — Nice to meet you, too.</td>
+              <td>Mucho gusto. — Igualmente. Solo la primera vez que conoces a alguien.</td>
+              <td>
+                <span class="audio" data-say="Nice to meet you. Nice to meet you, too."></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- 3. Escucha y repite -->
+      <section class="bloque" id="escucha">
+        <h2><span class="num">3</span> Escucha y repite</h2>
+        <p>
+          Primer día de prácticas en una oficina de Lima. Escucha cada línea en normal, luego en
+          lento, y repítela en voz alta <b>tres veces</b> imitando el ritmo y la entonación, no solo
+          las palabras.
+        </p>
+        <p>
+          <b>Todo el diálogo:</b>
+          <span
+            class="audio"
+            data-say="Good morning! Good morning. How are you? I'm fine, thanks. And you? Good, thanks. My name is Luis Quispe. Nice to meet you, Luis. Nice to meet you, too. Quispe? How do you spell that? Q, U, I, S, P, E. Thank you! See you tomorrow. Bye! Have a good day."
+          ></span>
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">A: Good morning!</span><span class="es">¡Buenos días!</span></span
+            >
+            <span class="audio" data-say="Good morning!"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Good morning. How are you?</span
+              ><span class="es">Buenos días. ¿Cómo estás?</span></span
+            >
+            <span class="audio" data-say="Good morning. How are you?"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">A: I'm fine, thanks. And you?</span
+              ><span class="es">Bien, gracias. ¿Y tú?</span></span
+            >
+            <span class="audio" data-say="I'm fine, thanks. And you?"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Good, thanks. My name is Luis Quispe.</span
+              ><span class="es">Bien, gracias. Me llamo Luis Quispe.</span></span
+            >
+            <span class="audio" data-say="Good, thanks. My name is Luis Quispe."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">A: Nice to meet you, Luis.</span
+              ><span class="es">Mucho gusto, Luis.</span></span
+            >
+            <span class="audio" data-say="Nice to meet you, Luis."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Nice to meet you, too.</span
+              ><span class="es">Igualmente.</span></span
+            >
+            <span class="audio" data-say="Nice to meet you, too."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">A: Quispe? How do you spell that?</span
+              ><span class="es">¿Quispe? ¿Cómo se escribe?</span></span
+            >
+            <span class="audio" data-say="Quispe? How do you spell that?"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Q, U, I, S, P, E.</span
+              ><span class="es">Kiú, iú, ái, és, pí, í.</span></span
+            >
+            <span class="audio" data-say="Q, U, I, S, P, E."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">A: Thank you! See you tomorrow.</span
+              ><span class="es">¡Gracias! Hasta mañana.</span></span
+            >
+            <span class="audio" data-say="Thank you! See you tomorrow."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Bye! Have a good day.</span
+              ><span class="es">¡Chau! Que tengas un buen día.</span></span
+            >
+            <span class="audio" data-say="Bye! Have a good day."></span>
+          </li>
+        </ul>
+        <p class="nota">
+          💡 Fíjate en la entonación: <i>How are you?</i> baja al final, igual que
+          <i>How do you spell that?</i> Al deletrear, haz una pequeña pausa entre letras.
+        </p>
+      </section>
+
+      <!-- 4. Ejercicios -->
+      <section class="bloque" id="ejercicios">
+        <h2><span class="num">4</span> Ejercicios</h2>
+        <p class="marcador" data-marcador aria-live="polite"></p>
+
+        <div
+          class="ej"
+          data-id="e1"
+          data-tipo="elegir"
+          data-respuestas="E"
+          data-explica="La E se dice «i» (piensa en email). La I se dice «ai» y la A, «ei»."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">¿Qué letra se llama «í», como la «i» española?</p>
+          <div class="opciones">
+            <button>A</button>
+            <button>E</button>
+            <button>I</button>
+          </div>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e2"
+          data-tipo="elegir"
+          data-respuestas="J"
+          data-explica="La J es «yei» (grupo A-H-J-K). La G es «yi» y la Y es «uái»."
+        >
+          <span class="tipo">Escucha y elige</span>
+          <p class="enunciado">¿Qué letra escuchas? <span class="audio" data-say="J."></span></p>
+          <div class="opciones">
+            <button>G</button>
+            <button>J</button>
+            <button>Y</button>
+          </div>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e3"
+          data-tipo="completar"
+          data-respuestas="data"
+          data-explica="Dí, éi, tí, éi: D-A-T-A. La A se dice «ei», no «a»."
+        >
+          <span class="tipo">Dictado</span>
+          <p class="enunciado">
+            Escucha el deletreo y escribe la palabra:
+            <span class="audio" data-say="D, A, T, A."></span>
+          </p>
+          <input class="hueco" aria-label="Palabra deletreada" />
+        </div>
+
+        <div
+          class="ej"
+          data-id="e4"
+          data-tipo="completar"
+          data-respuestas="at"
+          data-explica="En inglés el símbolo @ se lee «at». Nunca digas «arroba»."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            <code>luis.quispe@gmail.com</code> se lee: «luis dot quispe
+            <input class="hueco" aria-label="Palabra que falta" /> gmail dot com».
+          </p>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e5"
+          data-tipo="elegir"
+          data-respuestas="lima underscore data at outlook dot com"
+          data-explica="_ es underscore, @ es at y el punto es dot (no «point»)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">¿Cómo se dicta <code>lima_data@outlook.com</code>?</p>
+          <div class="opciones">
+            <button>lima dash data at outlook point com</button>
+            <button>lima underscore data at outlook dot com</button>
+            <button>lima underscore data arroba outlook dot com</button>
+          </div>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e6"
+          data-tipo="elegir"
+          data-respuestas="Good morning!"
+          data-explica="Por la mañana (hasta el mediodía) se dice good morning. Good evening es para saludar de noche y good night, para despedirse."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">Son las 9:00 a. m. y llegas a la oficina. ¿Qué dices?</p>
+          <div class="opciones">
+            <button>Good night!</button>
+            <button>Good morning!</button>
+            <button>Good evening!</button>
+          </div>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e7"
+          data-tipo="elegir"
+          data-respuestas="Good night!"
+          data-explica="Good night es una despedida (al irte o antes de dormir). Para saludar de noche se usa good evening."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">
+            Son las 10:00 p. m. Terminas una videollamada con tu grupo de estudio y te despides.
+            ¿Qué dices?
+          </p>
+          <div class="opciones">
+            <button>Good evening!</button>
+            <button>Good afternoon!</button>
+            <button>Good night!</button>
+          </div>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e8"
+          data-tipo="elegir"
+          data-respuestas="I'm fine, thanks. And you?"
+          data-explica="A How are you? se responde cómo estás: I'm fine, thanks. And you? «Nice to meet you, too» responde a «Nice to meet you»."
+        >
+          <span class="tipo">Elige la respuesta</span>
+          <p class="enunciado">
+            Tu jefa te dice: <span class="en">How are you?</span>
+            <span class="audio" data-say="How are you?"></span>
+          </p>
+          <div class="opciones">
+            <button>Nice to meet you, too.</button>
+            <button>I'm fine, thanks. And you?</button>
+            <button>My name is Ana.</button>
+          </div>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e9"
+          data-tipo="ordenar"
+          data-fichas="How|do|you|spell|that?"
+          data-respuestas="How do you spell that?"
+          data-explica="Frase fija para pedir que te deletreen algo: How do you spell that?"
+        >
+          <span class="tipo">Ordena las palabras</span>
+          <p class="enunciado">Toca las palabras en orden para formar: «¿Cómo se escribe eso?»</p>
+        </div>
+
+        <div
+          class="ej"
+          data-id="e10"
+          data-tipo="traducir"
+          data-respuestas="Nice to meet you, too.|Nice to meet you too|You too|It's nice to meet you, too|Pleased to meet you, too|Nice meeting you, too"
+          data-explica="«Igualmente» al conocer a alguien: Nice to meet you, too. Con too al final, que significa «también»."
+        >
+          <span class="tipo">Traduce al inglés</span>
+          <p class="enunciado">
+            Te dicen <span class="en">Nice to meet you.</span> Responde «Mucho gusto, igualmente»:
+          </p>
+          <input aria-label="Tu traducción" />
+        </div>
+        <div class="acciones">
+          <button type="button" class="btn" data-reiniciar>Borrar mis respuestas</button>
+        </div>
+      </section>
+
+      <!-- 5. Producción abierta -->
+      <section class="bloque" id="produccion">
+        <h2><span class="num">5</span> Producción abierta</h2>
+        <p>
+          Preséntate y <b>deletrea tu nombre y tu email</b>. Escribe 4–5 líneas siguiendo el modelo
+          y después léelas en voz alta dos veces (si puedes, grábate con el celular).
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">Hello! My name is Ana Torres.</span
+              ><span class="en">Ana: A, N, A. Torres: T, O, R, R, E, S.</span
+              ><span class="en">My email is ana.torres@gmail.com.</span
+              ><span class="en">a, n, a, dot, t, o, r, r, e, s, at gmail dot com.</span
+              ><span class="en">Nice to meet you!</span></span
+            >
+            <span
+              class="audio"
+              data-say="Hello! My name is Ana Torres. Ana: A, N, A. Torres: T, O, R, R, E, S. My email is ana dot torres at gmail dot com. A, N, A, dot, T, O, R, R, E, S, at gmail dot com. Nice to meet you!"
+            ></span>
+          </li>
+        </ul>
+        <p class="estado">
+          Reto extra: deletrea también el nombre de tu universidad o de tu distrito. Si no quieres
+          compartir tu email real, inventa uno parecido.
+        </p>
+        <textarea
+          data-prod="p1"
+          aria-label="Tu producción"
+          placeholder="Hello! My name is ..."
+          lang="en"
+        ></textarea>
+        <div class="acciones">
+          <button type="button" class="btn btn-principal" data-copiar="p1">
+            📋 Copiar para corregir
+          </button>
+          <span class="estado" data-copiado="p1" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <!-- 6. Palabras nuevas -->
+      <section class="bloque" id="palabras">
+        <h2><span class="num">6</span> Palabras nuevas</h2>
+        <p>
+          Ya están en la <a href="../tarjetas/index.html">app de tarjetas</a>. Escúchalas una vez
+          aquí y repásalas allí mañana.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"><span class="en">hello</span><span class="es">hola</span></span>
+            <span class="audio" data-say="hello"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">hi</span><span class="es">hola (informal)</span></span
+            >
+            <span class="audio" data-say="hi"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">good morning</span><span class="es">buenos días</span></span
+            >
+            <span class="audio" data-say="good morning"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">good afternoon</span><span class="es">buenas tardes</span></span
+            >
+            <span class="audio" data-say="good afternoon"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">good evening</span
+              ><span class="es">buenas noches (al llegar)</span></span
+            >
+            <span class="audio" data-say="good evening"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">good night</span
+              ><span class="es">buenas noches (al despedirte)</span></span
+            >
+            <span class="audio" data-say="good night"></span>
+          </li>
+          <li>
+            <span class="texto"><span class="en">goodbye</span><span class="es">adiós</span></span>
+            <span class="audio" data-say="goodbye"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">see you tomorrow</span><span class="es">hasta mañana</span></span
+            >
+            <span class="audio" data-say="see you tomorrow"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">How are you?</span><span class="es">¿Cómo estás?</span></span
+            >
+            <span class="audio" data-say="How are you?"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">nice to meet you</span
+              ><span class="es">mucho gusto (al conocer a alguien)</span></span
+            >
+            <span class="audio" data-say="nice to meet you"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">How do you spell that?</span
+              ><span class="es">¿Cómo se escribe eso?</span></span
+            >
+            <span class="audio" data-say="How do you spell that?"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">at · dot · underscore</span
+              ><span class="es">@ · . · _ (al dictar un email)</span></span
+            >
+            <span class="audio" data-say="at. dot. underscore."></span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 7. Checklist de cierre -->
+      <section class="bloque" id="cierre">
+        <h2><span class="num">7</span> Checklist de cierre</h2>
+        <ul class="checklist">
+          <li>
+            <label
+              ><input type="checkbox" data-check="c1" /> Puedo decir las 26 letras del alfabeto en
+              inglés.</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c2" /> Puedo distinguir E («i»), I («ai») y A
+              («ei»), y también G («yi») y J («yei»).</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c3" /> Puedo deletrear mi nombre y mi
+              apellido.</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c4" /> Puedo dictar mi email con <i>at</i>,
+              <i>dot</i> y <i>underscore</i>.</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c5" /> Puedo saludar y despedirme según la hora
+              del día.</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c6" /> Puedo entender «How do you spell that?» y
+              responder deletreando.</label
+            >
+          </li>
+        </ul>
+      </section>
+
+      <nav class="acciones">
+        <a class="btn" href="../index.html">← Todas las sesiones</a>
+        <a class="btn btn-principal" href="../tarjetas/index.html">Ir a las tarjetas →</a>
+      </nav>
+    </main>
+    <script src="../assets/leccion.js"></script>
+  </body>
+</html>

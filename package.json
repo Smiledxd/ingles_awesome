@@ -1,10 +1,11 @@
 {
   "name": "ingles_awesome",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Curso personal de inglés: de cero a entrevista de practicante de analista de datos",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server src -p 1234 -c-1",
+    "lint": "oxlint src",
+    "format": "oxfmt src",
     "deploy": "gh-pages -d src/"
   },
   "keywords": [],
@@ -19,6 +20,9 @@
   },
   "type": "module",
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "http-server": "^14.1.1",
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0"
   }
 }
