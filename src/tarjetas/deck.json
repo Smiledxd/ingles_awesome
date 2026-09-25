@@ -2938,5 +2938,173 @@
     "es": "híbrido (oficina y casa)",
     "ejemplo": "It's a hybrid position.",
     "sesion": "S35"
+  },
+  {
+    "id": "s36-001",
+    "en": "job posting",
+    "es": "anuncio de trabajo",
+    "ejemplo": "I read a job posting on LinkedIn.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-002",
+    "en": "requirements",
+    "es": "requisitos (obligatorios)",
+    "ejemplo": "Advanced Excel is one of the requirements.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-003",
+    "en": "responsibilities",
+    "es": "funciones, responsabilidades",
+    "ejemplo": "The responsibilities include building dashboards.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-004",
+    "en": "qualifications",
+    "es": "requisitos, formación requerida",
+    "ejemplo": "Check the qualifications before you apply.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-005",
+    "en": "nice to have",
+    "es": "deseable (no obligatorio)",
+    "ejemplo": "Python is nice to have.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-006",
+    "en": "apply (for)",
+    "es": "postular (a)",
+    "ejemplo": "I'd like to apply for the internship.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-007",
+    "en": "currently enrolled in",
+    "es": "matriculado/a actualmente en",
+    "ejemplo": "You are currently enrolled in Economics.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-008",
+    "en": "knowledge of",
+    "es": "conocimientos de",
+    "ejemplo": "Basic knowledge of SQL.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-009",
+    "en": "proficiency in",
+    "es": "dominio de",
+    "ejemplo": "Proficiency in Excel is required.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-010",
+    "en": "the ability to",
+    "es": "la capacidad de",
+    "ejemplo": "The ability to work in a team.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-011",
+    "en": "benefits",
+    "es": "beneficios",
+    "ejemplo": "The benefits include training and a mentor.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-012",
+    "en": "allowance",
+    "es": "subvención, pago (de prácticas)",
+    "ejemplo": "The internship has a monthly allowance.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s37-001",
+    "en": "higher / lower",
+    "es": "más alto / más bajo",
+    "ejemplo": "Sales were higher than in October.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-002",
+    "en": "bigger / smaller",
+    "es": "más grande / más pequeño",
+    "ejemplo": "This dataset is bigger than the other one.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-003",
+    "en": "cheaper",
+    "es": "más barato",
+    "ejemplo": "Laptop A is cheaper than Laptop B.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-004",
+    "en": "more expensive",
+    "es": "más caro",
+    "ejemplo": "This laptop is more expensive than that one.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-005",
+    "en": "better",
+    "es": "mejor (good → better)",
+    "ejemplo": "Our profit was better in November.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-006",
+    "en": "worse",
+    "es": "peor (bad → worse)",
+    "ejemplo": "Delivery times were worse in September.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-007",
+    "en": "than",
+    "es": "que (en comparaciones)",
+    "ejemplo": "Lima is bigger than Cusco.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-008",
+    "en": "more … than",
+    "es": "más … que",
+    "ejemplo": "We had more customers than last month.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-009",
+    "en": "less (+ incontable)",
+    "es": "menos (dinero, tiempo)",
+    "ejemplo": "We spent less money in June.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-010",
+    "en": "fewer (+ contable)",
+    "es": "menos (clientes, pedidos)",
+    "ejemplo": "There were fewer returns in Q3.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-011",
+    "en": "much higher",
+    "es": "mucho más alto",
+    "ejemplo": "Sales were much higher in December.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-012",
+    "en": "a little lower",
+    "es": "un poco más bajo",
+    "ejemplo": "Costs were a little lower than in June.",
+    "sesion": "S37"
   }
 ]
