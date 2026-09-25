@@ -2014,5 +2014,257 @@
     "es": "comunicar",
     "ejemplo": "She communicates the results to the team.",
     "sesion": "S24"
+  },
+  {
+    "id": "s25-001",
+    "en": "was / were",
+    "es": "era, estaba, fui, estuve",
+    "ejemplo": "I was at home. They were at the office.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-002",
+    "en": "wasn't / weren't",
+    "es": "no era / no estaba",
+    "ejemplo": "The file wasn't ready.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-003",
+    "en": "yesterday",
+    "es": "ayer",
+    "ejemplo": "I was very busy yesterday.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-004",
+    "en": "last night",
+    "es": "anoche",
+    "ejemplo": "Where were you last night?",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-005",
+    "en": "last weekend",
+    "es": "el fin de semana pasado",
+    "ejemplo": "We were on vacation last weekend.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-006",
+    "en": "I was born in…",
+    "es": "Nací en…",
+    "ejemplo": "I was born in Arequipa in 2003.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-007",
+    "en": "at home",
+    "es": "en casa",
+    "ejemplo": "I was at home last night.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-008",
+    "en": "at a party",
+    "es": "en una fiesta",
+    "ejemplo": "She was at a birthday party.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-009",
+    "en": "on vacation",
+    "es": "de vacaciones",
+    "ejemplo": "They were on vacation last week.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-010",
+    "en": "in class",
+    "es": "en clase",
+    "ejemplo": "We were in class from 8 to 10.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-011",
+    "en": "crowded",
+    "es": "lleno (de gente)",
+    "ejemplo": "The place was very crowded.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-012",
+    "en": "helpful",
+    "es": "servicial, de mucha ayuda",
+    "ejemplo": "Diego was very helpful.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s26-001",
+    "en": "worked",
+    "es": "trabajé, trabajó… (/t/)",
+    "ejemplo": "I worked from home yesterday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-002",
+    "en": "studied",
+    "es": "estudié (study → studied)",
+    "ejemplo": "She studied Python last night.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-003",
+    "en": "cleaned",
+    "es": "limpié (/d/)",
+    "ejemplo": "Carla cleaned the data.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-004",
+    "en": "checked",
+    "es": "revisé (/t/)",
+    "ejemplo": "I checked my emails first.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-005",
+    "en": "started",
+    "es": "empecé (/ɪd/)",
+    "ejemplo": "We started the project last week.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-006",
+    "en": "finished",
+    "es": "terminé (/t/)",
+    "ejemplo": "We finished the report at six.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-007",
+    "en": "called",
+    "es": "llamé (/d/)",
+    "ejemplo": "She called the client.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-008",
+    "en": "analyzed",
+    "es": "analicé (/d/)",
+    "ejemplo": "Tom analyzed the sales numbers.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-009",
+    "en": "updated",
+    "es": "actualicé (/ɪd/)",
+    "ejemplo": "I updated the dashboard yesterday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-010",
+    "en": "presented",
+    "es": "presenté (/ɪd/)",
+    "ejemplo": "We presented the results to the client.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-011",
+    "en": "planned",
+    "es": "planifiqué (plan → planned)",
+    "ejemplo": "We planned the project on Monday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-012",
+    "en": "asked",
+    "es": "pregunté, pedí (/t/)",
+    "ejemplo": "They asked a lot of questions.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s27-001",
+    "en": "go → went",
+    "es": "ir → fui",
+    "ejemplo": "I went to the office by bus.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-002",
+    "en": "have → had",
+    "es": "tener → tuve",
+    "ejemplo": "We had a meeting with the client.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-003",
+    "en": "do → did",
+    "es": "hacer (tarea) → hice",
+    "ejemplo": "She did her homework last night.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-004",
+    "en": "make → made",
+    "es": "hacer (crear) → hice",
+    "ejemplo": "I made a dashboard with sales data.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-005",
+    "en": "get → got",
+    "es": "conseguir, recibir → conseguí",
+    "ejemplo": "I got the internship!",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-006",
+    "en": "take → took",
+    "es": "tomar → tomé",
+    "ejemplo": "They took a taxi home.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-007",
+    "en": "see → saw",
+    "es": "ver → vi",
+    "ejemplo": "I saw a post on LinkedIn.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-008",
+    "en": "meet → met",
+    "es": "conocer, reunirse → conocí",
+    "ejemplo": "I met Diego at a data event.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-009",
+    "en": "buy → bought",
+    "es": "comprar → compré",
+    "ejemplo": "I bought a new laptop.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-010",
+    "en": "eat → ate",
+    "es": "comer → comí",
+    "ejemplo": "We ate ceviche at a small restaurant.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-011",
+    "en": "write → wrote",
+    "es": "escribir → escribí",
+    "ejemplo": "I wrote my CV in English.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-012",
+    "en": "send → sent",
+    "es": "enviar → envié",
+    "ejemplo": "I sent the report to my boss.",
+    "sesion": "S27"
   }
 ]
