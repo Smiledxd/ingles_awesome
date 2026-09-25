@@ -2014,5 +2014,677 @@
     "es": "comunicar",
     "ejemplo": "She communicates the results to the team.",
     "sesion": "S24"
+  },
+  {
+    "id": "s25-001",
+    "en": "was / were",
+    "es": "era, estaba, fui, estuve",
+    "ejemplo": "I was at home. They were at the office.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-002",
+    "en": "wasn't / weren't",
+    "es": "no era / no estaba",
+    "ejemplo": "The file wasn't ready.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-003",
+    "en": "yesterday",
+    "es": "ayer",
+    "ejemplo": "I was very busy yesterday.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-004",
+    "en": "last night",
+    "es": "anoche",
+    "ejemplo": "Where were you last night?",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-005",
+    "en": "last weekend",
+    "es": "el fin de semana pasado",
+    "ejemplo": "We were on vacation last weekend.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-006",
+    "en": "I was born in…",
+    "es": "Nací en…",
+    "ejemplo": "I was born in Arequipa in 2003.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-007",
+    "en": "at home",
+    "es": "en casa",
+    "ejemplo": "I was at home last night.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-008",
+    "en": "at a party",
+    "es": "en una fiesta",
+    "ejemplo": "She was at a birthday party.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-009",
+    "en": "on vacation",
+    "es": "de vacaciones",
+    "ejemplo": "They were on vacation last week.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-010",
+    "en": "in class",
+    "es": "en clase",
+    "ejemplo": "We were in class from 8 to 10.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-011",
+    "en": "crowded",
+    "es": "lleno (de gente)",
+    "ejemplo": "The place was very crowded.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-012",
+    "en": "helpful",
+    "es": "servicial, de mucha ayuda",
+    "ejemplo": "Diego was very helpful.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s26-001",
+    "en": "worked",
+    "es": "trabajé, trabajó… (/t/)",
+    "ejemplo": "I worked from home yesterday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-002",
+    "en": "studied",
+    "es": "estudié (study → studied)",
+    "ejemplo": "She studied Python last night.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-003",
+    "en": "cleaned",
+    "es": "limpié (/d/)",
+    "ejemplo": "Carla cleaned the data.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-004",
+    "en": "checked",
+    "es": "revisé (/t/)",
+    "ejemplo": "I checked my emails first.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-005",
+    "en": "started",
+    "es": "empecé (/ɪd/)",
+    "ejemplo": "We started the project last week.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-006",
+    "en": "finished",
+    "es": "terminé (/t/)",
+    "ejemplo": "We finished the report at six.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-007",
+    "en": "called",
+    "es": "llamé (/d/)",
+    "ejemplo": "She called the client.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-008",
+    "en": "analyzed",
+    "es": "analicé (/d/)",
+    "ejemplo": "Tom analyzed the sales numbers.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-009",
+    "en": "updated",
+    "es": "actualicé (/ɪd/)",
+    "ejemplo": "I updated the dashboard yesterday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-010",
+    "en": "presented",
+    "es": "presenté (/ɪd/)",
+    "ejemplo": "We presented the results to the client.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-011",
+    "en": "planned",
+    "es": "planifiqué (plan → planned)",
+    "ejemplo": "We planned the project on Monday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-012",
+    "en": "asked",
+    "es": "pregunté, pedí (/t/)",
+    "ejemplo": "They asked a lot of questions.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s27-001",
+    "en": "go → went",
+    "es": "ir → fui",
+    "ejemplo": "I went to the office by bus.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-002",
+    "en": "have → had",
+    "es": "tener → tuve",
+    "ejemplo": "We had a meeting with the client.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-003",
+    "en": "do → did",
+    "es": "hacer (tarea) → hice",
+    "ejemplo": "She did her homework last night.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-004",
+    "en": "make → made",
+    "es": "hacer (crear) → hice",
+    "ejemplo": "I made a dashboard with sales data.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-005",
+    "en": "get → got",
+    "es": "conseguir, recibir → conseguí",
+    "ejemplo": "I got the internship!",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-006",
+    "en": "take → took",
+    "es": "tomar → tomé",
+    "ejemplo": "They took a taxi home.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-007",
+    "en": "see → saw",
+    "es": "ver → vi",
+    "ejemplo": "I saw a post on LinkedIn.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-008",
+    "en": "meet → met",
+    "es": "conocer, reunirse → conocí",
+    "ejemplo": "I met Diego at a data event.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-009",
+    "en": "buy → bought",
+    "es": "comprar → compré",
+    "ejemplo": "I bought a new laptop.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-010",
+    "en": "eat → ate",
+    "es": "comer → comí",
+    "ejemplo": "We ate ceviche at a small restaurant.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-011",
+    "en": "write → wrote",
+    "es": "escribir → escribí",
+    "ejemplo": "I wrote my CV in English.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-012",
+    "en": "send → sent",
+    "es": "enviar → envié",
+    "ejemplo": "I sent the report to my boss.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s28-001",
+    "en": "didn't + verbo base",
+    "es": "no + pasado (I didn't go = no fui)",
+    "ejemplo": "I didn't go to class yesterday.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-002",
+    "en": "Did you…?",
+    "es": "¿(Tú) …? en pasado",
+    "ejemplo": "Did you visit Machu Picchu? — Yes, I did.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-003",
+    "en": "What did you do?",
+    "es": "¿Qué hiciste?",
+    "ejemplo": "What did you do last weekend?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-004",
+    "en": "How was…?",
+    "es": "¿Cómo estuvo…?",
+    "ejemplo": "How was the trip? — It was amazing!",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-005",
+    "en": "trip",
+    "es": "viaje",
+    "ejemplo": "Did you have a good trip?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-006",
+    "en": "travel",
+    "es": "viajar",
+    "ejemplo": "How did you travel? — By bus.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-007",
+    "en": "stay",
+    "es": "quedarse, alojarse",
+    "ejemplo": "Where did you stay? — At a small hotel.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-008",
+    "en": "visit",
+    "es": "visitar",
+    "ejemplo": "We visited the historic center.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-009",
+    "en": "fly → flew",
+    "es": "volar, ir en avión → volé",
+    "ejemplo": "We flew from Lima.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-010",
+    "en": "flight",
+    "es": "vuelo",
+    "ejemplo": "The flight was one hour and a half.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-011",
+    "en": "arrive",
+    "es": "llegar",
+    "ejemplo": "When did you arrive?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-012",
+    "en": "amazing",
+    "es": "increíble",
+    "ejemplo": "It was amazing!",
+    "sesion": "S28"
+  },
+  {
+    "id": "s29-001",
+    "en": "ago",
+    "es": "hace (tiempo) — va al final",
+    "ejemplo": "I started three months ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-002",
+    "en": "last week",
+    "es": "la semana pasada (sin the)",
+    "ejemplo": "Last week I worked from home.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-003",
+    "en": "last month",
+    "es": "el mes pasado",
+    "ejemplo": "I started last month.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-004",
+    "en": "last year",
+    "es": "el año pasado",
+    "ejemplo": "I took an online course last year.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-005",
+    "en": "the day before yesterday",
+    "es": "anteayer",
+    "ejemplo": "We met the day before yesterday.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-006",
+    "en": "yesterday morning",
+    "es": "ayer en la mañana",
+    "ejemplo": "I called her yesterday morning.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-007",
+    "en": "this morning",
+    "es": "esta mañana",
+    "ejemplo": "I sent it this morning.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-008",
+    "en": "an hour ago",
+    "es": "hace una hora",
+    "ejemplo": "I saw that email an hour ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-009",
+    "en": "a few days ago",
+    "es": "hace unos días",
+    "ejemplo": "I finished the course a few days ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-010",
+    "en": "When did you…?",
+    "es": "¿Cuándo (tú)…?",
+    "ejemplo": "When did you start your internship?",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-011",
+    "en": "graduate",
+    "es": "graduarse, egresar",
+    "ejemplo": "I graduated in 2023.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-012",
+    "en": "record",
+    "es": "grabar",
+    "ejemplo": "I recorded my one-minute presentation.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s30-001",
+    "en": "high school",
+    "es": "secundaria (el colegio)",
+    "ejemplo": "I graduated from high school in 2020.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-002",
+    "en": "college",
+    "es": "universidad, estudios superiores (EE. UU.)",
+    "ejemplo": "I studied economics in college.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-003",
+    "en": "bachelor's degree",
+    "es": "título de pregrado, bachillerato",
+    "ejemplo": "I'm doing a bachelor's degree in statistics.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-004",
+    "en": "major in",
+    "es": "especializarse en (carrera)",
+    "ejemplo": "I majored in statistics.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-005",
+    "en": "graduate from",
+    "es": "graduarse de, egresar de",
+    "ejemplo": "She graduated from San Marcos in 2023.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-006",
+    "en": "take a course → took",
+    "es": "llevar un curso → llevé",
+    "ejemplo": "I took an online course in Power BI.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-007",
+    "en": "certificate",
+    "es": "certificado",
+    "ejemplo": "I got a certificate in data analysis.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-008",
+    "en": "learn how to",
+    "es": "aprender a (hacer algo)",
+    "ejemplo": "I learned how to build dashboards.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-009",
+    "en": "scholarship",
+    "es": "beca",
+    "ejemplo": "I got a scholarship in my second year.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-010",
+    "en": "grades",
+    "es": "notas, calificaciones",
+    "ejemplo": "I got a scholarship because of my grades.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-011",
+    "en": "subject",
+    "es": "curso, materia",
+    "ejemplo": "Math was my favorite subject.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-012",
+    "en": "thesis",
+    "es": "tesis",
+    "ejemplo": "My thesis is about sales data.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s31-001",
+    "en": "be going to",
+    "es": "ir a (plan decidido)",
+    "ejemplo": "I'm going to learn Python.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-002",
+    "en": "tomorrow",
+    "es": "mañana",
+    "ejemplo": "I'm not going to work tomorrow.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-003",
+    "en": "next week",
+    "es": "la próxima semana (sin the)",
+    "ejemplo": "We're going to present it next week.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-004",
+    "en": "next year",
+    "es": "el próximo año",
+    "ejemplo": "I'm going to finish my degree next year.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-005",
+    "en": "this weekend",
+    "es": "este fin de semana",
+    "ejemplo": "What are you going to do this weekend?",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-006",
+    "en": "in two months",
+    "es": "dentro de dos meses",
+    "ejemplo": "She's going to move in two months.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-007",
+    "en": "soon",
+    "es": "pronto",
+    "ejemplo": "I'm going to apply soon.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-008",
+    "en": "plan",
+    "es": "plan; planear",
+    "ejemplo": "What are your plans for next year?",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-009",
+    "en": "move",
+    "es": "mudarse",
+    "ejemplo": "We're going to move to Lima.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-010",
+    "en": "save money",
+    "es": "ahorrar dinero",
+    "ejemplo": "I'm going to save money for a trip.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-011",
+    "en": "full-time job",
+    "es": "trabajo a tiempo completo",
+    "ejemplo": "I'm going to look for a full-time job.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-012",
+    "en": "portfolio",
+    "es": "portafolio (de proyectos)",
+    "ejemplo": "I'm going to build two projects for my portfolio.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s32-001",
+    "en": "will / 'll",
+    "es": "(futuro) -ré, -rás…",
+    "ejemplo": "I'll help you with the report.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-002",
+    "en": "won't",
+    "es": "no + futuro (will not)",
+    "ejemplo": "It won't be easy.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-003",
+    "en": "I think… will",
+    "es": "Creo que… (predicción)",
+    "ejemplo": "I think companies will need analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-004",
+    "en": "I don't think… will",
+    "es": "No creo que…",
+    "ejemplo": "I don't think AI will replace analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-005",
+    "en": "probably",
+    "es": "probablemente",
+    "ejemplo": "She'll probably get the job.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-006",
+    "en": "definitely",
+    "es": "definitivamente, sin duda",
+    "ejemplo": "I'll definitely learn Python.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-007",
+    "en": "maybe",
+    "es": "quizás",
+    "ejemplo": "Maybe I'll work abroad.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-008",
+    "en": "in the future",
+    "es": "en el futuro",
+    "ejemplo": "You'll use AI tools in the future.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-009",
+    "en": "AI (artificial intelligence)",
+    "es": "IA (inteligencia artificial)",
+    "ejemplo": "AI will change a lot of jobs.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-010",
+    "en": "replace",
+    "es": "reemplazar",
+    "ejemplo": "AI won't replace data analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-011",
+    "en": "abroad",
+    "es": "en el extranjero",
+    "ejemplo": "Maybe I'll work abroad.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-012",
+    "en": "I promise.",
+    "es": "Lo prometo.",
+    "ejemplo": "I'll finish it today. I promise.",
+    "sesion": "S32"
   }
 ]
