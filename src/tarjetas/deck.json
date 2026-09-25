@@ -82,5 +82,257 @@
     "es": "@ · . · _ (al dictar un email)",
     "ejemplo": "lima_data@outlook.com: lima underscore data at outlook dot com.",
     "sesion": "S01"
+  },
+  {
+    "id": "s02-001",
+    "en": "student",
+    "es": "estudiante",
+    "ejemplo": "I'm a student in Lima.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-002",
+    "en": "data analyst",
+    "es": "analista de datos",
+    "ejemplo": "She's a data analyst at a bank.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-003",
+    "en": "intern",
+    "es": "practicante",
+    "ejemplo": "I'm an intern. — You're an intern, too!",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-004",
+    "en": "engineer",
+    "es": "ingeniero / ingeniera",
+    "ejemplo": "He's an engineer from Chile.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-005",
+    "en": "developer",
+    "es": "desarrollador / desarrolladora",
+    "ejemplo": "Diego is a developer.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-006",
+    "en": "accountant",
+    "es": "contador / contadora",
+    "ejemplo": "My friend is an accountant.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-007",
+    "en": "manager",
+    "es": "gerente, jefe / jefa",
+    "ejemplo": "Sofía is the manager.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-008",
+    "en": "teacher",
+    "es": "profesor / profesora",
+    "ejemplo": "She's an English teacher.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-009",
+    "en": "Peru — Peruvian",
+    "es": "Perú — peruano/a",
+    "ejemplo": "I'm from Peru. I'm Peruvian.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-010",
+    "en": "Mexico — Mexican",
+    "es": "México — mexicano/a",
+    "ejemplo": "Diego is from Mexico. He's Mexican.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-011",
+    "en": "the United States — American",
+    "es": "Estados Unidos — estadounidense",
+    "ejemplo": "Kate is from the United States. She's American.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-012",
+    "en": "I'm from…",
+    "es": "Soy de…",
+    "ejemplo": "I'm from Arequipa.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s03-001",
+    "en": "busy",
+    "es": "ocupado/a",
+    "ejemplo": "Are you busy? — No, I'm not.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-002",
+    "en": "tired",
+    "es": "cansado/a",
+    "ejemplo": "I'm not tired. I'm ready.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-003",
+    "en": "happy",
+    "es": "feliz, contento/a",
+    "ejemplo": "We're happy with the report.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-004",
+    "en": "ready",
+    "es": "listo/a (preparado)",
+    "ejemplo": "Is the dashboard ready? — Yes, it is.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-005",
+    "en": "new",
+    "es": "nuevo/a",
+    "ejemplo": "Are you a new intern?",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-006",
+    "en": "easy",
+    "es": "fácil",
+    "ejemplo": "Excel isn't difficult. It's easy.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-007",
+    "en": "difficult",
+    "es": "difícil",
+    "ejemplo": "Is SQL difficult? — No, it isn't.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-008",
+    "en": "important",
+    "es": "importante",
+    "ejemplo": "The meeting is important.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-009",
+    "en": "big",
+    "es": "grande",
+    "ejemplo": "Lima is a big city.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-010",
+    "en": "small",
+    "es": "pequeño/a",
+    "ejemplo": "Our team is small.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-011",
+    "en": "What's your name?",
+    "es": "¿Cómo te llamas?",
+    "ejemplo": "What's your name? — I'm Carla.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-012",
+    "en": "Where are you from?",
+    "es": "¿De dónde eres?",
+    "ejemplo": "Where are you from? — I'm from Arequipa.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s04-001",
+    "en": "zero / oh",
+    "es": "cero (oh: al dictar teléfonos)",
+    "ejemplo": "My number is nine eight seven, six oh two…",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-002",
+    "en": "twelve",
+    "es": "doce",
+    "ejemplo": "Question twelve is difficult.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-003",
+    "en": "thirteen",
+    "es": "trece (acento al final)",
+    "ejemplo": "Question thirteen is easy.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-004",
+    "en": "thirty",
+    "es": "treinta (acento al inicio)",
+    "ejemplo": "My manager is thirty.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-005",
+    "en": "forty",
+    "es": "cuarenta (sin «u»)",
+    "ejemplo": "The class is forty minutes.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-006",
+    "en": "one hundred",
+    "es": "cien",
+    "ejemplo": "My score is one hundred!",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-007",
+    "en": "How old are you?",
+    "es": "¿Cuántos años tienes?",
+    "ejemplo": "How old are you? — I'm twenty-two.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-008",
+    "en": "years old",
+    "es": "años (de edad)",
+    "ejemplo": "I'm twenty-one years old.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-009",
+    "en": "phone number",
+    "es": "número de teléfono",
+    "ejemplo": "My phone number is 987 654 320.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-010",
+    "en": "email address",
+    "es": "dirección de correo electrónico",
+    "ejemplo": "What's your email address?",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-011",
+    "en": "What's your phone number?",
+    "es": "¿Cuál es tu número de teléfono?",
+    "ejemplo": "What's your phone number? — It's 987 654 320.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-012",
+    "en": "What's your email address?",
+    "es": "¿Cuál es tu email?",
+    "ejemplo": "What's your email address? — It's carla.ramos@outlook.com.",
+    "sesion": "S04"
   }
 ]
