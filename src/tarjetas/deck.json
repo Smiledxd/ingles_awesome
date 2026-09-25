@@ -1426,5 +1426,173 @@
     "es": "hoja (de cálculo)",
     "ejemplo": "Copy the table to a new sheet.",
     "sesion": "S17"
+  },
+  {
+    "id": "s18-001",
+    "en": "rice",
+    "es": "arroz (incontable)",
+    "ejemplo": "We need some rice.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-002",
+    "en": "bread",
+    "es": "pan (incontable)",
+    "ejemplo": "There isn't any bread.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-003",
+    "en": "eggs",
+    "es": "huevos",
+    "ejemplo": "How many eggs do we need?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-004",
+    "en": "chicken",
+    "es": "pollo",
+    "ejemplo": "How much is the chicken?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-005",
+    "en": "fruit",
+    "es": "fruta (incontable)",
+    "ejemplo": "Is there any fruit?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-006",
+    "en": "vegetables",
+    "es": "verduras",
+    "ejemplo": "We buy vegetables on Saturday.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-007",
+    "en": "milk",
+    "es": "leche",
+    "ejemplo": "We don't have any milk.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-008",
+    "en": "money",
+    "es": "dinero (incontable)",
+    "ejemplo": "We don't have much money.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-009",
+    "en": "information",
+    "es": "información (incontable, sin -s)",
+    "ejemplo": "I need some information.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-010",
+    "en": "some / any",
+    "es": "algo de, unos (afirmativo / negativo y preguntas)",
+    "ejemplo": "I have some eggs. I don't have any milk.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-011",
+    "en": "How much…? / How many…?",
+    "es": "¿Cuánto…? (incontable) / ¿Cuántos…? (contable)",
+    "ejemplo": "How much money? How many files?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-012",
+    "en": "a lot of",
+    "es": "mucho, muchos",
+    "ejemplo": "We have a lot of data.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s19-001",
+    "en": "right now",
+    "es": "ahora mismo",
+    "ejemplo": "I'm working on a dashboard right now.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-002",
+    "en": "at the moment",
+    "es": "en este momento",
+    "ejemplo": "She's talking to a client at the moment.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-003",
+    "en": "these days",
+    "es": "estos días, últimamente",
+    "ejemplo": "These days I'm learning Python.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-004",
+    "en": "this week",
+    "es": "esta semana",
+    "ejemplo": "We're cleaning the data this week.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-005",
+    "en": "work on",
+    "es": "trabajar en (un proyecto, una tarea)",
+    "ejemplo": "I'm working on a sales dashboard.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-006",
+    "en": "look for",
+    "es": "buscar",
+    "ejemplo": "I'm looking for an internship.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-007",
+    "en": "take a course",
+    "es": "llevar un curso",
+    "ejemplo": "I'm taking an online SQL course.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-008",
+    "en": "prepare",
+    "es": "preparar",
+    "ejemplo": "We're preparing a report.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-009",
+    "en": "wait",
+    "es": "esperar",
+    "ejemplo": "They're waiting for the data.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-010",
+    "en": "internship",
+    "es": "prácticas (preprofesionales)",
+    "ejemplo": "I'm doing an internship at DataLab.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-011",
+    "en": "project",
+    "es": "proyecto",
+    "ejemplo": "I'm working on a small data project.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-012",
+    "en": "What are you doing?",
+    "es": "¿Qué estás haciendo?",
+    "ejemplo": "What are you doing? — I'm studying.",
+    "sesion": "S19"
   }
 ]
