@@ -334,5 +334,173 @@
     "es": "¿Cuál es tu email?",
     "ejemplo": "What's your email address? — It's carla.ramos@outlook.com.",
     "sesion": "S04"
+  },
+  {
+    "id": "s05-001",
+    "en": "laptop",
+    "es": "laptop, computadora portátil",
+    "ejemplo": "It's a new laptop.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-002",
+    "en": "keyboard",
+    "es": "teclado",
+    "ejemplo": "The keyboard is black.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-003",
+    "en": "mouse",
+    "es": "mouse, ratón",
+    "ejemplo": "The mouse is old.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-004",
+    "en": "screen",
+    "es": "pantalla",
+    "ejemplo": "The screens are big.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-005",
+    "en": "charger",
+    "es": "cargador",
+    "ejemplo": "Is it a laptop charger?",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-006",
+    "en": "desk",
+    "es": "escritorio",
+    "ejemplo": "My desk is small.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-007",
+    "en": "chair",
+    "es": "silla",
+    "ejemplo": "The chairs are new.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-008",
+    "en": "headphones",
+    "es": "audífonos",
+    "ejemplo": "The headphones are on the chair.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-009",
+    "en": "file",
+    "es": "archivo",
+    "ejemplo": "It's an Excel file.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-010",
+    "en": "spreadsheet",
+    "es": "hoja de cálculo",
+    "ejemplo": "Spreadsheets are useful.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-011",
+    "en": "printer",
+    "es": "impresora",
+    "ejemplo": "The printer isn't ready.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-012",
+    "en": "person — people",
+    "es": "persona — personas (plural irregular)",
+    "ejemplo": "They're new people on the team.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s06-001",
+    "en": "mother",
+    "es": "madre, mamá",
+    "ejemplo": "This is my mother, Rosa.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-002",
+    "en": "father",
+    "es": "padre, papá",
+    "ejemplo": "My father is an engineer.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-003",
+    "en": "parents",
+    "es": "padres (papá y mamá)",
+    "ejemplo": "My parents are from Cusco.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-004",
+    "en": "brother",
+    "es": "hermano",
+    "ejemplo": "These are my brothers, Luis and Pedro.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-005",
+    "en": "sister",
+    "es": "hermana",
+    "ejemplo": "This is my sister. She's a student.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-006",
+    "en": "family",
+    "es": "familia",
+    "ejemplo": "This is my family.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-007",
+    "en": "friend",
+    "es": "amigo / amiga",
+    "ejemplo": "This is my friend Diego.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-008",
+    "en": "classmate",
+    "es": "compañero/a de clase",
+    "ejemplo": "Ana is my classmate.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-009",
+    "en": "coworker",
+    "es": "compañero/a de trabajo",
+    "ejemplo": "Those people are my coworkers.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-010",
+    "en": "boss",
+    "es": "jefe / jefa",
+    "ejemplo": "His boss is from Chile.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-011",
+    "en": "This is…",
+    "es": "Este / esta es… (para presentar a alguien)",
+    "ejemplo": "This is my friend Ana. — Nice to meet you, Ana.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-012",
+    "en": "his / her",
+    "es": "su (de él) / su (de ella)",
+    "ejemplo": "Luis and his sister. Ana and her brother.",
+    "sesion": "S06"
   }
 ]
