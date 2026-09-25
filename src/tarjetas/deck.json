@@ -1594,5 +1594,257 @@
     "es": "¿Qué estás haciendo?",
     "ejemplo": "What are you doing? — I'm studying.",
     "sesion": "S19"
+  },
+  {
+    "id": "s20-001",
+    "en": "normally",
+    "es": "normalmente",
+    "ejemplo": "I normally work at the office.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-002",
+    "en": "generally",
+    "es": "por lo general",
+    "ejemplo": "We generally have a meeting on Monday.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-003",
+    "en": "currently",
+    "es": "actualmente",
+    "ejemplo": "I'm currently learning SQL.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-004",
+    "en": "nowadays",
+    "es": "hoy en día",
+    "ejemplo": "Nowadays, companies need data analysts.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-005",
+    "en": "this month",
+    "es": "este mes",
+    "ejemplo": "This month I'm working remotely.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-006",
+    "en": "this semester",
+    "es": "este semestre",
+    "ejemplo": "What are you studying this semester?",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-007",
+    "en": "work remotely",
+    "es": "trabajar a distancia",
+    "ejemplo": "Everybody is working remotely this month.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-008",
+    "en": "temporary",
+    "es": "temporal",
+    "ejemplo": "It's a temporary change.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-009",
+    "en": "update",
+    "es": "actualizar",
+    "ejemplo": "I'm updating the sales report.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-010",
+    "en": "build",
+    "es": "construir, armar",
+    "ejemplo": "We're building a dashboard for a client.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-011",
+    "en": "client",
+    "es": "cliente (de una empresa de servicios)",
+    "ejemplo": "She's visiting our new client.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-012",
+    "en": "traffic",
+    "es": "tráfico",
+    "ejemplo": "I don't miss the traffic!",
+    "sesion": "S20"
+  },
+  {
+    "id": "s21-001",
+    "en": "think",
+    "es": "pensar, creer (th sorda)",
+    "ejemplo": "I think the data is very valuable.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-002",
+    "en": "month",
+    "es": "mes (th sorda al final)",
+    "ejemplo": "This month, the analysts are very busy.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-003",
+    "en": "they / these",
+    "es": "ellos / estos (th sonora)",
+    "ejemplo": "They need these reports.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-004",
+    "en": "very",
+    "es": "muy (v: dientes en el labio)",
+    "ejemplo": "Thank you very much.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-005",
+    "en": "value",
+    "es": "valor (v)",
+    "ejemplo": "The values are in the third sheet.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-006",
+    "en": "ship / sheep",
+    "es": "barco / oveja (i corta / i larga)",
+    "ejemplo": "A ship is big. A sheep is white.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-007",
+    "en": "live / leave",
+    "es": "vivir / irse, dejar (i corta / i larga)",
+    "ejemplo": "I live in Lima. I leave at six.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-008",
+    "en": "full / fool",
+    "es": "lleno / tonto (u corta / u larga)",
+    "ejemplo": "The room is full.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-009",
+    "en": "sheet",
+    "es": "hoja (de cálculo) — ¡i larga!",
+    "ejemplo": "The data is in the third sheet.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-010",
+    "en": "data",
+    "es": "datos (DAY-tə)",
+    "ejemplo": "The data is ready.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-011",
+    "en": "analyst",
+    "es": "analista (AN-ə-list)",
+    "ejemplo": "She's a data analyst.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-012",
+    "en": "analysis",
+    "es": "análisis (ə-NAL-ə-sis)",
+    "ejemplo": "The analysis is ready.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s22-001",
+    "en": "and",
+    "es": "y (suma)",
+    "ejemplo": "I can use Excel and Power BI.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-002",
+    "en": "but",
+    "es": "pero (contraste)",
+    "ejemplo": "SQL is useful, but it's difficult.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-003",
+    "en": "because",
+    "es": "porque (causa)",
+    "ejemplo": "I study English because I want a job in data.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-004",
+    "en": "so",
+    "es": "así que, por eso (resultado)",
+    "ejemplo": "The file is big, so it's slow.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-005",
+    "en": "I think…",
+    "es": "Creo que…",
+    "ejemplo": "I think data analysis is interesting.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-006",
+    "en": "I don't think…",
+    "es": "No creo que…",
+    "ejemplo": "I don't think it's boring.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-007",
+    "en": "in my opinion",
+    "es": "en mi opinión",
+    "ejemplo": "In my opinion, SQL is very useful.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-008",
+    "en": "useful",
+    "es": "útil",
+    "ejemplo": "Excel is a useful tool.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-009",
+    "en": "interesting",
+    "es": "interesante",
+    "ejemplo": "This dataset is interesting.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-010",
+    "en": "boring",
+    "es": "aburrido (que aburre)",
+    "ejemplo": "The work is never boring.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-011",
+    "en": "exciting",
+    "es": "emocionante",
+    "ejemplo": "It's an exciting project.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-012",
+    "en": "challenging",
+    "es": "desafiante, retador",
+    "ejemplo": "The work is challenging, but I like it.",
+    "sesion": "S22"
   }
 ]
