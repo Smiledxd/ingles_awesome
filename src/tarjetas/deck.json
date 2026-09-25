@@ -1846,5 +1846,173 @@
     "es": "desafiante, retador",
     "ejemplo": "The work is challenging, but I like it.",
     "sesion": "S22"
+  },
+  {
+    "id": "s23-001",
+    "en": "Tell me about yourself.",
+    "es": "Háblame de ti.",
+    "ejemplo": "Tell me about yourself. — Sure. I'm Carla, a statistics student.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-002",
+    "en": "major",
+    "es": "carrera (universitaria)",
+    "ejemplo": "My major is statistics.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-003",
+    "en": "I'm in my fourth year.",
+    "es": "Estoy en cuarto año (de la carrera).",
+    "ejemplo": "I'm in my fourth year of economics.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-004",
+    "en": "be good at",
+    "es": "ser bueno/a en",
+    "ejemplo": "I'm good at cleaning data.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-005",
+    "en": "be passionate about",
+    "es": "apasionarle (algo a alguien)",
+    "ejemplo": "I'm passionate about data.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-006",
+    "en": "currently",
+    "es": "actualmente (no «actually»)",
+    "ejemplo": "I'm currently doing an internship.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-007",
+    "en": "part-time",
+    "es": "a medio tiempo",
+    "ejemplo": "I'm working part-time as a junior analyst.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-008",
+    "en": "detail-oriented",
+    "es": "detallista",
+    "ejemplo": "I'm very detail-oriented.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-009",
+    "en": "motivated",
+    "es": "motivado/a",
+    "ejemplo": "I'm motivated and I learn quickly.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-010",
+    "en": "team player",
+    "es": "alguien que trabaja bien en equipo",
+    "ejemplo": "My coworkers say I'm a team player.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-011",
+    "en": "opportunity",
+    "es": "oportunidad",
+    "ejemplo": "Thank you for the opportunity.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-012",
+    "en": "analytics team",
+    "es": "equipo de analítica",
+    "ejemplo": "I'm looking for an internship on your analytics team.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s24-001",
+    "en": "collect",
+    "es": "recolectar, reunir",
+    "ejemplo": "Analysts collect data from different sources.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-002",
+    "en": "source",
+    "es": "fuente",
+    "ejemplo": "The data comes from three sources.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-003",
+    "en": "remove duplicates",
+    "es": "quitar duplicados",
+    "ejemplo": "First, remove duplicates.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-004",
+    "en": "missing values",
+    "es": "valores faltantes",
+    "ejemplo": "Check the missing values in each column.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-005",
+    "en": "fix errors",
+    "es": "corregir errores",
+    "ejemplo": "They fix errors in the data.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-006",
+    "en": "trend",
+    "es": "tendencia",
+    "ejemplo": "They look for trends in sales.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-007",
+    "en": "visualize",
+    "es": "visualizar",
+    "ejemplo": "They visualize the results in charts.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-008",
+    "en": "dashboard",
+    "es": "tablero, dashboard",
+    "ejemplo": "She builds dashboards in Power BI.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-009",
+    "en": "insight",
+    "es": "hallazgo, conclusión útil",
+    "ejemplo": "A good analyst communicates insights.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-010",
+    "en": "stakeholder",
+    "es": "interesado (jefe, cliente, otro equipo)",
+    "ejemplo": "They present the results to stakeholders.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-011",
+    "en": "make a decision",
+    "es": "tomar una decisión",
+    "ejemplo": "Data helps companies make better decisions.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-012",
+    "en": "communicate",
+    "es": "comunicar",
+    "ejemplo": "She communicates the results to the team.",
+    "sesion": "S24"
   }
 ]
