@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tarjetas de inglés</title>
+    <meta
+      name="description"
+      content="Repaso diario de vocabulario en inglés con repetición espaciada."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🃏</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/estilos.css" />
+    <style>
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem;
+        margin: 1rem 0;
+      }
+
+      .stat {
+        background: var(--superficie);
+        border: 1px solid var(--borde);
+        border-radius: var(--radio);
+        padding: 0.6rem 0.4rem;
+        text-align: center;
+      }
+
+      .stat b {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .stat span {
+        display: block;
+        line-height: 1.25;
+        font-size: 0.78rem;
+        color: var(--texto-suave);
+      }
+
+      .tarjeta {
+        min-height: 18rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        text-align: center;
+      }
+
+      .tarjeta .meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+        color: var(--texto-suave);
+      }
+
+      .frente {
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 1.25;
+        margin: 1rem 0 0.25rem;
+        overflow-wrap: anywhere;
+      }
+
+      .reverso {
+        border-top: 1px dashed var(--borde);
+        padding-top: 0.9rem;
+      }
+
+      .significado {
+        font-size: 1.25rem;
+        margin: 0 0 0.6rem;
+      }
+
+      .ejemplo {
+        font-style: italic;
+        margin: 0 0 0.4rem;
+      }
+
+      .botones-nota {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        margin-top: auto;
+      }
+
+      .botones-nota .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
+        padding: 0.55rem 0.3rem;
+      }
+
+      .botones-nota small {
+        font-size: 0.75rem;
+        color: var(--texto-suave);
+      }
+
+      .btn-mal {
+        border-color: var(--error);
+        background: var(--error-suave);
+      }
+
+      .btn-bien {
+        border-color: var(--ok);
+        background: var(--ok-suave);
+      }
+
+      .barra {
+        height: 6px;
+        background: var(--superficie-2);
+        border-radius: 999px;
+        overflow: hidden;
+      }
+
+      .barra div {
+        height: 100%;
+        width: 0;
+        background: var(--acento);
+      }
+
+      .centro {
+        margin: auto 0;
+      }
+
+      .oculto {
+        display: none !important;
+      }
+
+      .atajos {
+        font-size: 0.8rem;
+        color: var(--texto-suave);
+        text-align: center;
+      }
+
+      @media (hover: none) {
+        .atajos {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="contenedor">
+      <header class="cabecera">
+        <nav class="migas"><a href="../index.html">← Todas las sesiones</a></nav>
+        <h1>Tarjetas</h1>
+        <p class="subtitulo">10 minutos al día. Si no te alcanza el tiempo, haz solo esto.</p>
+      </header>
+
+      <div data-aviso-audio></div>
+
+      <section class="stats" aria-label="Resumen">
+        <div class="stat"><b id="n-pendientes">–</b><span>pendientes hoy</span></div>
+        <div class="stat"><b id="n-aprendidas">–</b><span>aprendidas</span></div>
+        <div class="stat"><b id="n-total">–</b><span>total</span></div>
+        <div class="stat"><b id="n-racha">–</b><span>racha (días)</span></div>
+      </section>
+
+      <section class="bloque tarjeta" id="tarjeta" aria-live="polite">
+        <p class="centro" id="cargando">Cargando tarjetas…</p>
+
+        <div id="vista-tarjeta" class="oculto">
+          <div class="meta">
+            <span id="t-sesion"></span>
+            <span id="t-posicion"></span>
+          </div>
+          <div class="barra"><div id="t-barra"></div></div>
+          <p class="frente" id="t-en" lang="en"></p>
+          <div>
+            <span class="audio" id="t-audio"></span>
+          </div>
+          <button type="button" class="btn btn-principal" id="b-mostrar">Mostrar respuesta</button>
+
+          <div class="reverso oculto" id="t-reverso">
+            <p class="significado" id="t-es"></p>
+            <p class="ejemplo" id="t-ejemplo" lang="en"></p>
+            <span class="audio" id="t-audio-ejemplo"></span>
+          </div>
+
+          <div class="botones-nota oculto" id="t-botones">
+            <button type="button" class="btn btn-mal" data-nota="mal">
+              No me la sé <small id="i-mal"></small>
+            </button>
+            <button type="button" class="btn" data-nota="dificil">
+              Difícil <small id="i-dificil"></small>
+            </button>
+            <button type="button" class="btn btn-bien" data-nota="facil">
+              Fácil <small id="i-facil"></small>
+            </button>
+          </div>
+          <p class="atajos">
+            Teclado: <kbd>Espacio</kbd> mostrar · <kbd>1</kbd> no me la sé · <kbd>2</kbd> difícil ·
+            <kbd>3</kbd> fácil · <kbd>A</kbd> audio
+          </p>
+        </div>
+
+        <div id="vista-fin" class="oculto centro">
+          <p style="font-size: 2.5rem; margin: 0">🎉</p>
+          <h2>¡Listo por hoy!</h2>
+          <p id="fin-texto"></p>
+          <div class="acciones" style="justify-content: center">
+            <button type="button" class="btn" id="b-practicar">Practicar todas otra vez</button>
+          </div>
+          <p class="estado">La práctica extra no cambia tus fechas de repaso.</p>
+        </div>
+
+        <p id="error" class="oculto centro"></p>
+      </section>
+
+      <section class="bloque">
+        <h2>Tu progreso</h2>
+        <p>
+          El progreso se guarda en este navegador. Para pasarlo del PC al celular (o tener un
+          respaldo), exporta el archivo en un dispositivo e impórtalo en el otro.
+        </p>
+        <div class="acciones">
+          <button type="button" class="btn" id="b-exportar">⬇️ Exportar progreso</button>
+          <button type="button" class="btn" id="b-importar">⬆️ Importar progreso</button>
+          <input type="file" id="archivo" accept="application/json,.json" hidden />
+        </div>
+        <p class="estado" id="estado-progreso" aria-live="polite"></p>
+        <details>
+          <summary>¿Cómo funciona el repaso?</summary>
+          <p>
+            <b>No me la sé:</b> la tarjeta vuelve mañana. <b>Fácil:</b> el intervalo crece (1 → 3 →
+            7 → 14 → 30 días). <b>Difícil:</b> se repite el intervalo actual. Una tarjeta cuenta
+            como <b>aprendida</b> cuando su intervalo es de 7 días o más. La <b>racha</b> suma los
+            días seguidos en los que repasaste al menos una tarjeta.
+          </p>
+        </details>
+      </section>
+
+      <p class="pie"><a href="../index.html">← Volver a las sesiones</a></p>
+    </main>
+
+    <script src="../assets/leccion.js"></script>
+    <script>
+      (() => {
+        const { leer, guardar, hablar, prepararAudio, iniciarVoces } = window.Leccion;
+        const CLAVE = "ingles:tarjetas";
+        const INTERVALOS = [1, 3, 7, 14, 30];
+        const NIVEL_APRENDIDA = 2; // intervalo de 7 días o más
+
+        const $ = (id) => document.getElementById(id);
+
+        // ---------- Fechas locales (YYYY-MM-DD) ----------
+        const aTexto = (d) =>
+          `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+        const hoy = () => aTexto(new Date());
+        const sumarDias = (dias) => {
+          const d = new Date();
+          d.setHours(12, 0, 0, 0);
+          d.setDate(d.getDate() + dias);
+          return aTexto(d);
+        };
+
+        // ---------- Estado ----------
+        function estadoValido(e) {
+          return e && typeof e === "object" && e.tarjetas && typeof e.tarjetas === "object";
+        }
+        let estado = leer(CLAVE, null);
+        if (!estadoValido(estado))
+          estado = { v: 1, tarjetas: {}, racha: { ultimo: null, dias: 0 } };
+        estado.racha ??= { ultimo: null, dias: 0 };
+
+        let puedeGuardar = true;
+        function persistir() {
+          puedeGuardar = guardar(CLAVE, estado);
+          if (!puedeGuardar) {
+            $("estado-progreso").textContent =
+              "⚠️ No se puede guardar en este navegador (¿modo privado?). Tu progreso solo durará esta visita.";
+          }
+        }
+
+        let mazo = [];
+        let cola = [];
+        let hechasHoy = 0;
+        let totalCola = 0;
+        let practica = false;
+        let actual = null;
+
+        // ---------- Cálculos ----------
+        function pendientes() {
+          const h = hoy();
+          const vencidas = [];
+          const nuevas = [];
+          for (const t of mazo) {
+            const p = estado.tarjetas[t.id];
+            if (!p) nuevas.push(t);
+            else if (p.proxima <= h) vencidas.push(t);
+          }
+          vencidas.sort((a, b) =>
+            estado.tarjetas[a.id].proxima.localeCompare(estado.tarjetas[b.id].proxima),
+          );
+          return [...vencidas, ...nuevas];
+        }
+
+        function rachaActual() {
+          const { ultimo, dias } = estado.racha;
+          return ultimo === hoy() || ultimo === sumarDias(-1) ? dias : 0;
+        }
+
+        function nuevoNivel(nivel, nota) {
+          if (nota === "mal") return 0;
+          if (nota === "dificil") return Math.max(nivel ?? 0, 0);
+          return nivel == null ? 0 : Math.min(nivel + 1, INTERVALOS.length - 1);
+        }
+
+        const textoDias = (d) => (d === 1 ? "mañana" : `${d} días`);
+
+        function actualizarStats() {
+          const ids = new Set(mazo.map((t) => t.id));
+          const aprendidas = Object.entries(estado.tarjetas).filter(
+            ([id, p]) => ids.has(id) && p.nivel >= NIVEL_APRENDIDA,
+          ).length;
+          $("n-pendientes").textContent = practica ? pendientes().length : cola.length;
+          $("n-aprendidas").textContent = aprendidas;
+          $("n-total").textContent = mazo.length;
+          $("n-racha").textContent = `${rachaActual()}${rachaActual() ? " 🔥" : ""}`;
+        }
+
+        // ---------- Vista ----------
+        function mostrarTarjeta() {
+          actualizarStats();
+          actual = cola[0] || null;
+          if (!actual) {
+            $("vista-tarjeta").classList.add("oculto");
+            $("vista-fin").classList.remove("oculto");
+            $("fin-texto").textContent = practica
+              ? "Terminaste la práctica extra."
+              : mazo.length
+                ? `Repasaste ${hechasHoy} tarjeta${hechasHoy === 1 ? "" : "s"} en esta visita. Vuelve mañana para mantener la racha.`
+                : "El mazo está vacío por ahora.";
+            return;
+          }
+          $("vista-fin").classList.add("oculto");
+          $("vista-tarjeta").classList.remove("oculto");
+          const hecho = totalCola - cola.length;
+          $("t-posicion").textContent =
+            `${hecho + 1} de ${totalCola}${practica ? " · práctica" : ""}`;
+          $("t-barra").style.width = `${(hecho / totalCola) * 100}%`;
+          $("t-sesion").textContent = estado.tarjetas[actual.id]
+            ? actual.sesion
+            : `${actual.sesion} · nueva`;
+          $("t-en").textContent = actual.en;
+          $("t-es").textContent = actual.es;
+          $("t-ejemplo").textContent = actual.ejemplo;
+          ponerAudio($("t-audio"), actual.en);
+          ponerAudio($("t-audio-ejemplo"), actual.ejemplo);
+          $("t-reverso").classList.add("oculto");
+          $("t-botones").classList.add("oculto");
+          $("b-mostrar").classList.remove("oculto");
+
+          const nivel = estado.tarjetas[actual.id]?.nivel;
+          for (const nota of ["mal", "dificil", "facil"]) {
+            $(`i-${nota}`).textContent = practica
+              ? ""
+              : textoDias(INTERVALOS[nuevoNivel(nivel, nota)]);
+          }
+        }
+
+        function ponerAudio(el, texto) {
+          el.replaceChildren();
+          delete el.dataset.listo;
+          el.dataset.say = texto;
+          prepararAudio(el.parentElement);
+        }
+
+        function mostrarRespuesta() {
+          if (!actual) return;
+          $("t-reverso").classList.remove("oculto");
+          $("t-botones").classList.remove("oculto");
+          $("b-mostrar").classList.add("oculto");
+          $("t-botones").querySelector("[data-nota='facil']").focus({ preventScroll: true });
+        }
+
+        function calificar(nota) {
+          if (!actual || $("t-botones").classList.contains("oculto")) return;
+          cola.shift();
+          if (!practica) {
+            const previo = estado.tarjetas[actual.id];
+            const nivel = nuevoNivel(previo?.nivel, nota);
+            estado.tarjetas[actual.id] = {
+              nivel,
+              proxima: sumarDias(INTERVALOS[nivel]),
+              repasos: (previo?.repasos || 0) + 1,
+              fallos: (previo?.fallos || 0) + (nota === "mal" ? 1 : 0),
+              ultima: hoy(),
+            };
+            const h = hoy();
+            if (estado.racha.ultimo !== h) {
+              estado.racha.dias = estado.racha.ultimo === sumarDias(-1) ? estado.racha.dias + 1 : 1;
+              estado.racha.ultimo = h;
+            }
+            hechasHoy++;
+            persistir();
+          }
+          mostrarTarjeta();
+        }
+
+        function empezar(modoPractica) {
+          practica = modoPractica;
+          if (practica) {
+            cola = [...mazo];
+            for (let i = cola.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [cola[i], cola[j]] = [cola[j], cola[i]];
+            }
+          } else {
+            cola = pendientes();
+          }
+          totalCola = cola.length;
+          mostrarTarjeta();
+        }
+
+        // ---------- Eventos ----------
+        $("b-mostrar").addEventListener("click", mostrarRespuesta);
+        document
+          .querySelectorAll("[data-nota]")
+          .forEach((b) => b.addEventListener("click", () => calificar(b.dataset.nota)));
+        $("b-practicar").addEventListener("click", () => empezar(true));
+
+        document.addEventListener("keydown", (e) => {
+          if (e.target.closest("input, textarea") || e.ctrlKey || e.metaKey || e.altKey) return;
+          if (!actual) return;
+          const reversoVisible = !$("t-reverso").classList.contains("oculto");
+          if ((e.key === " " || e.key === "Enter") && !reversoVisible) {
+            e.preventDefault();
+            mostrarRespuesta();
+          } else if (reversoVisible && ["1", "2", "3"].includes(e.key)) {
+            calificar(["mal", "dificil", "facil"][Number(e.key) - 1]);
+          } else if (e.key.toLowerCase() === "a") {
+            hablar(actual.en);
+          }
+        });
+
+        // ---------- Exportar / importar ----------
+        $("b-exportar").addEventListener("click", () => {
+          const datos = { app: CLAVE, exportado: new Date().toISOString(), datos: estado };
+          const blob = new Blob([JSON.stringify(datos, null, 2)], { type: "application/json" });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = `ingles-tarjetas-${hoy()}.json`;
+          document.body.append(a);
+          a.click();
+          a.remove();
+          setTimeout(() => URL.revokeObjectURL(url), 1000);
+          $("estado-progreso").textContent =
+            "✅ Archivo descargado. Guárdalo o envíalo a tu otro dispositivo.";
+        });
+
+        $("b-importar").addEventListener("click", () => $("archivo").click());
+        $("archivo").addEventListener("change", async () => {
+          const archivo = $("archivo").files[0];
+          $("archivo").value = "";
+          if (!archivo) return;
+          try {
+            const json = JSON.parse(await archivo.text());
+            const nuevo = json && json.datos ? json.datos : json;
+            if (!estadoValido(nuevo)) throw new Error("formato");
+            const n = Object.keys(nuevo.tarjetas).length;
+            if (
+              !confirm(
+                `El archivo tiene progreso de ${n} tarjeta${n === 1 ? "" : "s"}. ¿Reemplazar el progreso de este navegador?`,
+              )
+            )
+              return;
+            estado = { v: 1, ...nuevo, racha: nuevo.racha || { ultimo: null, dias: 0 } };
+            persistir();
+            if (puedeGuardar) $("estado-progreso").textContent = "✅ Progreso importado.";
+            hechasHoy = 0;
+            empezar(false);
+          } catch {
+            $("estado-progreso").textContent =
+              "❌ Ese archivo no parece un progreso exportado desde esta app.";
+          }
+        });
+
+        // ---------- Carga del mazo ----------
+        fetch("deck.json", { cache: "no-cache" })
+          .then((r) => {
+            if (!r.ok) throw new Error(r.status);
+            return r.json();
+          })
+          .then((datos) => {
+            mazo = Array.isArray(datos) ? datos : datos.tarjetas || [];
+            $("cargando").classList.add("oculto");
+            iniciarVoces();
+            empezar(false);
+          })
+          .catch(() => {
+            $("cargando").classList.add("oculto");
+            $("error").classList.remove("oculto");
+            $("error").textContent =
+              "❌ No se pudo cargar el mazo (deck.json). Si abriste el archivo directamente, usa el sitio publicado o `pnpm dev`.";
+            actualizarStats();
+          });
+      })();
+    </script>
+  </body>
+</html>
