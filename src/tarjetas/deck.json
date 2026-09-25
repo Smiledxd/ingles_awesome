@@ -754,5 +754,257 @@
     "es": "¿Tú…? / ¿Ella…? (preguntas del presente simple)",
     "ejemplo": "Do you use Excel? Does she use SQL?",
     "sesion": "S09"
+  },
+  {
+    "id": "s10-001",
+    "en": "Wednesday",
+    "es": "miércoles (la primera «d» no suena)",
+    "ejemplo": "I have class on Wednesday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-002",
+    "en": "Thursday",
+    "es": "jueves",
+    "ejemplo": "I work on Tuesday and Thursday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-003",
+    "en": "weekend",
+    "es": "fin de semana",
+    "ejemplo": "I relax on the weekend.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-004",
+    "en": "What time is it?",
+    "es": "¿Qué hora es?",
+    "ejemplo": "What time is it? — It's nine thirty.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-005",
+    "en": "o'clock",
+    "es": "en punto",
+    "ejemplo": "It's nine o'clock.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-006",
+    "en": "a.m. / p.m.",
+    "es": "de la mañana / de la tarde-noche",
+    "ejemplo": "I start at 9 a.m. and finish at 6 p.m.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-007",
+    "en": "at 9 a.m.",
+    "es": "a las 9 a. m. (at + hora)",
+    "ejemplo": "My class starts at 9 a.m.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-008",
+    "en": "on Monday",
+    "es": "el lunes (on + día)",
+    "ejemplo": "We have a meeting on Monday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-009",
+    "en": "in October",
+    "es": "en octubre (in + mes / año)",
+    "ejemplo": "My birthday is in October.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-010",
+    "en": "in the morning",
+    "es": "en la mañana",
+    "ejemplo": "I go to the gym in the morning.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-011",
+    "en": "at night",
+    "es": "en la noche",
+    "ejemplo": "I study English at night.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-012",
+    "en": "schedule",
+    "es": "horario",
+    "ejemplo": "My schedule is busy on Monday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s11-001",
+    "en": "always",
+    "es": "siempre",
+    "ejemplo": "I always check my email in the morning.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-002",
+    "en": "usually",
+    "es": "normalmente, por lo general",
+    "ejemplo": "She usually takes the bus.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-003",
+    "en": "often",
+    "es": "a menudo, con frecuencia",
+    "ejemplo": "We are often busy on Mondays.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-004",
+    "en": "sometimes",
+    "es": "a veces",
+    "ejemplo": "I sometimes work from home.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-005",
+    "en": "rarely",
+    "es": "casi nunca, rara vez",
+    "ejemplo": "I rarely study on Sunday.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-006",
+    "en": "never",
+    "es": "nunca",
+    "ejemplo": "I never use Python. (sin don't)",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-007",
+    "en": "once a week",
+    "es": "una vez por semana",
+    "ejemplo": "I go to the gym once a week.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-008",
+    "en": "twice a week",
+    "es": "dos veces por semana",
+    "ejemplo": "We have a meeting twice a week.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-009",
+    "en": "How often…?",
+    "es": "¿Con qué frecuencia…?",
+    "ejemplo": "How often do you study English?",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-010",
+    "en": "review",
+    "es": "repasar, revisar",
+    "ejemplo": "I review my flashcards every day.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-011",
+    "en": "practice",
+    "es": "practicar",
+    "ejemplo": "I practice SQL three times a week.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-012",
+    "en": "habit",
+    "es": "hábito, costumbre",
+    "ejemplo": "My study habits are good.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s12-001",
+    "en": "what",
+    "es": "qué, cuál",
+    "ejemplo": "What do you do? — I'm a student.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-002",
+    "en": "where",
+    "es": "dónde",
+    "ejemplo": "Where do you live? — In Surco.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-003",
+    "en": "when",
+    "es": "cuándo",
+    "ejemplo": "When is the meeting? — On Friday.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-004",
+    "en": "why",
+    "es": "por qué",
+    "ejemplo": "Why do you study English?",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-005",
+    "en": "how",
+    "es": "cómo",
+    "ejemplo": "How do you go to work? — By bus.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-006",
+    "en": "who",
+    "es": "quién",
+    "ejemplo": "Who is your boss? — Sofía.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-007",
+    "en": "what time",
+    "es": "a qué hora",
+    "ejemplo": "What time do you start work?",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-008",
+    "en": "because",
+    "es": "porque (en respuestas)",
+    "ejemplo": "Because I want a job in data.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-009",
+    "en": "What do you do?",
+    "es": "¿A qué te dedicas?",
+    "ejemplo": "What do you do? — I'm a data intern.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-010",
+    "en": "Where do you live?",
+    "es": "¿Dónde vives?",
+    "ejemplo": "Where do you live? — I live in Lima.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-011",
+    "en": "live",
+    "es": "vivir",
+    "ejemplo": "She lives in Miraflores.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-012",
+    "en": "tool",
+    "es": "herramienta",
+    "ejemplo": "What tools do you use? — Excel and SQL.",
+    "sesion": "S12"
   }
 ]
