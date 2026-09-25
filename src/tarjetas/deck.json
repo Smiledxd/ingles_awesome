@@ -2266,5 +2266,257 @@
     "es": "enviar → envié",
     "ejemplo": "I sent the report to my boss.",
     "sesion": "S27"
+  },
+  {
+    "id": "s28-001",
+    "en": "didn't + verbo base",
+    "es": "no + pasado (I didn't go = no fui)",
+    "ejemplo": "I didn't go to class yesterday.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-002",
+    "en": "Did you…?",
+    "es": "¿(Tú) …? en pasado",
+    "ejemplo": "Did you visit Machu Picchu? — Yes, I did.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-003",
+    "en": "What did you do?",
+    "es": "¿Qué hiciste?",
+    "ejemplo": "What did you do last weekend?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-004",
+    "en": "How was…?",
+    "es": "¿Cómo estuvo…?",
+    "ejemplo": "How was the trip? — It was amazing!",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-005",
+    "en": "trip",
+    "es": "viaje",
+    "ejemplo": "Did you have a good trip?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-006",
+    "en": "travel",
+    "es": "viajar",
+    "ejemplo": "How did you travel? — By bus.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-007",
+    "en": "stay",
+    "es": "quedarse, alojarse",
+    "ejemplo": "Where did you stay? — At a small hotel.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-008",
+    "en": "visit",
+    "es": "visitar",
+    "ejemplo": "We visited the historic center.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-009",
+    "en": "fly → flew",
+    "es": "volar, ir en avión → volé",
+    "ejemplo": "We flew from Lima.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-010",
+    "en": "flight",
+    "es": "vuelo",
+    "ejemplo": "The flight was one hour and a half.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-011",
+    "en": "arrive",
+    "es": "llegar",
+    "ejemplo": "When did you arrive?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-012",
+    "en": "amazing",
+    "es": "increíble",
+    "ejemplo": "It was amazing!",
+    "sesion": "S28"
+  },
+  {
+    "id": "s29-001",
+    "en": "ago",
+    "es": "hace (tiempo) — va al final",
+    "ejemplo": "I started three months ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-002",
+    "en": "last week",
+    "es": "la semana pasada (sin the)",
+    "ejemplo": "Last week I worked from home.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-003",
+    "en": "last month",
+    "es": "el mes pasado",
+    "ejemplo": "I started last month.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-004",
+    "en": "last year",
+    "es": "el año pasado",
+    "ejemplo": "I took an online course last year.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-005",
+    "en": "the day before yesterday",
+    "es": "anteayer",
+    "ejemplo": "We met the day before yesterday.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-006",
+    "en": "yesterday morning",
+    "es": "ayer en la mañana",
+    "ejemplo": "I called her yesterday morning.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-007",
+    "en": "this morning",
+    "es": "esta mañana",
+    "ejemplo": "I sent it this morning.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-008",
+    "en": "an hour ago",
+    "es": "hace una hora",
+    "ejemplo": "I saw that email an hour ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-009",
+    "en": "a few days ago",
+    "es": "hace unos días",
+    "ejemplo": "I finished the course a few days ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-010",
+    "en": "When did you…?",
+    "es": "¿Cuándo (tú)…?",
+    "ejemplo": "When did you start your internship?",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-011",
+    "en": "graduate",
+    "es": "graduarse, egresar",
+    "ejemplo": "I graduated in 2023.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-012",
+    "en": "record",
+    "es": "grabar",
+    "ejemplo": "I recorded my one-minute presentation.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s30-001",
+    "en": "high school",
+    "es": "secundaria (el colegio)",
+    "ejemplo": "I graduated from high school in 2020.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-002",
+    "en": "college",
+    "es": "universidad, estudios superiores (EE. UU.)",
+    "ejemplo": "I studied economics in college.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-003",
+    "en": "bachelor's degree",
+    "es": "título de pregrado, bachillerato",
+    "ejemplo": "I'm doing a bachelor's degree in statistics.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-004",
+    "en": "major in",
+    "es": "especializarse en (carrera)",
+    "ejemplo": "I majored in statistics.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-005",
+    "en": "graduate from",
+    "es": "graduarse de, egresar de",
+    "ejemplo": "She graduated from San Marcos in 2023.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-006",
+    "en": "take a course → took",
+    "es": "llevar un curso → llevé",
+    "ejemplo": "I took an online course in Power BI.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-007",
+    "en": "certificate",
+    "es": "certificado",
+    "ejemplo": "I got a certificate in data analysis.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-008",
+    "en": "learn how to",
+    "es": "aprender a (hacer algo)",
+    "ejemplo": "I learned how to build dashboards.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-009",
+    "en": "scholarship",
+    "es": "beca",
+    "ejemplo": "I got a scholarship in my second year.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-010",
+    "en": "grades",
+    "es": "notas, calificaciones",
+    "ejemplo": "I got a scholarship because of my grades.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-011",
+    "en": "subject",
+    "es": "curso, materia",
+    "ejemplo": "Math was my favorite subject.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-012",
+    "en": "thesis",
+    "es": "tesis",
+    "ejemplo": "My thesis is about sales data.",
+    "sesion": "S30"
   }
 ]
