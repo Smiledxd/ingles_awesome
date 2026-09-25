@@ -1006,5 +1006,173 @@
     "es": "herramienta",
     "ejemplo": "What tools do you use? — Excel and SQL.",
     "sesion": "S12"
+  },
+  {
+    "id": "s13-001",
+    "en": "there is / there are",
+    "es": "hay (singular / plural)",
+    "ejemplo": "There's a park. There are two banks.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-002",
+    "en": "Is there…?",
+    "es": "¿Hay…? (singular)",
+    "ejemplo": "Is there a library? — Yes, there is.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-003",
+    "en": "university",
+    "es": "universidad",
+    "ejemplo": "My university is in Lima.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-004",
+    "en": "library",
+    "es": "biblioteca (no «librería»)",
+    "ejemplo": "There's a big library on campus.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-005",
+    "en": "store",
+    "es": "tienda",
+    "ejemplo": "There's a store next to my house.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-006",
+    "en": "supermarket",
+    "es": "supermercado",
+    "ejemplo": "There are two supermarkets on my street.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-007",
+    "en": "bank",
+    "es": "banco",
+    "ejemplo": "Is there a bank near here?",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-008",
+    "en": "park",
+    "es": "parque",
+    "ejemplo": "There's a big park near my house.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-009",
+    "en": "gym",
+    "es": "gimnasio",
+    "ejemplo": "There isn't a gym at the university.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-010",
+    "en": "bus stop",
+    "es": "paradero",
+    "ejemplo": "There's a bus stop near the entrance.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-011",
+    "en": "near",
+    "es": "cerca de",
+    "ejemplo": "I live near the university.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-012",
+    "en": "next to",
+    "es": "al lado de",
+    "ejemplo": "The café is next to the library.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s14-001",
+    "en": "can",
+    "es": "poder, saber (hacer algo)",
+    "ejemplo": "I can use Excel.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-002",
+    "en": "can't",
+    "es": "no poder, no saber (hacer algo)",
+    "ejemplo": "I can't drive.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-003",
+    "en": "Can you…?",
+    "es": "¿Sabes / puedes…?",
+    "ejemplo": "Can you use Power BI? — Yes, I can.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-004",
+    "en": "speak",
+    "es": "hablar (un idioma)",
+    "ejemplo": "She can speak English and Spanish.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-005",
+    "en": "make a chart",
+    "es": "hacer un gráfico",
+    "ejemplo": "He can make charts in Power BI.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-006",
+    "en": "write code",
+    "es": "escribir código, programar",
+    "ejemplo": "I can't write Python code yet.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-007",
+    "en": "query",
+    "es": "consulta (SQL)",
+    "ejemplo": "I can write simple SQL queries.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-008",
+    "en": "solve a problem",
+    "es": "resolver un problema",
+    "ejemplo": "She can solve problems quickly.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-009",
+    "en": "well / very well",
+    "es": "bien / muy bien",
+    "ejemplo": "I can use Excel very well.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-010",
+    "en": "a little",
+    "es": "un poco",
+    "ejemplo": "I can speak English a little.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-011",
+    "en": "quickly",
+    "es": "rápido, rápidamente",
+    "ejemplo": "I can learn quickly.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-012",
+    "en": "skill",
+    "es": "habilidad",
+    "ejemplo": "Excel is an important skill.",
+    "sesion": "S14"
   }
 ]
