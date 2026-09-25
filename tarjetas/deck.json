@@ -1,0 +1,86 @@
+[
+  {
+    "id": "s01-001",
+    "en": "hello",
+    "es": "hola",
+    "ejemplo": "Hello, my name is Ana.",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-002",
+    "en": "hi",
+    "es": "hola (informal)",
+    "ejemplo": "Hi, Luis! How are you?",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-003",
+    "en": "good morning",
+    "es": "buenos días (hasta el mediodía)",
+    "ejemplo": "Good morning, everyone!",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-004",
+    "en": "good afternoon",
+    "es": "buenas tardes",
+    "ejemplo": "Good afternoon. My name is Luis Quispe.",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-005",
+    "en": "good evening",
+    "es": "buenas noches (al llegar, para saludar)",
+    "ejemplo": "Good evening, Ana! How are you?",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-006",
+    "en": "good night",
+    "es": "buenas noches (al irte o antes de dormir)",
+    "ejemplo": "Good night! See you tomorrow.",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-007",
+    "en": "goodbye",
+    "es": "adiós",
+    "ejemplo": "Goodbye, and thank you!",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-008",
+    "en": "see you tomorrow",
+    "es": "hasta mañana",
+    "ejemplo": "Bye, Ana! See you tomorrow.",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-009",
+    "en": "How are you?",
+    "es": "¿Cómo estás?",
+    "ejemplo": "How are you? — I'm fine, thanks. And you?",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-010",
+    "en": "nice to meet you",
+    "es": "mucho gusto (al conocer a alguien)",
+    "ejemplo": "Nice to meet you, Luis. — Nice to meet you, too.",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-011",
+    "en": "How do you spell that?",
+    "es": "¿Cómo se escribe eso? / ¿Cómo lo deletreas?",
+    "ejemplo": "Quispe? How do you spell that? — Q, U, I, S, P, E.",
+    "sesion": "S01"
+  },
+  {
+    "id": "s01-012",
+    "en": "at · dot · underscore",
+    "es": "@ · . · _ (al dictar un email)",
+    "ejemplo": "lima_data@outlook.com: lima underscore data at outlook dot com.",
+    "sesion": "S01"
+  }
+]
