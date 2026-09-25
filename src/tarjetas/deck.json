@@ -1174,5 +1174,257 @@
     "es": "habilidad",
     "ejemplo": "Excel is an important skill.",
     "sesion": "S14"
+  },
+  {
+    "id": "s15-001",
+    "en": "like",
+    "es": "gustar (I like = me gusta)",
+    "ejemplo": "I like reading.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-002",
+    "en": "love",
+    "es": "encantar, amar",
+    "ejemplo": "I love traveling.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-003",
+    "en": "enjoy",
+    "es": "disfrutar",
+    "ejemplo": "I enjoy working with data.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-004",
+    "en": "hate",
+    "es": "odiar",
+    "ejemplo": "I hate getting up early.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-005",
+    "en": "hobby",
+    "es": "pasatiempo",
+    "ejemplo": "My hobby is taking photos.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-006",
+    "en": "free time",
+    "es": "tiempo libre",
+    "ejemplo": "What do you like doing in your free time?",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-007",
+    "en": "reading",
+    "es": "leer, la lectura",
+    "ejemplo": "She likes reading.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-008",
+    "en": "traveling",
+    "es": "viajar",
+    "ejemplo": "Tom enjoys traveling.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-009",
+    "en": "playing video games",
+    "es": "jugar videojuegos",
+    "ejemplo": "He enjoys playing video games.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-010",
+    "en": "watching series",
+    "es": "ver series",
+    "ejemplo": "I like watching series on the weekend.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-011",
+    "en": "running",
+    "es": "correr (salir a correr)",
+    "ejemplo": "Sofía loves running.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-012",
+    "en": "taking photos",
+    "es": "tomar fotos",
+    "ejemplo": "Carla likes taking photos of Lima.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s16-001",
+    "en": "hundred",
+    "es": "cien, ciento (sin -s tras un número)",
+    "ejemplo": "two hundred fifty customers",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-002",
+    "en": "thousand",
+    "es": "mil",
+    "ejemplo": "Total sales are forty-eight thousand dollars.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-003",
+    "en": "million",
+    "es": "millón",
+    "ejemplo": "three point four million users",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-004",
+    "en": "point",
+    "es": "punto decimal (12.5 = twelve point five)",
+    "ejemplo": "The average is twelve point five.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-005",
+    "en": "percent",
+    "es": "por ciento",
+    "ejemplo": "Lima has 62.5 percent of sales.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-006",
+    "en": "first / second / third",
+    "es": "primero / segundo / tercero",
+    "ejemplo": "The report is on October first.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-007",
+    "en": "twentieth",
+    "es": "vigésimo (fecha: el 20)",
+    "ejemplo": "The meeting is on May twentieth.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-008",
+    "en": "10/05/2026 (US)",
+    "es": "5 de octubre de 2026 (en EE. UU. el mes va primero)",
+    "ejemplo": "October fifth, twenty twenty-six",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-009",
+    "en": "dollars and cents",
+    "es": "dólares y centavos",
+    "ejemplo": "$38.50 = thirty-eight dollars and fifty cents",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-010",
+    "en": "total",
+    "es": "total",
+    "ejemplo": "The total is $48,300.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-011",
+    "en": "average",
+    "es": "promedio",
+    "ejemplo": "The average order is $38.64.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-012",
+    "en": "growth",
+    "es": "crecimiento",
+    "ejemplo": "Growth is four point five percent.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s17-001",
+    "en": "open",
+    "es": "abrir",
+    "ejemplo": "Open the sales file.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-002",
+    "en": "click",
+    "es": "hacer clic",
+    "ejemplo": "Click the Data tab.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-003",
+    "en": "double-click",
+    "es": "hacer doble clic",
+    "ejemplo": "Double-click the file to open it.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-004",
+    "en": "select",
+    "es": "seleccionar",
+    "ejemplo": "Select column B.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-005",
+    "en": "copy",
+    "es": "copiar",
+    "ejemplo": "Copy the data.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-006",
+    "en": "paste",
+    "es": "pegar",
+    "ejemplo": "Paste it in a new sheet.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-007",
+    "en": "type",
+    "es": "escribir (con el teclado)",
+    "ejemplo": "Type your password.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-008",
+    "en": "filter",
+    "es": "filtrar",
+    "ejemplo": "Filter the table by city.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-009",
+    "en": "sort",
+    "es": "ordenar (A–Z, mayor a menor)",
+    "ejemplo": "Sort the sales from largest to smallest.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-010",
+    "en": "save",
+    "es": "guardar",
+    "ejemplo": "Save the file as a PDF.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-011",
+    "en": "delete",
+    "es": "borrar, eliminar",
+    "ejemplo": "Don't delete the original data.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-012",
+    "en": "sheet",
+    "es": "hoja (de cálculo)",
+    "ejemplo": "Copy the table to a new sheet.",
+    "sesion": "S17"
   }
 ]
