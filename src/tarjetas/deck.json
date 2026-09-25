@@ -502,5 +502,257 @@
     "es": "su (de él) / su (de ella)",
     "ejemplo": "Luis and his sister. Ana and her brother.",
     "sesion": "S06"
+  },
+  {
+    "id": "s07-001",
+    "en": "work",
+    "es": "trabajar",
+    "ejemplo": "I work at a bank.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-002",
+    "en": "study",
+    "es": "estudiar",
+    "ejemplo": "I study statistics at the university.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-003",
+    "en": "learn",
+    "es": "aprender",
+    "ejemplo": "I learn English every day.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-004",
+    "en": "use",
+    "es": "usar",
+    "ejemplo": "We use Excel and Power BI.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-005",
+    "en": "analyze",
+    "es": "analizar",
+    "ejemplo": "They analyze sales data.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-006",
+    "en": "clean",
+    "es": "limpiar (datos, una tabla)",
+    "ejemplo": "I clean the data every morning.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-007",
+    "en": "create",
+    "es": "crear",
+    "ejemplo": "We create reports for the manager.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-008",
+    "en": "check",
+    "es": "revisar, verificar",
+    "ejemplo": "I check my email every morning.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-009",
+    "en": "write",
+    "es": "escribir",
+    "ejemplo": "I write SQL queries.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-010",
+    "en": "read",
+    "es": "leer",
+    "ejemplo": "I read the report.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-011",
+    "en": "report",
+    "es": "reporte, informe",
+    "ejemplo": "The report is ready.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-012",
+    "en": "every day",
+    "es": "todos los días",
+    "ejemplo": "I use Excel every day.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s08-001",
+    "en": "get up",
+    "es": "levantarse",
+    "ejemplo": "She gets up early.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-002",
+    "en": "have breakfast",
+    "es": "tomar el desayuno",
+    "ejemplo": "He has breakfast at home.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-003",
+    "en": "have lunch",
+    "es": "almorzar",
+    "ejemplo": "Diego has lunch with his coworkers.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-004",
+    "en": "have dinner",
+    "es": "cenar",
+    "ejemplo": "We have dinner at home.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-005",
+    "en": "take the bus",
+    "es": "tomar el bus",
+    "ejemplo": "Ana takes the bus to work.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-006",
+    "en": "go to work",
+    "es": "ir al trabajo",
+    "ejemplo": "He goes to work by bus.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-007",
+    "en": "start work",
+    "es": "empezar a trabajar",
+    "ejemplo": "My boss starts work early.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-008",
+    "en": "finish work",
+    "es": "terminar de trabajar",
+    "ejemplo": "She finishes work late.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-009",
+    "en": "go home",
+    "es": "ir a casa, volver a casa",
+    "ejemplo": "Carla goes home by bus.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-010",
+    "en": "go to bed",
+    "es": "acostarse",
+    "ejemplo": "He goes to bed late.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-011",
+    "en": "early / late",
+    "es": "temprano / tarde",
+    "ejemplo": "She gets up early and goes to bed late.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-012",
+    "en": "every morning",
+    "es": "todas las mañanas",
+    "ejemplo": "She checks the dashboards every morning.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s09-001",
+    "en": "cook",
+    "es": "cocinar",
+    "ejemplo": "Does she cook? — Yes, she does.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-002",
+    "en": "exercise",
+    "es": "hacer ejercicio",
+    "ejemplo": "Do you exercise? — No, I don't.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-003",
+    "en": "drive",
+    "es": "manejar, conducir",
+    "ejemplo": "I don't drive. I take the bus.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-004",
+    "en": "walk",
+    "es": "caminar",
+    "ejemplo": "We walk to the university.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-005",
+    "en": "work from home",
+    "es": "trabajar desde casa",
+    "ejemplo": "Do you work from home?",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-006",
+    "en": "take a break",
+    "es": "tomar un descanso",
+    "ejemplo": "She doesn't take a break.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-007",
+    "en": "answer emails",
+    "es": "responder correos",
+    "ejemplo": "My boss doesn't answer emails at night.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-008",
+    "en": "have a meeting",
+    "es": "tener una reunión",
+    "ejemplo": "We have a short meeting every morning.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-009",
+    "en": "listen to music",
+    "es": "escuchar música",
+    "ejemplo": "I listen to music at work.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-010",
+    "en": "do homework",
+    "es": "hacer la tarea",
+    "ejemplo": "Does he do homework every day?",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-011",
+    "en": "don't / doesn't",
+    "es": "no (negativo del presente simple)",
+    "ejemplo": "I don't drive. She doesn't drive.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-012",
+    "en": "Do you…? / Does she…?",
+    "es": "¿Tú…? / ¿Ella…? (preguntas del presente simple)",
+    "ejemplo": "Do you use Excel? Does she use SQL?",
+    "sesion": "S09"
   }
 ]
