@@ -2518,5 +2518,173 @@
     "es": "tesis",
     "ejemplo": "My thesis is about sales data.",
     "sesion": "S30"
+  },
+  {
+    "id": "s31-001",
+    "en": "be going to",
+    "es": "ir a (plan decidido)",
+    "ejemplo": "I'm going to learn Python.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-002",
+    "en": "tomorrow",
+    "es": "mañana",
+    "ejemplo": "I'm not going to work tomorrow.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-003",
+    "en": "next week",
+    "es": "la próxima semana (sin the)",
+    "ejemplo": "We're going to present it next week.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-004",
+    "en": "next year",
+    "es": "el próximo año",
+    "ejemplo": "I'm going to finish my degree next year.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-005",
+    "en": "this weekend",
+    "es": "este fin de semana",
+    "ejemplo": "What are you going to do this weekend?",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-006",
+    "en": "in two months",
+    "es": "dentro de dos meses",
+    "ejemplo": "She's going to move in two months.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-007",
+    "en": "soon",
+    "es": "pronto",
+    "ejemplo": "I'm going to apply soon.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-008",
+    "en": "plan",
+    "es": "plan; planear",
+    "ejemplo": "What are your plans for next year?",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-009",
+    "en": "move",
+    "es": "mudarse",
+    "ejemplo": "We're going to move to Lima.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-010",
+    "en": "save money",
+    "es": "ahorrar dinero",
+    "ejemplo": "I'm going to save money for a trip.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-011",
+    "en": "full-time job",
+    "es": "trabajo a tiempo completo",
+    "ejemplo": "I'm going to look for a full-time job.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-012",
+    "en": "portfolio",
+    "es": "portafolio (de proyectos)",
+    "ejemplo": "I'm going to build two projects for my portfolio.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s32-001",
+    "en": "will / 'll",
+    "es": "(futuro) -ré, -rás…",
+    "ejemplo": "I'll help you with the report.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-002",
+    "en": "won't",
+    "es": "no + futuro (will not)",
+    "ejemplo": "It won't be easy.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-003",
+    "en": "I think… will",
+    "es": "Creo que… (predicción)",
+    "ejemplo": "I think companies will need analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-004",
+    "en": "I don't think… will",
+    "es": "No creo que…",
+    "ejemplo": "I don't think AI will replace analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-005",
+    "en": "probably",
+    "es": "probablemente",
+    "ejemplo": "She'll probably get the job.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-006",
+    "en": "definitely",
+    "es": "definitivamente, sin duda",
+    "ejemplo": "I'll definitely learn Python.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-007",
+    "en": "maybe",
+    "es": "quizás",
+    "ejemplo": "Maybe I'll work abroad.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-008",
+    "en": "in the future",
+    "es": "en el futuro",
+    "ejemplo": "You'll use AI tools in the future.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-009",
+    "en": "AI (artificial intelligence)",
+    "es": "IA (inteligencia artificial)",
+    "ejemplo": "AI will change a lot of jobs.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-010",
+    "en": "replace",
+    "es": "reemplazar",
+    "ejemplo": "AI won't replace data analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-011",
+    "en": "abroad",
+    "es": "en el extranjero",
+    "ejemplo": "Maybe I'll work abroad.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-012",
+    "en": "I promise.",
+    "es": "Lo prometo.",
+    "ejemplo": "I'll finish it today. I promise.",
+    "sesion": "S32"
   }
 ]
