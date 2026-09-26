@@ -203,6 +203,11 @@ code {
   padding: 0.05em 0.35em;
 }
 
+/* El código en línea (firmas de funciones, fórmulas) puede partirse en el celular */
+:not(pre) > code {
+  overflow-wrap: anywhere;
+}
+
 /* Botones */
 
 button {
