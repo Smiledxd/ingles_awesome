@@ -3526,5 +3526,257 @@
     "es": "periodo",
     "ejemplo": "The chart covers a six-month period.",
     "sesion": "S42"
+  },
+  {
+    "id": "s43-001",
+    "en": "cell",
+    "es": "celda",
+    "ejemplo": "The total is in cell B12.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-002",
+    "en": "row / column",
+    "es": "fila / columna",
+    "ejemplo": "The dates are in column A, row 2 to row 500.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-003",
+    "en": "range",
+    "es": "rango",
+    "ejemplo": "Select the range A1:D50.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-004",
+    "en": "workbook / sheet",
+    "es": "libro / hoja",
+    "ejemplo": "The workbook has two sheets.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-005",
+    "en": "formula",
+    "es": "fórmula",
+    "ejemplo": "The formula returns the total sales.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-006",
+    "en": "pivot table",
+    "es": "tabla dinámica",
+    "ejemplo": "I created a pivot table by region.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-007",
+    "en": "lookup",
+    "es": "búsqueda (VLOOKUP, XLOOKUP)",
+    "ejemplo": "I used XLOOKUP to bring the region.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-008",
+    "en": "conditional formatting",
+    "es": "formato condicional",
+    "ejemplo": "I used conditional formatting to highlight the top values.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-009",
+    "en": "add up",
+    "es": "sumar",
+    "ejemplo": "SUM adds up all the values.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-010",
+    "en": "return (a value)",
+    "es": "devolver (un valor)",
+    "ejemplo": "The formula returns the average.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-011",
+    "en": "drag down",
+    "es": "arrastrar hacia abajo",
+    "ejemplo": "Drag the formula down to row 50.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-012",
+    "en": "absolute reference",
+    "es": "referencia absoluta ($B$1)",
+    "ejemplo": "$B$1 is an absolute reference.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s44-001",
+    "en": "dashboard / report",
+    "es": "tablero / reporte",
+    "ejemplo": "The report has three pages.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-002",
+    "en": "visual",
+    "es": "visual (gráfico, tabla, tarjeta)",
+    "ejemplo": "Hover over a visual to see more details.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-003",
+    "en": "card",
+    "es": "tarjeta (muestra un número)",
+    "ejemplo": "The cards show the main KPIs.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-004",
+    "en": "slicer",
+    "es": "segmentador (filtro visual)",
+    "ejemplo": "Use the slicer to filter by region.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-005",
+    "en": "measure",
+    "es": "medida (cálculo en DAX)",
+    "ejemplo": "I created a measure for total sales.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-006",
+    "en": "calculated column",
+    "es": "columna calculada",
+    "ejemplo": "I added a calculated column with the month.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-007",
+    "en": "data model",
+    "es": "modelo de datos",
+    "ejemplo": "The data model has four tables.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-008",
+    "en": "relationship",
+    "es": "relación (entre tablas)",
+    "ejemplo": "There's a one-to-many relationship between Products and Sales.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-009",
+    "en": "fact table / dimension table",
+    "es": "tabla de hechos / de dimensión",
+    "ejemplo": "Sales is the fact table.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-010",
+    "en": "refresh",
+    "es": "actualizar (los datos)",
+    "ejemplo": "The dataset refreshes every morning.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-011",
+    "en": "publish",
+    "es": "publicar",
+    "ejemplo": "We published the report to the service.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-012",
+    "en": "hover over",
+    "es": "pasar el cursor sobre",
+    "ejemplo": "Hover over the chart to see the tooltip.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s45-001",
+    "en": "query",
+    "es": "consulta",
+    "ejemplo": "Can you explain what this query does?",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-002",
+    "en": "database",
+    "es": "base de datos",
+    "ejemplo": "The data comes from a SQL database.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-003",
+    "en": "record / field",
+    "es": "registro (fila) / campo (columna)",
+    "ejemplo": "The table has 5,000 records.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-004",
+    "en": "primary key",
+    "es": "clave primaria (identificador único)",
+    "ejemplo": "customer_id is the primary key.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-005",
+    "en": "foreign key",
+    "es": "clave foránea",
+    "ejemplo": "customer_id in orders is a foreign key.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-006",
+    "en": "join",
+    "es": "unir (tablas)",
+    "ejemplo": "It joins orders with customers.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-007",
+    "en": "filter rows",
+    "es": "filtrar filas",
+    "ejemplo": "WHERE filters the rows.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-008",
+    "en": "group by",
+    "es": "agrupar por",
+    "ejemplo": "It groups the results by region.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-009",
+    "en": "aggregate function",
+    "es": "función de agregación (SUM, COUNT…)",
+    "ejemplo": "SUM is an aggregate function.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-010",
+    "en": "ascending / descending",
+    "es": "ascendente / descendente",
+    "ejemplo": "Sort the results in descending order.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-011",
+    "en": "NULL",
+    "es": "valor nulo, faltante",
+    "ejemplo": "Missing values appear as NULL.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-012",
+    "en": "one row per…",
+    "es": "una fila por…",
+    "ejemplo": "The query returns one row per region.",
+    "sesion": "S45"
   }
 ]

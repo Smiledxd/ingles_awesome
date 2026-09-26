@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S45 · SQL en inglés</title>
+    <meta
+      name="description"
+      content="Sesión 45 de inglés: el vocabulario de SQL en inglés (query, table, join, group by, aggregate, primary key) y cómo explicar una consulta."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗄️</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/estilos.css" />
+  </head>
+  <body data-sesion="S45" data-numero="45">
+    <main class="contenedor">
+      <header class="cabecera">
+        <nav class="migas"><a href="../index.html">← Todas las sesiones</a></nav>
+        <h1>Sesión 45 · SQL en inglés</h1>
+        <p class="subtitulo">
+          El vocabulario de SQL y cómo explicar en inglés qué hace una consulta, cláusula por
+          cláusula.
+        </p>
+        <ul class="etiquetas">
+          <li>Fase 2 · Construir</li>
+          <li>Semana 8</li>
+          <li>≈ 60 min</li>
+        </ul>
+      </header>
+
+      <div data-aviso-audio></div>
+
+      <section class="bloque">
+        <h2>Tu hora de hoy</h2>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <td>10 min</td>
+              <td>
+                Tarjetas: repasa las pendientes en la
+                <a href="../tarjetas/index.html">app de tarjetas</a>. Las 12 palabras de esta sesión
+                ya están en el mazo.
+              </td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Warm-up, concepto y ejercicios.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escucha y repite en voz alta, y la lectura corta.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escribe tu producción y pégala en el chat para que te la corrijan.</td>
+            </tr>
+            <tr>
+              <td>5 min</td>
+              <td>Palabras nuevas y checklist de cierre.</td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota">
+          🔊 Cada frase tiene dos botones: <b>▶</b> velocidad normal y <b>🐢</b> lento. Repite
+          siempre en voz alta.
+        </p>
+      </section>
+
+      <section class="bloque" id="warmup">
+        <h2><span class="num">1</span> Warm-up <span class="minutos">2 min</span></h2>
+        <p>Tres preguntas de la sesión 44. Responde en voz alta antes de mirar la respuesta.</p>
+        <ol class="warmup">
+          <li>
+            «Segmentador» en Power BI.
+            <details>
+              <summary>Ver respuesta</summary>
+              <p><span class="en">slicer</span> <span class="audio" data-say="slicer"></span></p>
+            </details>
+          </li>
+          <li>
+            «Creé una medida para las ventas totales».
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">I created a measure for total sales.</span>
+                <span class="audio" data-say="I created a measure for total sales."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «Se actualiza todas las mañanas».
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">It refreshes every morning.</span>
+                <span class="audio" data-say="It refreshes every morning."></span>
+              </p>
+            </details>
+          </li>
+        </ol>
+      </section>
+
+      <section class="bloque" id="concepto">
+        <h2><span class="num">2</span> <span>Concepto: SQL en inglés</span></h2>
+
+        <p>
+          SQL ya está en inglés: <i>SELECT</i>, <i>WHERE</i>, <i>GROUP BY</i>. El reto es
+          <b>explicar</b> una consulta con frases completas. Se pronuncia «es-kiú-el» o «síkuel»;
+          las dos formas son correctas.
+        </p>
+
+        <h3>Vocabulario de bases de datos</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Inglés</th>
+              <th>Qué es</th>
+            </tr>
+            <tr>
+              <td><span class="en">database / table</span></td>
+              <td>
+                base de datos / tabla<br /><span class="audio" data-say="database. table."></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">row (record) / column (field)</span></td>
+              <td>
+                fila (registro) / columna (campo)<br /><span
+                  class="audio"
+                  data-say="row. record. column. field."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">query</span></td>
+              <td>consulta<br /><span class="audio" data-say="query"></span></td>
+            </tr>
+            <tr>
+              <td><span class="en">primary key</span></td>
+              <td>
+                identificador único de cada fila<br /><span
+                  class="audio"
+                  data-say="primary key"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">foreign key</span></td>
+              <td>
+                columna que apunta a la clave de otra tabla<br /><span
+                  class="audio"
+                  data-say="foreign key"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">aggregate function</span></td>
+              <td>
+                COUNT, SUM, AVG, MAX, MIN<br /><span
+                  class="audio"
+                  data-say="aggregate function"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">NULL</span></td>
+              <td>valor faltante (vacío)<br /><span class="audio" data-say="null"></span></td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Explicar una consulta, cláusula por cláusula</h3>
+        <pre
+          style="
+            background: var(--superficie-2);
+            border: 1px solid var(--borde);
+            border-radius: 8px;
+            padding: 0.7rem 0.8rem;
+            overflow-x: auto;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0.6rem 0;
+          "
+          lang="en"
+        ><code>SELECT c.region,
+       COUNT(*) AS orders,
+       SUM(o.amount) AS total_sales
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+WHERE o.order_date &gt;= &#x27;2026-01-01&#x27;
+GROUP BY c.region
+ORDER BY total_sales DESC;</code></pre>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Cláusula</th>
+              <th>Cómo lo explicas</th>
+            </tr>
+            <tr>
+              <td><span class="en">SELECT</span></td>
+              <td>
+                <span class="en"
+                  >It selects the region, the number of orders and the total sales.</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">FROM … JOIN … ON</span></td>
+              <td>
+                <span class="en"
+                  >It joins the orders table with the customers table on customer_id.</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">WHERE</span></td>
+              <td><span class="en">It filters the rows: only orders from 2026.</span></td>
+            </tr>
+            <tr>
+              <td><span class="en">GROUP BY</span></td>
+              <td><span class="en">It groups the results by region.</span></td>
+            </tr>
+            <tr>
+              <td><span class="en">ORDER BY … DESC</span></td>
+              <td>
+                <span class="en">It sorts the results by total sales, from highest to lowest.</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>
+          <span
+            class="audio"
+            data-say="This query selects the region, the number of orders and the total sales. It joins the orders table with the customers table on customer ID. It filters the rows: only orders from 2026. It groups the results by region, and it sorts them by total sales, from highest to lowest."
+          ></span>
+          <span class="estado">Escucha la explicación completa.</span>
+        </p>
+        <p class="nota">
+          💡 En resumen:
+          <i>The query returns <b>one row per region</b>, with the orders and total sales.</i>
+          Termina siempre diciendo qué devuelve.
+        </p>
+      </section>
+
+      <section class="bloque" id="escucha">
+        <h2><span class="num">3</span> Escucha y repite</h2>
+        <p>
+          En una entrevista técnica, le piden a Carla que explique una consulta. Escucha cada línea
+          en normal, luego en lento, y repítela en voz alta <b>tres veces</b> imitando el ritmo.
+        </p>
+        <p>
+          <b>Todo el texto:</b>
+          <span
+            class="audio"
+            data-say="Can you explain what this query does? Sure. It calculates total sales by region for 2026. First, it joins the orders table with the customers table. The WHERE clause keeps only the orders from 2026. Then it groups the rows by region and uses SUM and COUNT. Finally, it sorts the regions from highest to lowest sales. Great. What&#x27;s the difference between WHERE and HAVING? WHERE filters rows before grouping. HAVING filters groups after the aggregation."
+          ></span>
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">A: Can you explain what this query does?</span
+              ><span class="es">¿Puedes explicar qué hace esta consulta?</span></span
+            ><span class="audio" data-say="A: Can you explain what this query does?"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Sure. It calculates total sales by region for 2026.</span
+              ><span class="es">Claro. Calcula las ventas totales por región en 2026.</span></span
+            ><span
+              class="audio"
+              data-say="B: Sure. It calculates total sales by region for 2026."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: First, it joins the orders table with the customers table.</span
+              ><span class="es">Primero, une la tabla de pedidos con la de clientes.</span></span
+            ><span
+              class="audio"
+              data-say="B: First, it joins the orders table with the customers table."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: The WHERE clause keeps only the orders from 2026.</span
+              ><span class="es">La cláusula WHERE deja solo los pedidos de 2026.</span></span
+            ><span
+              class="audio"
+              data-say="B: The WHERE clause keeps only the orders from 2026."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Then it groups the rows by region and uses SUM and COUNT.</span
+              ><span class="es">Luego agrupa las filas por región y usa SUM y COUNT.</span></span
+            ><span
+              class="audio"
+              data-say="B: Then it groups the rows by region and uses SUM and COUNT."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Finally, it sorts the regions from highest to lowest sales.</span
+              ><span class="es">Por último, ordena las regiones de mayor a menor venta.</span></span
+            ><span
+              class="audio"
+              data-say="B: Finally, it sorts the regions from highest to lowest sales."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">A: Great. What&#x27;s the difference between WHERE and HAVING?</span
+              ><span class="es">Muy bien. ¿Cuál es la diferencia entre WHERE y HAVING?</span></span
+            ><span
+              class="audio"
+              data-say="A: Great. What&#x27;s the difference between WHERE and HAVING?"
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >B: WHERE filters rows before grouping. HAVING filters groups after the
+                aggregation.</span
+              ><span class="es"
+                >WHERE filtra filas antes de agrupar. HAVING filtra grupos después de agregar.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="B: WHERE filters rows before grouping. HAVING filters groups after the aggregation."
+            ></span>
+          </li>
+        </ul>
+        <p class="nota">
+          💡 <i>query</i> se dice «KUÍ-ri». <i>GROUP BY</i> y <i>ORDER BY</i> se leen tal cual:
+          «grup bai», «ór-der bai».
+        </p>
+      </section>
+
+      <section class="bloque" id="ejercicios">
+        <h2><span class="num">4</span> Ejercicios</h2>
+
+        <p class="marcador" data-marcador aria-live="polite"></p>
+        <div
+          class="ej"
+          data-id="e1"
+          data-tipo="elegir"
+          data-respuestas="WHERE"
+          data-explica="WHERE filtra filas."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">¿Qué cláusula filtra las filas?</p>
+          <div class="opciones">
+            <button>SELECT</button><button>WHERE</button><button>ORDER BY</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e2"
+          data-tipo="elegir"
+          data-respuestas="JOIN"
+          data-explica="JOIN combina tablas."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">¿Qué cláusula combina dos tablas?</p>
+          <div class="opciones">
+            <button>JOIN</button><button>GROUP BY</button><button>FROM</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e3"
+          data-tipo="elegir"
+          data-respuestas="GROUP BY"
+          data-explica="GROUP BY agrupa por categoría."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">¿Qué cláusula agrupa las filas por región?</p>
+          <div class="opciones">
+            <button>ORDER BY</button><button>GROUP BY</button><button>WHERE</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e4"
+          data-tipo="elegir"
+          data-respuestas="el identificador único de cada fila"
+          data-explica="Primary key = identificador único."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><i>primary key</i> es…</p>
+          <div class="opciones">
+            <button>la primera columna</button><button>el identificador único de cada fila</button
+            ><button>la contraseña de la base</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e5"
+          data-tipo="elegir"
+          data-respuestas="de mayor a menor"
+          data-explica="DESC = descending (de mayor a menor)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><i>ORDER BY total_sales DESC</i> ordena…</p>
+          <div class="opciones">
+            <button>de menor a mayor</button><button>de mayor a menor</button
+            ><button>alfabéticamente</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e6"
+          data-tipo="elegir"
+          data-respuestas="HAVING"
+          data-explica="HAVING filtra grupos después de agregar."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">
+            Para quedarte solo con las regiones con más de 1,000 pedidos (después de agrupar), usas…
+          </p>
+          <div class="opciones">
+            <button>WHERE</button><button>HAVING</button><button>SELECT</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e7"
+          data-tipo="completar"
+          data-respuestas="selects"
+          data-explica="It (the query) → selects."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            This query <input class="hueco" aria-label="Hueco" /> the region and the total sales.
+            (selecciona)
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e8"
+          data-tipo="completar"
+          data-respuestas="joins"
+          data-explica="Unir tablas = join → joins."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            It <input class="hueco" aria-label="Hueco" /> the orders table with the customers table.
+            (une)
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e9"
+          data-tipo="ordenar"
+          data-respuestas="The query groups the results by region."
+          data-explica="The query + groups + the results + by region."
+          data-fichas="The|query|groups|the|results|by|region."
+        >
+          <span class="tipo">Ordena las palabras</span>
+          <p class="enunciado">Forma la frase: «La consulta agrupa los resultados por región».</p>
+        </div>
+        <div
+          class="ej"
+          data-id="e10"
+          data-tipo="traducir"
+          data-respuestas="The query returns one row per region.|The query returns one row for each region."
+          data-explica="Devolver = return; por región = per region."
+        >
+          <span class="tipo">Traduce al inglés</span>
+          <p class="enunciado">La consulta devuelve una fila por región.</p>
+          <input aria-label="Tu respuesta" />
+        </div>
+        <div class="acciones">
+          <button type="button" class="btn" data-reiniciar>Borrar mis respuestas</button>
+        </div>
+      </section>
+
+      <section class="bloque" id="lectura">
+        <h2><span class="num">5</span> Lectura corta</h2>
+        <p>
+          Un fragmento de la guía interna de SQL de una empresa para practicantes. Léelo primero sin
+          audio, luego escúchalo y responde las preguntas.
+        </p>
+        <div class="nota" style="background: var(--superficie-2)">
+          <h3 style="margin-top: 0">SQL tips for new interns</h3>
+          <p lang="en">
+            Before you write a query, look at the tables. Check the primary key of each table and
+            the foreign keys that connect them.
+          </p>
+          <p lang="en">
+            Use JOIN carefully. An INNER JOIN returns only the rows with a match in both tables. A
+            LEFT JOIN returns all the rows from the left table, even without a match; the missing
+            values appear as NULL.
+          </p>
+          <p lang="en">
+            Always filter early with WHERE, especially in big tables. It makes your queries faster.
+          </p>
+          <p lang="en">
+            When you use GROUP BY, every column in SELECT needs to be in the GROUP BY or inside an
+            aggregate function like SUM or COUNT.
+          </p>
+          <p lang="en">Finally, give your columns clear names with AS, for example total_sales.</p>
+          <p>
+            <span
+              class="audio"
+              data-say="Before you write a query, look at the tables. Check the primary key of each table and the foreign keys that connect them. Use JOIN carefully. An INNER JOIN returns only the rows with a match in both tables. A LEFT JOIN returns all the rows from the left table, even without a match; the missing values appear as NULL. Always filter early with WHERE, especially in big tables. It makes your queries faster. When you use GROUP BY, every column in SELECT needs to be in the GROUP BY or inside an aggregate function like SUM or COUNT. Finally, give your columns clear names with AS, for example total_sales."
+            ></span>
+          </p>
+        </div>
+        <p class="estado">110 palabras.</p>
+        <div
+          class="ej"
+          data-id="e11"
+          data-tipo="elegir"
+          data-respuestas="All the rows from the left table."
+          data-explica="«A LEFT JOIN returns all the rows from the left table…»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What does a LEFT JOIN return?</p>
+          <div class="opciones">
+            <button>Only the rows with a match.</button
+            ><button>All the rows from the left table.</button><button>Only NULL values.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e12"
+          data-tipo="elegir"
+          data-respuestas="As NULL."
+          data-explica="«…the missing values appear as NULL.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">How do missing values appear in a LEFT JOIN?</p>
+          <div class="opciones">
+            <button>As zero.</button><button>As NULL.</button><button>As an error.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e13"
+          data-tipo="elegir"
+          data-respuestas="Because it makes queries faster."
+          data-explica="«It makes your queries faster.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">Why should you filter early with WHERE?</p>
+          <div class="opciones">
+            <button>Because it makes queries faster.</button
+            ><button>Because it sorts the rows.</button
+            ><button>Because it adds new columns.</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bloque" id="produccion">
+        <h2><span class="num">6</span> Producción abierta</h2>
+        <p>
+          <b>Explica qué hace esta consulta</b> en 5–6 frases, cláusula por cláusula, y termina
+          diciendo qué devuelve.
+        </p>
+        <pre
+          style="
+            background: var(--superficie-2);
+            border: 1px solid var(--borde);
+            border-radius: 8px;
+            padding: 0.7rem 0.8rem;
+            overflow-x: auto;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0.6rem 0;
+          "
+          lang="en"
+        ><code>SELECT product_name, AVG(price) AS avg_price
+FROM products
+WHERE category = &#x27;Laptops&#x27;
+GROUP BY product_name
+HAVING AVG(price) &gt; 1000
+ORDER BY avg_price;</code></pre>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >This query calculates the average price of each product in the Laptops
+                category.</span
+              ><span class="es">Modelo (inicio)</span></span
+            ><span
+              class="audio"
+              data-say="This query calculates the average price of each product in the Laptops category."
+            ></span>
+          </li>
+        </ul>
+        <textarea
+          data-prod="p1"
+          aria-label="Tu producción"
+          placeholder="This query ..."
+          lang="en"
+        ></textarea>
+        <div class="acciones">
+          <button type="button" class="btn btn-principal" data-copiar="p1">
+            📋 Copiar para corregir
+          </button>
+          <span class="estado" data-copiado="p1" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <section class="bloque" id="palabras">
+        <h2><span class="num">7</span> Palabras nuevas</h2>
+        <p>
+          Ya están en la <a href="../tarjetas/index.html">app de tarjetas</a>. Escúchalas una vez
+          aquí y repásalas allí mañana.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"><span class="en">query</span><span class="es">consulta</span></span
+            ><span class="audio" data-say="query"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">database</span><span class="es">base de datos</span></span
+            ><span class="audio" data-say="database"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">record / field</span
+              ><span class="es">registro (fila) / campo (columna)</span></span
+            ><span class="audio" data-say="record / field"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">primary key</span
+              ><span class="es">clave primaria (identificador único)</span></span
+            ><span class="audio" data-say="primary key"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">foreign key</span><span class="es">clave foránea</span></span
+            ><span class="audio" data-say="foreign key"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">join</span><span class="es">unir (tablas)</span></span
+            ><span class="audio" data-say="join"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">filter rows</span><span class="es">filtrar filas</span></span
+            ><span class="audio" data-say="filter rows"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">group by</span><span class="es">agrupar por</span></span
+            ><span class="audio" data-say="group by"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">aggregate function</span
+              ><span class="es">función de agregación (SUM, COUNT…)</span></span
+            ><span class="audio" data-say="aggregate function"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">ascending / descending</span
+              ><span class="es">ascendente / descendente</span></span
+            ><span class="audio" data-say="ascending / descending"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">NULL</span><span class="es">valor nulo, faltante</span></span
+            ><span class="audio" data-say="NULL"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">one row per…</span><span class="es">una fila por…</span></span
+            ><span class="audio" data-say="one row per…"></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="cierre">
+        <h2><span class="num">8</span> Checklist de cierre</h2>
+        <ul class="checklist">
+          <li>
+            <label
+              ><input type="checkbox" data-check="c1" />
+              <span
+                >Conozco <i>database, table, record, field, primary key, foreign key</i>.</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c2" />
+              <span
+                >Explico <i>SELECT, JOIN, WHERE, GROUP BY, ORDER BY</i> con frases completas.</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c3" />
+              <span
+                >Sé la diferencia entre <i>WHERE</i> y <i>HAVING</i>, y entre <i>INNER</i> y
+                <i>LEFT JOIN</i>.</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c4" />
+              <span>Termino diciendo qué devuelve la consulta (<i>one row per…</i>).</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c5" />
+              <span>Puedo explicar una consulta cláusula por cláusula.</span></label
+            >
+          </li>
+        </ul>
+      </section>
+
+      <nav class="acciones">
+        <a class="btn" href="../index.html">← Todas las sesiones</a>
+        <a class="btn btn-principal" href="../tarjetas/index.html">Ir a las tarjetas →</a>
+      </nav>
+    </main>
+    <script src="../assets/leccion.js"></script>
+  </body>
+</html>
