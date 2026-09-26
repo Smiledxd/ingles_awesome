@@ -4030,5 +4030,341 @@
     "es": "hallazgos",
     "ejemplo": "Write your findings and recommendations.",
     "sesion": "S48"
+  },
+  {
+    "id": "s49-001",
+    "en": "I have worked",
+    "es": "he trabajado",
+    "ejemplo": "I have worked with Excel for two years.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-002",
+    "en": "Have you ever…?",
+    "es": "¿Alguna vez has…?",
+    "ejemplo": "Have you ever used Power BI?",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-003",
+    "en": "How long have you…?",
+    "es": "¿Cuánto tiempo has…?",
+    "ejemplo": "How long have you studied English?",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-004",
+    "en": "for (+ periodo)",
+    "es": "durante (un periodo)",
+    "ejemplo": "I've used SQL for six months.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-005",
+    "en": "since (+ momento)",
+    "es": "desde (un momento)",
+    "ejemplo": "I've practiced English since October.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-006",
+    "en": "yet",
+    "es": "todavía (en negativas y preguntas)",
+    "ejemplo": "I haven't finished the report yet.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-007",
+    "en": "already",
+    "es": "ya",
+    "ejemplo": "I've already finished the course.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-008",
+    "en": "so far",
+    "es": "hasta ahora",
+    "ejemplo": "So far, I've built two dashboards.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-009",
+    "en": "experience",
+    "es": "experiencia",
+    "ejemplo": "I have some experience with SQL.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-010",
+    "en": "written (write)",
+    "es": "escrito (participio de write)",
+    "ejemplo": "I've written three Python scripts.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-011",
+    "en": "built (build)",
+    "es": "construido (participio de build)",
+    "ejemplo": "I've built a sales dashboard.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-012",
+    "en": "been (be)",
+    "es": "sido, estado (participio de be)",
+    "ejemplo": "This year has been very important for me.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s50-001",
+    "en": "When did you…?",
+    "es": "¿Cuándo…? (pasado)",
+    "ejemplo": "When did you learn SQL?",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-002",
+    "en": "since then",
+    "es": "desde entonces",
+    "ejemplo": "I started last semester. Since then, I've built two dashboards.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-003",
+    "en": "for the first time",
+    "es": "por primera vez",
+    "ejemplo": "In June, I used SQL for the first time.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-004",
+    "en": "last semester",
+    "es": "el ciclo pasado",
+    "ejemplo": "I started with Power BI last semester.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-005",
+    "en": "recently",
+    "es": "recientemente",
+    "ejemplo": "I've recently started a Python course.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-006",
+    "en": "in the last two years",
+    "es": "en los últimos dos años",
+    "ejemplo": "I've used Excel a lot in the last two years.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-007",
+    "en": "I'm comfortable with…",
+    "es": "Me siento cómodo/a con…, manejo bien…",
+    "ejemplo": "I'm comfortable with pivot tables.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-008",
+    "en": "I'm familiar with…",
+    "es": "Conozco…, estoy familiarizado/a con…",
+    "ejemplo": "I'm familiar with Power BI.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-009",
+    "en": "hands-on experience",
+    "es": "experiencia práctica",
+    "ejemplo": "I have hands-on experience with SQL.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-010",
+    "en": "basic / intermediate / advanced",
+    "es": "básico / intermedio / avanzado",
+    "ejemplo": "My level of Python is basic.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-011",
+    "en": "self-taught",
+    "es": "autodidacta",
+    "ejemplo": "I'm self-taught in Power BI.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-012",
+    "en": "get better at",
+    "es": "mejorar en",
+    "ejemplo": "I've gotten better at SQL this year.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s51-001",
+    "en": "however",
+    "es": "sin embargo",
+    "ejemplo": "Sales increased. However, profit decreased.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-002",
+    "en": "therefore",
+    "es": "por lo tanto",
+    "ejemplo": "The file had errors. Therefore, I cleaned it first.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-003",
+    "en": "as a result",
+    "es": "como resultado",
+    "ejemplo": "We changed the price. As a result, sales went up.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-004",
+    "en": "in addition",
+    "es": "además",
+    "ejemplo": "In addition, I've built two dashboards.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-005",
+    "en": "also",
+    "es": "también",
+    "ejemplo": "I also know some SQL.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-006",
+    "en": "for example",
+    "es": "por ejemplo",
+    "ejemplo": "For example, I removed duplicates.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-007",
+    "en": "such as",
+    "es": "como (antes de una lista)",
+    "ejemplo": "I use tools such as Excel and SQL.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-008",
+    "en": "then",
+    "es": "luego, después",
+    "ejemplo": "Then, I created a pivot table.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-009",
+    "en": "after that",
+    "es": "después de eso",
+    "ejemplo": "After that, I built a dashboard.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-010",
+    "en": "finally",
+    "es": "finalmente, por último",
+    "ejemplo": "Finally, I presented the results.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-011",
+    "en": "on the other hand",
+    "es": "por otro lado",
+    "ejemplo": "On the other hand, cakes had a high margin.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-012",
+    "en": "in summary",
+    "es": "en resumen",
+    "ejemplo": "In summary, profit matters more than sales.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s52-001",
+    "en": "a person who…",
+    "es": "una persona que…",
+    "ejemplo": "A data analyst is a person who turns data into decisions.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-002",
+    "en": "a tool that…",
+    "es": "una herramienta que…",
+    "ejemplo": "A pivot table is a tool that summarizes data.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-003",
+    "en": "which (relativo)",
+    "es": "que (para cosas)",
+    "ejemplo": "A slicer is a visual which filters the page.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-004",
+    "en": "define",
+    "es": "definir",
+    "ejemplo": "Can you define KPI in one sentence?",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-005",
+    "en": "definition",
+    "es": "definición",
+    "ejemplo": "Write a short definition for each term.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-006",
+    "en": "term",
+    "es": "término",
+    "ejemplo": "Here are some terms that you will hear every day.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-007",
+    "en": "KPI (key performance indicator)",
+    "es": "indicador clave de desempeño",
+    "ejemplo": "Monthly sales is a KPI that we track every week.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-008",
+    "en": "metric",
+    "es": "métrica",
+    "ejemplo": "Revenue is the main metric in this report.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-009",
+    "en": "outlier",
+    "es": "valor atípico",
+    "ejemplo": "An outlier is a value that is very different from the others.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-010",
+    "en": "track",
+    "es": "hacer seguimiento a",
+    "ejemplo": "We track two KPIs every week.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-011",
+    "en": "data pipeline",
+    "es": "flujo automático de datos",
+    "ejemplo": "A data pipeline moves data from one system to another.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-012",
+    "en": "data engineer",
+    "es": "ingeniero/a de datos",
+    "ejemplo": "A data engineer is a person who builds data pipelines.",
+    "sesion": "S52"
   }
 ]
