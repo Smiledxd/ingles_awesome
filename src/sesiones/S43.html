@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S43 · Excel en inglés</title>
+    <meta
+      name="description"
+      content="Sesión 43 de inglés: el vocabulario de Excel en inglés (cell, row, column, formula, pivot table, lookup) y cómo explicar un cálculo."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📗</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/estilos.css" />
+  </head>
+  <body data-sesion="S43" data-numero="43">
+    <main class="contenedor">
+      <header class="cabecera">
+        <nav class="migas"><a href="../index.html">← Todas las sesiones</a></nav>
+        <h1>Sesión 43 · Excel en inglés</h1>
+        <p class="subtitulo">
+          El vocabulario de Excel en inglés y cómo leer una fórmula y explicar un cálculo en voz
+          alta.
+        </p>
+        <ul class="etiquetas">
+          <li>Fase 2 · Construir</li>
+          <li>Semana 8</li>
+          <li>≈ 60 min</li>
+        </ul>
+      </header>
+
+      <div data-aviso-audio></div>
+
+      <section class="bloque">
+        <h2>Tu hora de hoy</h2>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <td>10 min</td>
+              <td>
+                Tarjetas: repasa las pendientes en la
+                <a href="../tarjetas/index.html">app de tarjetas</a>. Las 12 palabras de esta sesión
+                ya están en el mazo.
+              </td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Warm-up, concepto y ejercicios.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escucha y repite en voz alta, y la lectura corta.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escribe tu producción y pégala en el chat para que te la corrijan.</td>
+            </tr>
+            <tr>
+              <td>5 min</td>
+              <td>Palabras nuevas y checklist de cierre.</td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota">
+          🔊 Cada frase tiene dos botones: <b>▶</b> velocidad normal y <b>🐢</b> lento. Repite
+          siempre en voz alta.
+        </p>
+      </section>
+
+      <section class="bloque" id="warmup">
+        <h2><span class="num">1</span> Warm-up <span class="minutos">2 min</span></h2>
+        <p>
+          Tres preguntas de las sesiones 17, 41 y 42. Responde en voz alta antes de mirar la
+          respuesta.
+        </p>
+        <ol class="warmup">
+          <li>
+            «Las ventas aumentaron en un 12%».
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">Sales increased by 12%.</span>
+                <span class="audio" data-say="Sales increased by twelve percent."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «Ordenar» y «filtrar» (en un programa).
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">sort, filter</span>
+                <span class="audio" data-say="sort. filter."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «La conclusión principal es…»
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">The main takeaway is…</span>
+                <span class="audio" data-say="The main takeaway is that sales are growing."></span>
+              </p>
+            </details>
+          </li>
+        </ol>
+      </section>
+
+      <section class="bloque" id="concepto">
+        <h2><span class="num">2</span> <span>Concepto: Excel en inglés</span></h2>
+
+        <p>
+          Empieza la semana 8: <b>inglés técnico de data</b>. Si configuras Excel en inglés,
+          aprendes el vocabulario todos los días. Estas son las palabras que más vas a oír en una
+          entrevista o prueba técnica.
+        </p>
+
+        <h3>La hoja de cálculo</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Inglés</th>
+              <th>Español</th>
+            </tr>
+            <tr>
+              <td><span class="en">workbook / worksheet (sheet)</span></td>
+              <td>
+                libro / hoja<br /><span class="audio" data-say="workbook. worksheet. sheet."></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">cell · cell B2</span></td>
+              <td>
+                celda · la celda B2<br /><span class="audio" data-say="cell. cell B2."></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">row / column</span></td>
+              <td>fila / columna<br /><span class="audio" data-say="row. column."></span></td>
+            </tr>
+            <tr>
+              <td><span class="en">range (A1:A10)</span></td>
+              <td>
+                rango (A1 a A10)<br /><span class="audio" data-say="range. A1 to A10."></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">header</span></td>
+              <td>encabezado (de columna)<br /><span class="audio" data-say="header"></span></td>
+            </tr>
+            <tr>
+              <td><span class="en">formula / function</span></td>
+              <td>
+                fórmula / función<br /><span class="audio" data-say="formula. function."></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">pivot table</span></td>
+              <td>tabla dinámica<br /><span class="audio" data-say="pivot table"></span></td>
+            </tr>
+            <tr>
+              <td><span class="en">lookup (VLOOKUP, XLOOKUP)</span></td>
+              <td>
+                búsqueda (BUSCARV, BUSCARX)<br /><span
+                  class="audio"
+                  data-say="lookup. V lookup. X lookup."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">conditional formatting</span></td>
+              <td>
+                formato condicional<br /><span
+                  class="audio"
+                  data-say="conditional formatting"
+                ></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota nota-aviso">
+          ⚠️ En Excel en inglés las funciones tienen otro nombre y los argumentos se separan con
+          <b>coma</b>: <i>BUSCARV</i> = <b>VLOOKUP</b>, <i>SUMAR.SI</i> = <b>SUMIF</b>,
+          <i>CONTAR.SI</i> = <b>COUNTIF</b>, <i>PROMEDIO</i> = <b>AVERAGE</b>, <i>SI</i> =
+          <b>IF</b>.
+        </p>
+
+        <h3>Leer una fórmula en voz alta</h3>
+        <pre
+          style="
+            background: var(--superficie-2);
+            border: 1px solid var(--borde);
+            border-radius: 8px;
+            padding: 0.7rem 0.8rem;
+            overflow-x: auto;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0.6rem 0;
+          "
+          lang="en"
+        ><code>=SUM(B2:B10)
+=SUMIF(A2:A100, &quot;Lima&quot;, C2:C100)
+=$B$1*C2</code></pre>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">Equals SUM of B2 to B10.</span
+              ><span class="es"
+                >Igual a la suma de B2 a B10. (los dos puntos se leen «to»)</span
+              ></span
+            ><span class="audio" data-say="Equals sum of B2 to B10."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">It adds up all the values in the range.</span
+              ><span class="es">Suma todos los valores del rango.</span></span
+            ><span class="audio" data-say="It adds up all the values in the range."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">SUMIF adds up column C only when column A is Lima.</span
+              ><span class="es"
+                >SUMIF suma la columna C solo cuando la columna A es Lima.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="SUMIF adds up column C only when column A is Lima."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >$B$1 is an absolute reference. It doesn&#x27;t change when you drag the formula
+                down.</span
+              ><span class="es"
+                >$B$1 es una referencia absoluta. No cambia al arrastrar la fórmula hacia
+                abajo.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="Dollar B dollar 1 is an absolute reference. It doesn&#x27;t change when you drag the formula down."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">The formula returns the total sales for Lima.</span
+              ><span class="es">La fórmula devuelve el total de ventas de Lima.</span></span
+            ><span class="audio" data-say="The formula returns the total sales for Lima."></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="escucha">
+        <h2><span class="num">3</span> Escucha y repite</h2>
+        <p>
+          Carla le explica a Diego cómo calculó las ventas por región. Escucha cada línea en normal,
+          luego en lento, y repítela en voz alta <b>tres veces</b> imitando el ritmo.
+        </p>
+        <p>
+          <b>Todo el texto:</b>
+          <span
+            class="audio"
+            data-say="First, I cleaned the data and removed the duplicates. Then I added a column with the region, using XLOOKUP. I used SUMIF to add up the sales for each region. After that, I dragged the formula down to row 500. Finally, I created a pivot table to check the totals. I also used conditional formatting to highlight the top values."
+          ></span>
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">First, I cleaned the data and removed the duplicates.</span
+              ><span class="es">Primero limpié los datos y quité los duplicados.</span></span
+            ><span
+              class="audio"
+              data-say="First, I cleaned the data and removed the duplicates."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Then I added a column with the region, using XLOOKUP.</span
+              ><span class="es"
+                >Luego agregué una columna con la región, usando XLOOKUP.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="Then I added a column with the region, using XLOOKUP."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">I used SUMIF to add up the sales for each region.</span
+              ><span class="es">Usé SUMIF para sumar las ventas de cada región.</span></span
+            ><span
+              class="audio"
+              data-say="I used SUMIF to add up the sales for each region."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">After that, I dragged the formula down to row 500.</span
+              ><span class="es">Después arrastré la fórmula hasta la fila 500.</span></span
+            ><span
+              class="audio"
+              data-say="After that, I dragged the formula down to row 500."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Finally, I created a pivot table to check the totals.</span
+              ><span class="es"
+                >Por último, creé una tabla dinámica para verificar los totales.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="Finally, I created a pivot table to check the totals."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >I also used conditional formatting to highlight the top values.</span
+              ><span class="es"
+                >También usé formato condicional para resaltar los valores más altos.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="I also used conditional formatting to highlight the top values."
+            ></span>
+          </li>
+        </ul>
+        <p class="nota">
+          💡 <i>VLOOKUP</i> se dice «vi-lúk-ap»; <i>XLOOKUP</i>, «eks-lúk-ap». <i>SUMIF</i> se dice
+          «sam-if».
+        </p>
+      </section>
+
+      <section class="bloque" id="ejercicios">
+        <h2><span class="num">4</span> Ejercicios</h2>
+
+        <p class="marcador" data-marcador aria-live="polite"></p>
+        <div
+          class="ej"
+          data-id="e1"
+          data-tipo="elegir"
+          data-respuestas="row"
+          data-explica="Fila = row (horizontal)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">«fila» en Excel</p>
+          <div class="opciones">
+            <button>column</button><button>row</button><button>cell</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e2"
+          data-tipo="elegir"
+          data-respuestas="column"
+          data-explica="Columna = column (vertical, con letra)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">«columna» en Excel</p>
+          <div class="opciones">
+            <button>column</button><button>row</button><button>range</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e3"
+          data-tipo="elegir"
+          data-respuestas="B2 to B10"
+          data-explica="Los dos puntos de un rango se leen «to»."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">¿Cómo se lee el rango B2:B10?</p>
+          <div class="opciones">
+            <button>B2 colon B10</button><button>B2 to B10</button><button>B2 and B10</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e4"
+          data-tipo="elegir"
+          data-respuestas="SUM"
+          data-explica="Para sumar valores: SUM."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">¿Qué función usas para sumar una columna?</p>
+          <div class="opciones"><button>COUNT</button><button>SUM</button><button>IF</button></div>
+        </div>
+        <div
+          class="ej"
+          data-id="e5"
+          data-tipo="elegir"
+          data-respuestas="XLOOKUP"
+          data-explica="Para traer un dato de otra tabla: XLOOKUP / VLOOKUP."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">
+            ¿Qué función usas para traer el precio de cada producto desde otra tabla?
+          </p>
+          <div class="opciones">
+            <button>AVERAGE</button><button>XLOOKUP</button><button>SUM</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e6"
+          data-tipo="elegir"
+          data-respuestas="a pivot table"
+          data-explica="Resumir por categoría = pivot table (tabla dinámica)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">Para resumir 10,000 filas por región y mes, usas…</p>
+          <div class="opciones">
+            <button>a pivot table</button><button>a cell</button><button>a header</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e7"
+          data-tipo="completar"
+          data-respuestas="returns"
+          data-explica="Devolver un valor = return → returns."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            The formula <input class="hueco" aria-label="Hueco" /> the total sales. (devuelve)
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e8"
+          data-tipo="completar"
+          data-respuestas="adds"
+          data-explica="Sumar = add up → adds up."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            =SUM(C2:C20) <input class="hueco" aria-label="Hueco" /> up all the values in column C.
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e9"
+          data-tipo="ordenar"
+          data-respuestas="Drag the formula down to row 50."
+          data-explica="Imperativo: Drag + the formula + down + to row 50."
+          data-fichas="Drag|the|formula|down|to|row|50."
+        >
+          <span class="tipo">Ordena las palabras</span>
+          <p class="enunciado">Forma la instrucción: «Arrastra la fórmula hasta la fila 50».</p>
+        </div>
+        <div
+          class="ej"
+          data-id="e10"
+          data-tipo="traducir"
+          data-respuestas="I used a pivot table to summarize the data.|I used a pivot table to summarise the data."
+          data-explica="Tabla dinámica = pivot table; resumir = summarize."
+        >
+          <span class="tipo">Traduce al inglés</span>
+          <p class="enunciado">Usé una tabla dinámica para resumir los datos.</p>
+          <input aria-label="Tu respuesta" />
+        </div>
+        <div class="acciones">
+          <button type="button" class="btn" data-reiniciar>Borrar mis respuestas</button>
+        </div>
+      </section>
+
+      <section class="bloque" id="lectura">
+        <h2><span class="num">5</span> Lectura corta</h2>
+        <p>
+          Parte de una prueba técnica de Excel y la respuesta de un candidato. Léelo primero sin
+          audio, luego escúchalo y responde las preguntas.
+        </p>
+        <div class="nota" style="background: var(--superficie-2)">
+          <h3 style="margin-top: 0">Excel test: monthly sales by region</h3>
+          <p lang="en">
+            Task: The workbook has two sheets. The Sales sheet has 5,000 rows with the order date,
+            store ID and amount. The Stores sheet has the store ID and the region. Calculate total
+            sales by region and month.
+          </p>
+          <p lang="en">
+            Answer: First, I checked the data. There were 12 empty rows and some duplicates, so I
+            removed them.
+          </p>
+          <p lang="en">
+            Then I used XLOOKUP to bring the region from the Stores sheet into the Sales sheet. I
+            also added a Month column with the TEXT function.
+          </p>
+          <p lang="en">
+            Finally, I created a pivot table with the regions in the rows, the months in the columns
+            and the sum of the amount in the values. I used conditional formatting to highlight the
+            best month for each region.
+          </p>
+          <p>
+            <span
+              class="audio"
+              data-say="Task: The workbook has two sheets. The Sales sheet has 5,000 rows with the order date, store ID and amount. The Stores sheet has the store ID and the region. Calculate total sales by region and month. Answer: First, I checked the data. There were 12 empty rows and some duplicates, so I removed them. Then I used XLOOKUP to bring the region from the Stores sheet into the Sales sheet. I also added a Month column with the TEXT function. Finally, I created a pivot table with the regions in the rows, the months in the columns and the sum of the amount in the values. I used conditional formatting to highlight the best month for each region."
+            ></span>
+          </p>
+        </div>
+        <p class="estado">119 palabras.</p>
+        <div
+          class="ej"
+          data-id="e11"
+          data-tipo="elegir"
+          data-respuestas="Two."
+          data-explica="«The workbook has two sheets.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">How many sheets does the workbook have?</p>
+          <div class="opciones">
+            <button>One.</button><button>Two.</button><button>Three.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e12"
+          data-tipo="elegir"
+          data-respuestas="XLOOKUP."
+          data-explica="«I used XLOOKUP to bring the region…»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">Which function did the candidate use to bring the region?</p>
+          <div class="opciones">
+            <button>SUMIF.</button><button>XLOOKUP.</button><button>TEXT.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e13"
+          data-tipo="elegir"
+          data-respuestas="The months."
+          data-explica="«…the months in the columns…»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What did the candidate put in the columns of the pivot table?</p>
+          <div class="opciones">
+            <button>The regions.</button><button>The months.</button><button>The amounts.</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bloque" id="produccion">
+        <h2><span class="num">6</span> Producción abierta</h2>
+        <p>
+          <b>Explica cómo harías un cálculo en Excel.</b> Elige una tarea (por ejemplo: «calcular el
+          promedio de ventas por vendedor» o «contar cuántos clientes hay en cada ciudad») y explica
+          en 5–6 frases los pasos, las funciones y cómo verificarías el resultado.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >To calculate average sales per seller, first I&#x27;d check the data for empty
+                cells. Then I&#x27;d use AVERAGEIF with the seller name as the criteria. I&#x27;d
+                drag the formula down for all the sellers. Finally, I&#x27;d create a pivot table to
+                check the results.</span
+              ><span class="es">Modelo</span></span
+            ><span
+              class="audio"
+              data-say="To calculate average sales per seller, first I&#x27;d check the data for empty cells. Then I&#x27;d use AVERAGEIF with the seller name as the criteria. I&#x27;d drag the formula down for all the sellers. Finally, I&#x27;d create a pivot table to check the results."
+            ></span>
+          </li>
+        </ul>
+        <p class="estado">
+          <i>I'd</i> (= <i>I would</i>) sirve para decir «yo haría»; lo usarás mucho en entrevistas.
+        </p>
+        <textarea
+          data-prod="p1"
+          aria-label="Tu producción"
+          placeholder="To calculate ..., first I&#x27;d ..."
+          lang="en"
+        ></textarea>
+        <div class="acciones">
+          <button type="button" class="btn btn-principal" data-copiar="p1">
+            📋 Copiar para corregir
+          </button>
+          <span class="estado" data-copiado="p1" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <section class="bloque" id="palabras">
+        <h2><span class="num">7</span> Palabras nuevas</h2>
+        <p>
+          Ya están en la <a href="../tarjetas/index.html">app de tarjetas</a>. Escúchalas una vez
+          aquí y repásalas allí mañana.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"><span class="en">cell</span><span class="es">celda</span></span
+            ><span class="audio" data-say="cell"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">row / column</span><span class="es">fila / columna</span></span
+            ><span class="audio" data-say="row / column"></span>
+          </li>
+          <li>
+            <span class="texto"><span class="en">range</span><span class="es">rango</span></span
+            ><span class="audio" data-say="range"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">workbook / sheet</span><span class="es">libro / hoja</span></span
+            ><span class="audio" data-say="workbook / sheet"></span>
+          </li>
+          <li>
+            <span class="texto"><span class="en">formula</span><span class="es">fórmula</span></span
+            ><span class="audio" data-say="formula"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">pivot table</span><span class="es">tabla dinámica</span></span
+            ><span class="audio" data-say="pivot table"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">lookup</span
+              ><span class="es">búsqueda (VLOOKUP, XLOOKUP)</span></span
+            ><span class="audio" data-say="lookup"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">conditional formatting</span
+              ><span class="es">formato condicional</span></span
+            ><span class="audio" data-say="conditional formatting"></span>
+          </li>
+          <li>
+            <span class="texto"><span class="en">add up</span><span class="es">sumar</span></span
+            ><span class="audio" data-say="add up"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">return (a value)</span
+              ><span class="es">devolver (un valor)</span></span
+            ><span class="audio" data-say="return (a value)"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">drag down</span><span class="es">arrastrar hacia abajo</span></span
+            ><span class="audio" data-say="drag down"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">absolute reference</span
+              ><span class="es">referencia absoluta ($B$1)</span></span
+            ><span class="audio" data-say="absolute reference"></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="cierre">
+        <h2><span class="num">8</span> Checklist de cierre</h2>
+        <ul class="checklist">
+          <li>
+            <label
+              ><input type="checkbox" data-check="c1" />
+              <span>Conozco <i>cell, row, column, range, sheet, workbook, header</i>.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c2" />
+              <span
+                >Sé el nombre en inglés de las funciones básicas (<i
+                  >SUM, AVERAGE, IF, SUMIF, XLOOKUP</i
+                >).</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c3" />
+              <span
+                >Puedo leer una fórmula en voz alta (<i>equals SUM of B2 to B10</i>).</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c4" />
+              <span>Uso <i>add up, return, drag down</i> para explicar una fórmula.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c5" />
+              <span>Puedo explicar paso a paso cómo haría un cálculo en Excel.</span></label
+            >
+          </li>
+        </ul>
+      </section>
+
+      <nav class="acciones">
+        <a class="btn" href="../index.html">← Todas las sesiones</a>
+        <a class="btn btn-principal" href="../tarjetas/index.html">Ir a las tarjetas →</a>
+      </nav>
+    </main>
+    <script src="../assets/leccion.js"></script>
+  </body>
+</html>

@@ -3106,5 +3106,929 @@
     "es": "un poco más bajo",
     "ejemplo": "Costs were a little lower than in June.",
     "sesion": "S37"
+  },
+  {
+    "id": "s38-001",
+    "en": "the highest",
+    "es": "el más alto / los más altos",
+    "ejemplo": "Lima has the highest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-002",
+    "en": "the lowest",
+    "es": "el más bajo",
+    "ejemplo": "Trujillo has the lowest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-003",
+    "en": "the biggest",
+    "es": "el más grande",
+    "ejemplo": "Lima is the biggest store.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-004",
+    "en": "the best",
+    "es": "el mejor (good → better → the best)",
+    "ejemplo": "Arequipa has the best rating.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-005",
+    "en": "the worst",
+    "es": "el peor (bad → worse → the worst)",
+    "ejemplo": "March was the worst month.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-006",
+    "en": "the most popular",
+    "es": "el más popular",
+    "ejemplo": "It's our most popular product.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-007",
+    "en": "the least",
+    "es": "el menos",
+    "ejemplo": "It's the least expensive option.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-008",
+    "en": "the fewest",
+    "es": "la menor cantidad de (contables)",
+    "ejemplo": "Arequipa had the fewest returns.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-009",
+    "en": "the second highest",
+    "es": "el segundo más alto",
+    "ejemplo": "Cusco has the second highest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-010",
+    "en": "top 3",
+    "es": "los 3 primeros, el top 3",
+    "ejemplo": "These are the top 3 products of the year.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-011",
+    "en": "at the bottom",
+    "es": "al final (del ranking)",
+    "ejemplo": "Trujillo is at the bottom of the ranking.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-012",
+    "en": "best-selling",
+    "es": "más vendido",
+    "ejemplo": "The best-selling product was the basic laptop.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s39-001",
+    "en": "increase / decrease",
+    "es": "aumentar / disminuir",
+    "ejemplo": "Sales increased in March and decreased in May.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-002",
+    "en": "rise → rose",
+    "es": "subir → subió",
+    "ejemplo": "Traffic rose sharply in March.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-003",
+    "en": "fall → fell",
+    "es": "caer, bajar → bajó",
+    "ejemplo": "Costs fell in May.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-004",
+    "en": "go up / go down",
+    "es": "subir / bajar",
+    "ejemplo": "Prices went up slightly.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-005",
+    "en": "peak",
+    "es": "llegar al punto máximo; pico",
+    "ejemplo": "Traffic peaked in April.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-006",
+    "en": "remain stable",
+    "es": "mantenerse estable",
+    "ejemplo": "Prices remained stable.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-007",
+    "en": "fluctuate",
+    "es": "fluctuar, subir y bajar",
+    "ejemplo": "Delivery times fluctuated.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-008",
+    "en": "sharply",
+    "es": "bruscamente, mucho y rápido",
+    "ejemplo": "Sales increased sharply.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-009",
+    "en": "slightly",
+    "es": "ligeramente",
+    "ejemplo": "Users fell slightly in June.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-010",
+    "en": "steadily",
+    "es": "de forma constante",
+    "ejemplo": "Users grew steadily.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-011",
+    "en": "significantly",
+    "es": "de forma importante",
+    "ejemplo": "Costs decreased significantly.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-012",
+    "en": "a sharp increase",
+    "es": "un aumento brusco",
+    "ejemplo": "There was a sharp increase in March.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s40-001",
+    "en": "chart",
+    "es": "gráfico",
+    "ejemplo": "This chart shows monthly sales.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-002",
+    "en": "bar chart",
+    "es": "gráfico de barras",
+    "ejemplo": "A bar chart compares the five regions.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-003",
+    "en": "line chart",
+    "es": "gráfico de líneas",
+    "ejemplo": "A line chart shows daily sales.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-004",
+    "en": "pie chart",
+    "es": "gráfico circular (de torta)",
+    "ejemplo": "A pie chart shows sales by channel.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-005",
+    "en": "x-axis / y-axis",
+    "es": "eje X (horizontal) / eje Y (vertical)",
+    "ejemplo": "The x-axis shows the months.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-006",
+    "en": "legend",
+    "es": "leyenda",
+    "ejemplo": "The legend shows two years.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-007",
+    "en": "title",
+    "es": "título",
+    "ejemplo": "Always write a clear title.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-008",
+    "en": "label",
+    "es": "etiqueta",
+    "ejemplo": "The labels show the exact values.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-009",
+    "en": "target",
+    "es": "meta, objetivo",
+    "ejemplo": "The dashed line is the target.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-010",
+    "en": "This chart shows…",
+    "es": "Este gráfico muestra…",
+    "ejemplo": "This chart shows our sales by month.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-011",
+    "en": "According to the chart,…",
+    "es": "Según el gráfico,…",
+    "ejemplo": "According to the chart, June was the best month.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-012",
+    "en": "below / above the target",
+    "es": "por debajo / por encima de la meta",
+    "ejemplo": "Sales were below the target in May.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s41-001",
+    "en": "increase by",
+    "es": "aumentar en (la diferencia)",
+    "ejemplo": "Sales increased by 5%.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-002",
+    "en": "from … to",
+    "es": "de … a",
+    "ejemplo": "Users rose from 20,000 to 30,000.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-003",
+    "en": "fall to",
+    "es": "bajar a (valor final)",
+    "ejemplo": "The return rate fell to 4%.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-004",
+    "en": "an increase of",
+    "es": "un aumento de",
+    "ejemplo": "There was an increase of 10% in orders.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-005",
+    "en": "peak at",
+    "es": "llegar al máximo en",
+    "ejemplo": "Traffic peaked at 90,000 visits.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-006",
+    "en": "remain stable at",
+    "es": "mantenerse estable en",
+    "ejemplo": "Costs remained stable at $8,000.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-007",
+    "en": "between … and",
+    "es": "entre … y",
+    "ejemplo": "Prices were between $20 and $25.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-008",
+    "en": "about / around",
+    "es": "aproximadamente",
+    "ejemplo": "About 60% of the visits came from phones.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-009",
+    "en": "nearly",
+    "es": "casi",
+    "ejemplo": "Traffic peaked at nearly 90,000 visits.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-010",
+    "en": "over / under",
+    "es": "más de / menos de",
+    "ejemplo": "over $50,000 · under 5%",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-011",
+    "en": "a total of",
+    "es": "un total de",
+    "ejemplo": "We had a total of 4,400 orders.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-012",
+    "en": "double",
+    "es": "duplicarse, el doble",
+    "ejemplo": "The number of users doubled.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s42-001",
+    "en": "Let me walk you through…",
+    "es": "Déjame explicarte paso a paso…",
+    "ejemplo": "Let me walk you through this chart.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-002",
+    "en": "As you can see,",
+    "es": "Como puedes ver,",
+    "ejemplo": "As you can see, online sales grew every month.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-003",
+    "en": "Overall,",
+    "es": "En general,",
+    "ejemplo": "Overall, the trend is positive.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-004",
+    "en": "The main takeaway is…",
+    "es": "La conclusión principal es…",
+    "ejemplo": "The main takeaway is that customers are moving online.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-005",
+    "en": "overtake → overtook",
+    "es": "superar, adelantar",
+    "ejemplo": "Online sales overtook store sales in May.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-006",
+    "en": "compared with",
+    "es": "comparado con",
+    "ejemplo": "Compared with January, sales were 10% lower.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-007",
+    "en": "triple / double",
+    "es": "triplicarse / duplicarse",
+    "ejemplo": "Online sales tripled in six months.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-008",
+    "en": "jump",
+    "es": "salto, subida brusca",
+    "ejemplo": "The biggest jump was in May.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-009",
+    "en": "channel",
+    "es": "canal (de venta)",
+    "ejemplo": "This chart shows sales by channel.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-010",
+    "en": "gradually",
+    "es": "gradualmente",
+    "ejemplo": "Store sales fell gradually.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-011",
+    "en": "invest (in)",
+    "es": "invertir (en)",
+    "ejemplo": "We need to invest more in the website.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-012",
+    "en": "period",
+    "es": "periodo",
+    "ejemplo": "The chart covers a six-month period.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s43-001",
+    "en": "cell",
+    "es": "celda",
+    "ejemplo": "The total is in cell B12.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-002",
+    "en": "row / column",
+    "es": "fila / columna",
+    "ejemplo": "The dates are in column A, row 2 to row 500.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-003",
+    "en": "range",
+    "es": "rango",
+    "ejemplo": "Select the range A1:D50.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-004",
+    "en": "workbook / sheet",
+    "es": "libro / hoja",
+    "ejemplo": "The workbook has two sheets.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-005",
+    "en": "formula",
+    "es": "fórmula",
+    "ejemplo": "The formula returns the total sales.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-006",
+    "en": "pivot table",
+    "es": "tabla dinámica",
+    "ejemplo": "I created a pivot table by region.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-007",
+    "en": "lookup",
+    "es": "búsqueda (VLOOKUP, XLOOKUP)",
+    "ejemplo": "I used XLOOKUP to bring the region.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-008",
+    "en": "conditional formatting",
+    "es": "formato condicional",
+    "ejemplo": "I used conditional formatting to highlight the top values.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-009",
+    "en": "add up",
+    "es": "sumar",
+    "ejemplo": "SUM adds up all the values.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-010",
+    "en": "return (a value)",
+    "es": "devolver (un valor)",
+    "ejemplo": "The formula returns the average.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-011",
+    "en": "drag down",
+    "es": "arrastrar hacia abajo",
+    "ejemplo": "Drag the formula down to row 50.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-012",
+    "en": "absolute reference",
+    "es": "referencia absoluta ($B$1)",
+    "ejemplo": "$B$1 is an absolute reference.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s44-001",
+    "en": "dashboard / report",
+    "es": "tablero / reporte",
+    "ejemplo": "The report has three pages.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-002",
+    "en": "visual",
+    "es": "visual (gráfico, tabla, tarjeta)",
+    "ejemplo": "Hover over a visual to see more details.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-003",
+    "en": "card",
+    "es": "tarjeta (muestra un número)",
+    "ejemplo": "The cards show the main KPIs.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-004",
+    "en": "slicer",
+    "es": "segmentador (filtro visual)",
+    "ejemplo": "Use the slicer to filter by region.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-005",
+    "en": "measure",
+    "es": "medida (cálculo en DAX)",
+    "ejemplo": "I created a measure for total sales.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-006",
+    "en": "calculated column",
+    "es": "columna calculada",
+    "ejemplo": "I added a calculated column with the month.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-007",
+    "en": "data model",
+    "es": "modelo de datos",
+    "ejemplo": "The data model has four tables.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-008",
+    "en": "relationship",
+    "es": "relación (entre tablas)",
+    "ejemplo": "There's a one-to-many relationship between Products and Sales.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-009",
+    "en": "fact table / dimension table",
+    "es": "tabla de hechos / de dimensión",
+    "ejemplo": "Sales is the fact table.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-010",
+    "en": "refresh",
+    "es": "actualizar (los datos)",
+    "ejemplo": "The dataset refreshes every morning.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-011",
+    "en": "publish",
+    "es": "publicar",
+    "ejemplo": "We published the report to the service.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-012",
+    "en": "hover over",
+    "es": "pasar el cursor sobre",
+    "ejemplo": "Hover over the chart to see the tooltip.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s45-001",
+    "en": "query",
+    "es": "consulta",
+    "ejemplo": "Can you explain what this query does?",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-002",
+    "en": "database",
+    "es": "base de datos",
+    "ejemplo": "The data comes from a SQL database.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-003",
+    "en": "record / field",
+    "es": "registro (fila) / campo (columna)",
+    "ejemplo": "The table has 5,000 records.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-004",
+    "en": "primary key",
+    "es": "clave primaria (identificador único)",
+    "ejemplo": "customer_id is the primary key.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-005",
+    "en": "foreign key",
+    "es": "clave foránea",
+    "ejemplo": "customer_id in orders is a foreign key.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-006",
+    "en": "join",
+    "es": "unir (tablas)",
+    "ejemplo": "It joins orders with customers.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-007",
+    "en": "filter rows",
+    "es": "filtrar filas",
+    "ejemplo": "WHERE filters the rows.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-008",
+    "en": "group by",
+    "es": "agrupar por",
+    "ejemplo": "It groups the results by region.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-009",
+    "en": "aggregate function",
+    "es": "función de agregación (SUM, COUNT…)",
+    "ejemplo": "SUM is an aggregate function.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-010",
+    "en": "ascending / descending",
+    "es": "ascendente / descendente",
+    "ejemplo": "Sort the results in descending order.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-011",
+    "en": "NULL",
+    "es": "valor nulo, faltante",
+    "ejemplo": "Missing values appear as NULL.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-012",
+    "en": "one row per…",
+    "es": "una fila por…",
+    "ejemplo": "The query returns one row per region.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s46-001",
+    "en": "DataFrame",
+    "es": "tabla de pandas",
+    "ejemplo": "I loaded the CSV file into a DataFrame.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-002",
+    "en": "missing values (NaN)",
+    "es": "valores faltantes",
+    "ejemplo": "I filled the missing values with zero.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-003",
+    "en": "drop / fill",
+    "es": "eliminar / rellenar",
+    "ejemplo": "I dropped the empty rows and filled the rest.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-004",
+    "en": "merge",
+    "es": "combinar (DataFrames)",
+    "ejemplo": "I merged the two DataFrames on store_id.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-005",
+    "en": "function",
+    "es": "función",
+    "ejemplo": "I wrote a function to clean the dates.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-006",
+    "en": "argument",
+    "es": "argumento (de una función)",
+    "ejemplo": "The function takes two arguments.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-007",
+    "en": "library",
+    "es": "librería",
+    "ejemplo": "pandas is a Python library for data analysis.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-008",
+    "en": "error message",
+    "es": "mensaje de error",
+    "ejemplo": "The error message said 'Region'.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-009",
+    "en": "bug",
+    "es": "error (en el código)",
+    "ejemplo": "The bug took me two hours.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-010",
+    "en": "crash",
+    "es": "fallar, caerse (un programa)",
+    "ejemplo": "My script crashed with a TypeError.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-011",
+    "en": "It turned out that…",
+    "es": "Resultó que…",
+    "ejemplo": "It turned out that the column was text.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-012",
+    "en": "I fixed it by + -ing",
+    "es": "Lo arreglé + gerundio",
+    "ejemplo": "I fixed it by removing the duplicates.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s47-001",
+    "en": "documentation (docs)",
+    "es": "documentación",
+    "ejemplo": "Check the docs before you ask.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-002",
+    "en": "parameter",
+    "es": "parámetro",
+    "ejemplo": "The subset parameter is optional.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-003",
+    "en": "default (value)",
+    "es": "valor por defecto",
+    "ejemplo": "The default value is \"first\".",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-004",
+    "en": "optional / required",
+    "es": "opcional / obligatorio",
+    "ejemplo": "This parameter is optional.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-005",
+    "en": "return value",
+    "es": "valor que devuelve",
+    "ejemplo": "The return value is a new DataFrame.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-006",
+    "en": "raise (an error)",
+    "es": "lanzar (un error)",
+    "ejemplo": "It raises a KeyError if the column doesn't exist.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-007",
+    "en": "deprecated",
+    "es": "obsoleto",
+    "ejemplo": "This parameter is deprecated.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-008",
+    "en": "signature",
+    "es": "firma (nombre y parámetros de una función)",
+    "ejemplo": "The signature shows all the parameters.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-009",
+    "en": "by default",
+    "es": "por defecto",
+    "ejemplo": "By default, it uses all the columns.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-010",
+    "en": "If True, …",
+    "es": "Si es True (verdadero), …",
+    "ejemplo": "If True, it modifies the original DataFrame.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-011",
+    "en": "See also",
+    "es": "Ver también",
+    "ejemplo": "See also: DataFrame.duplicated.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-012",
+    "en": "give back",
+    "es": "devolver",
+    "ejemplo": "The Returns section tells you what the function gives back.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s48-001",
+    "en": "technical test",
+    "es": "prueba técnica",
+    "ejemplo": "They sent me a technical test by email.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-002",
+    "en": "task",
+    "es": "tarea",
+    "ejemplo": "The test has four tasks.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-003",
+    "en": "deliverable",
+    "es": "entregable",
+    "ejemplo": "The deliverable is a short report.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-004",
+    "en": "deadline",
+    "es": "fecha límite",
+    "ejemplo": "The deadline is Friday at 6 p.m.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-005",
+    "en": "submit",
+    "es": "enviar, entregar",
+    "ejemplo": "Please submit your work by email.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-006",
+    "en": "within",
+    "es": "dentro de (un plazo)",
+    "ejemplo": "Submit it within 72 hours.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-007",
+    "en": "assumption",
+    "es": "supuesto",
+    "ejemplo": "State any assumptions you make.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-008",
+    "en": "background",
+    "es": "contexto, antecedentes",
+    "ejemplo": "Read the background first.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-009",
+    "en": "evaluation criteria",
+    "es": "criterios de evaluación",
+    "ejemplo": "Check the evaluation criteria.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-010",
+    "en": "bonus (optional)",
+    "es": "opcional, puntos extra",
+    "ejemplo": "Task 4 is a bonus.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-011",
+    "en": "Feel free to…",
+    "es": "Siéntete libre de…",
+    "ejemplo": "Feel free to use any tool.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-012",
+    "en": "findings",
+    "es": "hallazgos",
+    "ejemplo": "Write your findings and recommendations.",
+    "sesion": "S48"
   }
 ]
