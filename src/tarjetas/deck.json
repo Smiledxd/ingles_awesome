@@ -2686,5 +2686,425 @@
     "es": "Lo prometo.",
     "ejemplo": "I'll finish it today. I promise.",
     "sesion": "S32"
+  },
+  {
+    "id": "s33-001",
+    "en": "appointment",
+    "es": "cita (médico, trámite)",
+    "ejemplo": "I have a dentist appointment on Friday.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-002",
+    "en": "calendar",
+    "es": "calendario, agenda (digital)",
+    "ejemplo": "Check my calendar for next week.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-003",
+    "en": "agenda",
+    "es": "orden del día (de una reunión)",
+    "ejemplo": "Here's the agenda for the meeting.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-004",
+    "en": "video call",
+    "es": "videollamada",
+    "ejemplo": "We're having a video call tomorrow at 3.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-005",
+    "en": "one-on-one",
+    "es": "reunión uno a uno (con tu jefe)",
+    "ejemplo": "I'm having a one-on-one with Tom at 9.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-006",
+    "en": "deadline",
+    "es": "fecha límite",
+    "ejemplo": "The deadline is on Wednesday.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-007",
+    "en": "available",
+    "es": "disponible",
+    "ejemplo": "Are you available on Thursday at 11?",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-008",
+    "en": "reschedule",
+    "es": "reprogramar",
+    "ejemplo": "Can we reschedule the meeting to Friday?",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-009",
+    "en": "cancel",
+    "es": "cancelar",
+    "ejemplo": "They're canceling the meeting.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-010",
+    "en": "confirm",
+    "es": "confirmar",
+    "ejemplo": "Please confirm your attendance.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-011",
+    "en": "book a room",
+    "es": "reservar una sala",
+    "ejemplo": "I'm booking the meeting room for 2 p.m.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-012",
+    "en": "join",
+    "es": "unirse, participar (en una reunión)",
+    "ejemplo": "Carla and Diego are joining the call.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s34-001",
+    "en": "want to",
+    "es": "querer (+ verbo)",
+    "ejemplo": "I want to learn Python.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-002",
+    "en": "would like to / I'd like to",
+    "es": "me gustaría (educado)",
+    "ejemplo": "I'd like to work on your team.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-003",
+    "en": "hope to",
+    "es": "esperar (con ilusión)",
+    "ejemplo": "I hope to get an internship.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-004",
+    "en": "plan to",
+    "es": "planear",
+    "ejemplo": "I plan to take a course next year.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-005",
+    "en": "goal",
+    "es": "meta, objetivo",
+    "ejemplo": "My goal is to become a data analyst.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-006",
+    "en": "become",
+    "es": "llegar a ser, convertirse en",
+    "ejemplo": "She wants to become a data scientist.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-007",
+    "en": "career",
+    "es": "carrera profesional",
+    "ejemplo": "I'd like to start my career in data.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-008",
+    "en": "in five years",
+    "es": "dentro de cinco años",
+    "ejemplo": "Where do you want to be in five years?",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-009",
+    "en": "senior analyst",
+    "es": "analista senior",
+    "ejemplo": "I hope to be a senior analyst.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-010",
+    "en": "data scientist",
+    "es": "científico/a de datos",
+    "ejemplo": "My goal is to become a data scientist.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-011",
+    "en": "lead a team",
+    "es": "dirigir un equipo",
+    "ejemplo": "One day I'd like to lead a team.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-012",
+    "en": "long-term goal",
+    "es": "meta a largo plazo",
+    "ejemplo": "My long-term goal is to work abroad.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s35-001",
+    "en": "Subject",
+    "es": "Asunto (de un email)",
+    "ejemplo": "Subject: Question about the internship",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-002",
+    "en": "Dear Ms. / Mr. …,",
+    "es": "Estimada / Estimado … (con el apellido)",
+    "ejemplo": "Dear Ms. Torres,",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-003",
+    "en": "I hope you're well.",
+    "es": "Espero que esté bien.",
+    "ejemplo": "Dear Mr. Soto, I hope you're well.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-004",
+    "en": "I'm writing to…",
+    "es": "Le escribo para…",
+    "ejemplo": "I'm writing to ask about the internship.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-005",
+    "en": "Could you please…?",
+    "es": "¿Podría…, por favor?",
+    "ejemplo": "Could you please send me the file?",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-006",
+    "en": "I'd like to know…",
+    "es": "Me gustaría saber…",
+    "ejemplo": "I'd like to know the start date.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-007",
+    "en": "Please find attached…",
+    "es": "Adjunto… (le envío adjunto)",
+    "ejemplo": "Please find attached my CV.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-008",
+    "en": "Thank you in advance.",
+    "es": "Gracias de antemano.",
+    "ejemplo": "Thank you in advance for your help.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-009",
+    "en": "I look forward to hearing from you.",
+    "es": "Quedo atento/a a su respuesta.",
+    "ejemplo": "I look forward to hearing from you.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-010",
+    "en": "Best regards,",
+    "es": "Saludos cordiales,",
+    "ejemplo": "Best regards, Carla Ramos",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-011",
+    "en": "Let me know if…",
+    "es": "Avíseme si…",
+    "ejemplo": "Please let me know if you have any questions.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-012",
+    "en": "hybrid",
+    "es": "híbrido (oficina y casa)",
+    "ejemplo": "It's a hybrid position.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s36-001",
+    "en": "job posting",
+    "es": "anuncio de trabajo",
+    "ejemplo": "I read a job posting on LinkedIn.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-002",
+    "en": "requirements",
+    "es": "requisitos (obligatorios)",
+    "ejemplo": "Advanced Excel is one of the requirements.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-003",
+    "en": "responsibilities",
+    "es": "funciones, responsabilidades",
+    "ejemplo": "The responsibilities include building dashboards.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-004",
+    "en": "qualifications",
+    "es": "requisitos, formación requerida",
+    "ejemplo": "Check the qualifications before you apply.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-005",
+    "en": "nice to have",
+    "es": "deseable (no obligatorio)",
+    "ejemplo": "Python is nice to have.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-006",
+    "en": "apply (for)",
+    "es": "postular (a)",
+    "ejemplo": "I'd like to apply for the internship.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-007",
+    "en": "currently enrolled in",
+    "es": "matriculado/a actualmente en",
+    "ejemplo": "You are currently enrolled in Economics.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-008",
+    "en": "knowledge of",
+    "es": "conocimientos de",
+    "ejemplo": "Basic knowledge of SQL.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-009",
+    "en": "proficiency in",
+    "es": "dominio de",
+    "ejemplo": "Proficiency in Excel is required.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-010",
+    "en": "the ability to",
+    "es": "la capacidad de",
+    "ejemplo": "The ability to work in a team.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-011",
+    "en": "benefits",
+    "es": "beneficios",
+    "ejemplo": "The benefits include training and a mentor.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-012",
+    "en": "allowance",
+    "es": "subvención, pago (de prácticas)",
+    "ejemplo": "The internship has a monthly allowance.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s37-001",
+    "en": "higher / lower",
+    "es": "más alto / más bajo",
+    "ejemplo": "Sales were higher than in October.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-002",
+    "en": "bigger / smaller",
+    "es": "más grande / más pequeño",
+    "ejemplo": "This dataset is bigger than the other one.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-003",
+    "en": "cheaper",
+    "es": "más barato",
+    "ejemplo": "Laptop A is cheaper than Laptop B.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-004",
+    "en": "more expensive",
+    "es": "más caro",
+    "ejemplo": "This laptop is more expensive than that one.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-005",
+    "en": "better",
+    "es": "mejor (good → better)",
+    "ejemplo": "Our profit was better in November.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-006",
+    "en": "worse",
+    "es": "peor (bad → worse)",
+    "ejemplo": "Delivery times were worse in September.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-007",
+    "en": "than",
+    "es": "que (en comparaciones)",
+    "ejemplo": "Lima is bigger than Cusco.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-008",
+    "en": "more … than",
+    "es": "más … que",
+    "ejemplo": "We had more customers than last month.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-009",
+    "en": "less (+ incontable)",
+    "es": "menos (dinero, tiempo)",
+    "ejemplo": "We spent less money in June.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-010",
+    "en": "fewer (+ contable)",
+    "es": "menos (clientes, pedidos)",
+    "ejemplo": "There were fewer returns in Q3.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-011",
+    "en": "much higher",
+    "es": "mucho más alto",
+    "ejemplo": "Sales were much higher in December.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-012",
+    "en": "a little lower",
+    "es": "un poco más bajo",
+    "ejemplo": "Costs were a little lower than in June.",
+    "sesion": "S37"
   }
 ]
