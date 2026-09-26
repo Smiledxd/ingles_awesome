@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S46 · Python y pandas en inglés</title>
+    <meta
+      name="description"
+      content="Sesión 46 de inglés: vocabulario de Python y pandas (DataFrame, missing values, merge, function) y cómo explicar un error y su solución."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐍</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/estilos.css" />
+  </head>
+  <body data-sesion="S46" data-numero="46">
+    <main class="contenedor">
+      <header class="cabecera">
+        <nav class="migas"><a href="../index.html">← Todas las sesiones</a></nav>
+        <h1>Sesión 46 · Python y pandas en inglés</h1>
+        <p class="subtitulo">
+          El vocabulario de pandas y cómo explicar un mensaje de error y cómo lo resolviste.
+        </p>
+        <ul class="etiquetas">
+          <li>Fase 2 · Construir</li>
+          <li>Semana 8</li>
+          <li>≈ 60 min</li>
+        </ul>
+      </header>
+
+      <div data-aviso-audio></div>
+
+      <section class="bloque">
+        <h2>Tu hora de hoy</h2>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <td>10 min</td>
+              <td>
+                Tarjetas: repasa las pendientes en la
+                <a href="../tarjetas/index.html">app de tarjetas</a>. Las 12 palabras de esta sesión
+                ya están en el mazo.
+              </td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Warm-up, concepto y ejercicios.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escucha y repite en voz alta, y la lectura corta.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escribe tu producción y pégala en el chat para que te la corrijan.</td>
+            </tr>
+            <tr>
+              <td>5 min</td>
+              <td>Palabras nuevas y checklist de cierre.</td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota">
+          🔊 Cada frase tiene dos botones: <b>▶</b> velocidad normal y <b>🐢</b> lento. Repite
+          siempre en voz alta.
+        </p>
+      </section>
+
+      <section class="bloque" id="warmup">
+        <h2><span class="num">1</span> Warm-up <span class="minutos">2 min</span></h2>
+        <p>
+          Tres preguntas de las sesiones 44 y 45. Responde en voz alta antes de mirar la respuesta.
+        </p>
+        <ol class="warmup">
+          <li>
+            ¿Qué cláusula de SQL filtra filas?
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">WHERE</span>
+                <span class="audio" data-say="WHERE filters the rows."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «La consulta devuelve una fila por región».
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">The query returns one row per region.</span>
+                <span class="audio" data-say="The query returns one row per region."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «Segmentador» en Power BI.
+            <details>
+              <summary>Ver respuesta</summary>
+              <p><span class="en">slicer</span> <span class="audio" data-say="slicer"></span></p>
+            </details>
+          </li>
+        </ol>
+      </section>
+
+      <section class="bloque" id="concepto">
+        <h2><span class="num">2</span> <span>Concepto: Python y pandas en inglés</span></h2>
+
+        <h3>Vocabulario de pandas</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Inglés</th>
+              <th>Qué es</th>
+            </tr>
+            <tr>
+              <td><span class="en">library / import</span></td>
+              <td>
+                librería / importar<br /><span
+                  class="audio"
+                  data-say="library. import pandas as pd."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">DataFrame / Series</span></td>
+              <td>
+                tabla de pandas / una sola columna<br /><span
+                  class="audio"
+                  data-say="DataFrame. Series."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">missing values (NaN)</span></td>
+              <td>
+                valores faltantes<br /><span class="audio" data-say="missing values. N A N."></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">drop / fill</span></td>
+              <td>
+                eliminar / rellenar (dropna, fillna)<br /><span
+                  class="audio"
+                  data-say="drop. fill."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">merge (on a key)</span></td>
+              <td>
+                combinar dos DataFrames por una clave<br /><span
+                  class="audio"
+                  data-say="merge on a key"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">function / argument</span></td>
+              <td>
+                función / argumento<br /><span class="audio" data-say="function. argument."></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">variable / list / dictionary</span></td>
+              <td>
+                variable / lista / diccionario<br /><span
+                  class="audio"
+                  data-say="variable. list. dictionary."
+                ></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Un script corto… y un error</h3>
+        <pre
+          style="
+            background: var(--superficie-2);
+            border: 1px solid var(--borde);
+            border-radius: 8px;
+            padding: 0.7rem 0.8rem;
+            overflow-x: auto;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0.6rem 0;
+          "
+          lang="en"
+        ><code>import pandas as pd
+
+sales = pd.read_csv(&quot;sales.csv&quot;)
+stores = pd.read_csv(&quot;stores.csv&quot;)
+
+df = sales.merge(stores, on=&quot;store_id&quot;, how=&quot;left&quot;)
+df[&quot;amount&quot;] = df[&quot;amount&quot;].fillna(0)
+
+print(df.groupby(&quot;Region&quot;)[&quot;amount&quot;].sum())</code></pre>
+        <pre
+          style="
+            background: var(--superficie-2);
+            border: 1px solid var(--borde);
+            border-radius: 8px;
+            padding: 0.7rem 0.8rem;
+            overflow-x: auto;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0.6rem 0;
+          "
+          lang="en"
+        ><code>Traceback (most recent call last):
+  File &quot;report.py&quot;, line 9, in &lt;module&gt;
+    print(df.groupby(&quot;Region&quot;)[&quot;amount&quot;].sum())
+KeyError: &#x27;Region&#x27;</code></pre>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">This script reads two CSV files and merges them on store_id.</span
+              ><span class="es"
+                >Este script lee dos archivos CSV y los combina por store_id.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="This script reads two CSV files and merges them on store_id."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Then it fills the missing amounts with zero.</span
+              ><span class="es">Luego rellena los montos faltantes con cero.</span></span
+            ><span class="audio" data-say="Then it fills the missing amounts with zero."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">I got a KeyError. The error message said &#x27;Region&#x27;.</span
+              ><span class="es"
+                >Me salió un KeyError. El mensaje de error decía 'Region'.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="I got a KeyError. The error message said &#x27;Region&#x27;."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >It turned out that the column name was lowercase: &#x27;region&#x27;.</span
+              ><span class="es"
+                >Resultó que el nombre de la columna estaba en minúsculas: 'region'.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="It turned out that the column name was lowercase: &#x27;region&#x27;."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >I fixed it by changing &#x27;Region&#x27; to &#x27;region&#x27;.</span
+              ><span class="es">Lo arreglé cambiando 'Region' por 'region'. (by + -ing)</span></span
+            ><span
+              class="audio"
+              data-say="I fixed it by changing &#x27;Region&#x27; to &#x27;region&#x27;."
+            ></span>
+          </li>
+        </ul>
+
+        <h3>Errores comunes y qué significan</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Error</th>
+              <th>Significa…</th>
+            </tr>
+            <tr>
+              <td><span class="en">KeyError</span></td>
+              <td>la columna o clave no existe (revisa el nombre)</td>
+            </tr>
+            <tr>
+              <td><span class="en">NameError</span></td>
+              <td>usaste una variable que no está definida</td>
+            </tr>
+            <tr>
+              <td><span class="en">TypeError</span></td>
+              <td>tipo de dato equivocado (por ejemplo, texto + número)</td>
+            </tr>
+            <tr>
+              <td><span class="en">ValueError</span></td>
+              <td>el valor no es válido para esa operación</td>
+            </tr>
+            <tr>
+              <td><span class="en">FileNotFound&shy;Error</span></td>
+              <td>el archivo no existe en esa ruta</td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota">
+          💡 Estructura para explicar un error en una entrevista: <b>qué pasó</b> (<i>I got a…</i>)
+          → <b>qué decía</b> (<i>The error message said…</i>) → <b>la causa</b> (<i
+            >It turned out that…</i
+          >) → <b>la solución</b> (<i>I fixed it by + -ing</i>) → <b>qué aprendiste</b>.
+        </p>
+      </section>
+
+      <section class="bloque" id="escucha">
+        <h2><span class="num">3</span> Escucha y repite</h2>
+        <p>
+          En una entrevista, le preguntan a Diego por un error que resolvió. Escucha cada línea en
+          normal, luego en lento, y repítela en voz alta <b>tres veces</b> imitando el ritmo.
+        </p>
+        <p>
+          <b>Todo el texto:</b>
+          <span
+            class="audio"
+            data-say="Tell me about a bug you fixed in Python. Last month, my script crashed with a TypeError. The error message said I couldn&#x27;t add a string and a number. It turned out that the price column was text, not numbers. I fixed it by converting the column with to_numeric. Now I always check the data types with info() first."
+          ></span>
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">A: Tell me about a bug you fixed in Python.</span
+              ><span class="es">Cuéntame de un error que arreglaste en Python.</span></span
+            ><span class="audio" data-say="A: Tell me about a bug you fixed in Python."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Last month, my script crashed with a TypeError.</span
+              ><span class="es">El mes pasado mi script falló con un TypeError.</span></span
+            ><span
+              class="audio"
+              data-say="B: Last month, my script crashed with a TypeError."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >B: The error message said I couldn&#x27;t add a string and a number.</span
+              ><span class="es"
+                >El mensaje decía que no podía sumar un texto y un número.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="B: The error message said I couldn&#x27;t add a string and a number."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: It turned out that the price column was text, not numbers.</span
+              ><span class="es"
+                >Resultó que la columna de precios era texto, no números.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="B: It turned out that the price column was text, not numbers."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: I fixed it by converting the column with to_numeric.</span
+              ><span class="es">Lo arreglé convirtiendo la columna con to_numeric.</span></span
+            ><span
+              class="audio"
+              data-say="B: I fixed it by converting the column with to_numeric."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">B: Now I always check the data types with info() first.</span
+              ><span class="es"
+                >Ahora siempre reviso primero los tipos de datos con info().</span
+              ></span
+            ><span
+              class="audio"
+              data-say="B: Now I always check the data types with info() first."
+            ></span>
+          </li>
+        </ul>
+        <p class="nota">
+          💡 <i>pandas</i> se dice «PÁN-dəs». <i>NaN</i> se lee «nan» o «N-A-N». <i>df</i> se lee
+          «di-éf».
+        </p>
+      </section>
+
+      <section class="bloque" id="ejercicios">
+        <h2><span class="num">4</span> Ejercicios</h2>
+
+        <p class="marcador" data-marcador aria-live="polite"></p>
+        <div
+          class="ej"
+          data-id="e1"
+          data-tipo="elegir"
+          data-respuestas="una tabla de pandas (filas y columnas)"
+          data-explica="DataFrame = la tabla principal de pandas."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><i>DataFrame</i> es…</p>
+          <div class="opciones">
+            <button>una tabla de pandas (filas y columnas)</button
+            ><button>un archivo de Excel</button><button>un gráfico</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e2"
+          data-tipo="elegir"
+          data-respuestas="NaN"
+          data-explica="En pandas los valores faltantes aparecen como NaN."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">En pandas, los valores faltantes aparecen como…</p>
+          <div class="opciones"><button>NULL</button><button>NaN</button><button>0</button></div>
+        </div>
+        <div
+          class="ej"
+          data-id="e3"
+          data-tipo="elegir"
+          data-respuestas="merge"
+          data-explica="Combinar dos DataFrames por una clave = merge."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">Para combinar dos DataFrames por store_id usas…</p>
+          <div class="opciones">
+            <button>merge</button><button>fillna</button><button>print</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e4"
+          data-tipo="elegir"
+          data-respuestas="the column or key doesn&#x27;t exist"
+          data-explica="KeyError: el nombre de columna o clave no existe."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">A KeyError usually means…</p>
+          <div class="opciones">
+            <button>the file doesn&#x27;t exist</button
+            ><button>the column or key doesn&#x27;t exist</button
+            ><button>the computer is slow</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e5"
+          data-tipo="elegir"
+          data-respuestas="rellena los faltantes con 0"
+          data-explica="fillna(0) rellena los NaN con 0."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><code>fillna(0)</code>…</p>
+          <div class="opciones">
+            <button>elimina las filas vacías</button><button>rellena los faltantes con 0</button
+            ><button>cuenta los faltantes</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e6"
+          data-tipo="elegir"
+          data-respuestas="elimina las filas con faltantes"
+          data-explica="dropna() elimina (drop) las filas con NaN."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><code>dropna()</code>…</p>
+          <div class="opciones">
+            <button>elimina las filas con faltantes</button><button>rellena los faltantes</button
+            ><button>ordena las filas</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e7"
+          data-tipo="completar"
+          data-respuestas="by"
+          data-explica="Explicar cómo: by + -ing."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            I fixed it <input class="hueco" aria-label="Hueco" /> changing the column name.
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e8"
+          data-tipo="completar"
+          data-respuestas="said"
+          data-explica="El mensaje decía = the message said."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            The error message <input class="hueco" aria-label="Hueco" /> that the file didn't exist.
+            (decía)
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e9"
+          data-tipo="ordenar"
+          data-respuestas="I merged the two DataFrames on store_id."
+          data-explica="Merge + objeto + on + clave."
+          data-fichas="I|merged|the|two|DataFrames|on|store_id."
+        >
+          <span class="tipo">Ordena las palabras</span>
+          <p class="enunciado">Forma la frase: «Combiné los dos DataFrames por store_id».</p>
+        </div>
+        <div
+          class="ej"
+          data-id="e10"
+          data-tipo="traducir"
+          data-respuestas="I fixed it by changing the column name.|I fixed it by changing the name of the column.|I solved it by changing the column name."
+          data-explica="Lo arreglé cambiando = I fixed it by changing."
+        >
+          <span class="tipo">Traduce al inglés</span>
+          <p class="enunciado">Lo arreglé cambiando el nombre de la columna.</p>
+          <input aria-label="Tu respuesta" />
+        </div>
+        <div class="acciones">
+          <button type="button" class="btn" data-reiniciar>Borrar mis respuestas</button>
+        </div>
+      </section>
+
+      <section class="bloque" id="lectura">
+        <h2><span class="num">5</span> Lectura corta</h2>
+        <p>
+          Carla escribe en su blog sobre un error que le costó dos horas. Léelo primero sin audio,
+          luego escúchalo y responde las preguntas.
+        </p>
+        <div class="nota" style="background: var(--superficie-2)">
+          <h3 style="margin-top: 0">The bug that took me two hours</h3>
+          <p lang="en">
+            Last week, I wrote a short Python script to merge our sales data with the store list. It
+            looked perfect, but the total sales were 30% higher than in Excel.
+          </p>
+          <p lang="en">
+            There was no error message, so I started checking step by step. First, I counted the
+            rows before and after the merge. Before: 5,000 rows. After: 6,500 rows!
+          </p>
+          <p lang="en">
+            It turned out that the store list had duplicate store IDs. The merge matched some sales
+            twice.
+          </p>
+          <p lang="en">
+            I fixed it by removing the duplicates with drop_duplicates() before the merge. Now the
+            totals match.
+          </p>
+          <p lang="en">Lesson learned: always check the number of rows after a merge.</p>
+          <p>
+            <span
+              class="audio"
+              data-say="Last week, I wrote a short Python script to merge our sales data with the store list. It looked perfect, but the total sales were 30% higher than in Excel. There was no error message, so I started checking step by step. First, I counted the rows before and after the merge. Before: 5,000 rows. After: 6,500 rows! It turned out that the store list had duplicate store IDs. The merge matched some sales twice. I fixed it by removing the duplicates with drop_duplicates() before the merge. Now the totals match. Lesson learned: always check the number of rows after a merge."
+            ></span>
+          </p>
+        </div>
+        <p class="estado">102 palabras.</p>
+        <div
+          class="ej"
+          data-id="e11"
+          data-tipo="elegir"
+          data-respuestas="The total sales were 30% higher than in Excel."
+          data-explica="«…the total sales were 30% higher than in Excel.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What was the problem?</p>
+          <div class="opciones">
+            <button>The script crashed.</button
+            ><button>The total sales were 30% higher than in Excel.</button
+            ><button>The file didn&#x27;t exist.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e12"
+          data-tipo="elegir"
+          data-respuestas="The store list had duplicate store IDs."
+          data-explica="«It turned out that the store list had duplicate store IDs.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What was the cause?</p>
+          <div class="opciones">
+            <button>The store list had duplicate store IDs.</button
+            ><button>Excel had an error.</button><button>The column names were wrong.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e13"
+          data-tipo="elegir"
+          data-respuestas="Check the number of rows after a merge."
+          data-explica="«Lesson learned: always check the number of rows after a merge.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What is the lesson?</p>
+          <div class="opciones">
+            <button>Never use merge.</button><button>Check the number of rows after a merge.</button
+            ><button>Use Excel, not Python.</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bloque" id="produccion">
+        <h2><span class="num">6</span> Producción abierta</h2>
+        <p>
+          <b>Explica un error y cómo lo resolviste</b> (en Python, Excel, SQL o Power BI). Usa la
+          estructura:
+          <i
+            >I got a… / The error message said… / It turned out that… / I fixed it by… / Now I
+            always…</i
+          >
+          (5–6 frases).
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >Last month, I got a FileNotFoundError in my Python script. The error message said
+                the file didn&#x27;t exist. It turned out that the file was in a different folder. I
+                fixed it by using the full path. Now I always keep my data files in the same folder
+                as the script.</span
+              ><span class="es">Modelo</span></span
+            ><span
+              class="audio"
+              data-say="Last month, I got a FileNotFoundError in my Python script. The error message said the file didn&#x27;t exist. It turned out that the file was in a different folder. I fixed it by using the full path. Now I always keep my data files in the same folder as the script."
+            ></span>
+          </li>
+        </ul>
+        <textarea
+          data-prod="p1"
+          aria-label="Tu producción"
+          placeholder="Last week, I got a ..."
+          lang="en"
+        ></textarea>
+        <div class="acciones">
+          <button type="button" class="btn btn-principal" data-copiar="p1">
+            📋 Copiar para corregir
+          </button>
+          <span class="estado" data-copiado="p1" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <section class="bloque" id="palabras">
+        <h2><span class="num">7</span> Palabras nuevas</h2>
+        <p>
+          Ya están en la <a href="../tarjetas/index.html">app de tarjetas</a>. Escúchalas una vez
+          aquí y repásalas allí mañana.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">DataFrame</span><span class="es">tabla de pandas</span></span
+            ><span class="audio" data-say="DataFrame"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">missing values (NaN)</span
+              ><span class="es">valores faltantes</span></span
+            ><span class="audio" data-say="missing values (NaN)"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">drop / fill</span><span class="es">eliminar / rellenar</span></span
+            ><span class="audio" data-say="drop / fill"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">merge</span><span class="es">combinar (DataFrames)</span></span
+            ><span class="audio" data-say="merge"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">function</span><span class="es">función</span></span
+            ><span class="audio" data-say="function"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">argument</span
+              ><span class="es">argumento (de una función)</span></span
+            ><span class="audio" data-say="argument"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">library</span><span class="es">librería</span></span
+            ><span class="audio" data-say="library"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">error message</span><span class="es">mensaje de error</span></span
+            ><span class="audio" data-say="error message"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">bug</span><span class="es">error (en el código)</span></span
+            ><span class="audio" data-say="bug"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">crash</span
+              ><span class="es">fallar, caerse (un programa)</span></span
+            ><span class="audio" data-say="crash"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">It turned out that…</span><span class="es">Resultó que…</span></span
+            ><span class="audio" data-say="It turned out that…"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">I fixed it by + -ing</span
+              ><span class="es">Lo arreglé + gerundio</span></span
+            ><span class="audio" data-say="I fixed it by + -ing"></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="cierre">
+        <h2><span class="num">8</span> Checklist de cierre</h2>
+        <ul class="checklist">
+          <li>
+            <label
+              ><input type="checkbox" data-check="c1" />
+              <span
+                >Conozco
+                <i>DataFrame, missing values, drop, fill, merge, function, argument</i>.</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c2" />
+              <span
+                >Sé qué significan <i>KeyError, NameError, TypeError, ValueError</i>.</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c3" />
+              <span>Puedo leer en voz alta un script corto de pandas.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c4" />
+              <span
+                >Explico un error con
+                <i>The error message said… / It turned out that… / I fixed it by…</i></span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c5" />
+              <span>Conté un error real que resolví.</span></label
+            >
+          </li>
+        </ul>
+      </section>
+
+      <nav class="acciones">
+        <a class="btn" href="../index.html">← Todas las sesiones</a>
+        <a class="btn btn-principal" href="../tarjetas/index.html">Ir a las tarjetas →</a>
+      </nav>
+    </main>
+    <script src="../assets/leccion.js"></script>
+  </body>
+</html>

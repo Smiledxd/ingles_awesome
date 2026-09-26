@@ -203,6 +203,11 @@ code {
   padding: 0.05em 0.35em;
 }
 
+/* El código en línea (firmas de funciones, fórmulas) puede partirse en el celular */
+:not(pre) > code {
+  overflow-wrap: anywhere;
+}
+
 /* Botones */
 
 button {
@@ -400,6 +405,16 @@ textarea:focus-visible {
 
 .tabla-scroll {
   overflow-x: auto;
+}
+
+/* Tablas de datos con muchas columnas: menos relleno para que quepan en el celular */
+.tabla-compacta {
+  font-size: 0.8rem;
+}
+
+.tabla-compacta th,
+.tabla-compacta td {
+  padding: 0.35rem 0.25rem;
 }
 
 /* Warm-up */

@@ -82,5 +82,4289 @@
     "es": "@ · . · _ (al dictar un email)",
     "ejemplo": "lima_data@outlook.com: lima underscore data at outlook dot com.",
     "sesion": "S01"
+  },
+  {
+    "id": "s02-001",
+    "en": "student",
+    "es": "estudiante",
+    "ejemplo": "I'm a student in Lima.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-002",
+    "en": "data analyst",
+    "es": "analista de datos",
+    "ejemplo": "She's a data analyst at a bank.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-003",
+    "en": "intern",
+    "es": "practicante",
+    "ejemplo": "I'm an intern. — You're an intern, too!",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-004",
+    "en": "engineer",
+    "es": "ingeniero / ingeniera",
+    "ejemplo": "He's an engineer from Chile.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-005",
+    "en": "developer",
+    "es": "desarrollador / desarrolladora",
+    "ejemplo": "Diego is a developer.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-006",
+    "en": "accountant",
+    "es": "contador / contadora",
+    "ejemplo": "My friend is an accountant.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-007",
+    "en": "manager",
+    "es": "gerente, jefe / jefa",
+    "ejemplo": "Sofía is the manager.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-008",
+    "en": "teacher",
+    "es": "profesor / profesora",
+    "ejemplo": "She's an English teacher.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-009",
+    "en": "Peru — Peruvian",
+    "es": "Perú — peruano/a",
+    "ejemplo": "I'm from Peru. I'm Peruvian.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-010",
+    "en": "Mexico — Mexican",
+    "es": "México — mexicano/a",
+    "ejemplo": "Diego is from Mexico. He's Mexican.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-011",
+    "en": "the United States — American",
+    "es": "Estados Unidos — estadounidense",
+    "ejemplo": "Kate is from the United States. She's American.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s02-012",
+    "en": "I'm from…",
+    "es": "Soy de…",
+    "ejemplo": "I'm from Arequipa.",
+    "sesion": "S02"
+  },
+  {
+    "id": "s03-001",
+    "en": "busy",
+    "es": "ocupado/a",
+    "ejemplo": "Are you busy? — No, I'm not.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-002",
+    "en": "tired",
+    "es": "cansado/a",
+    "ejemplo": "I'm not tired. I'm ready.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-003",
+    "en": "happy",
+    "es": "feliz, contento/a",
+    "ejemplo": "We're happy with the report.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-004",
+    "en": "ready",
+    "es": "listo/a (preparado)",
+    "ejemplo": "Is the dashboard ready? — Yes, it is.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-005",
+    "en": "new",
+    "es": "nuevo/a",
+    "ejemplo": "Are you a new intern?",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-006",
+    "en": "easy",
+    "es": "fácil",
+    "ejemplo": "Excel isn't difficult. It's easy.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-007",
+    "en": "difficult",
+    "es": "difícil",
+    "ejemplo": "Is SQL difficult? — No, it isn't.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-008",
+    "en": "important",
+    "es": "importante",
+    "ejemplo": "The meeting is important.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-009",
+    "en": "big",
+    "es": "grande",
+    "ejemplo": "Lima is a big city.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-010",
+    "en": "small",
+    "es": "pequeño/a",
+    "ejemplo": "Our team is small.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-011",
+    "en": "What's your name?",
+    "es": "¿Cómo te llamas?",
+    "ejemplo": "What's your name? — I'm Carla.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s03-012",
+    "en": "Where are you from?",
+    "es": "¿De dónde eres?",
+    "ejemplo": "Where are you from? — I'm from Arequipa.",
+    "sesion": "S03"
+  },
+  {
+    "id": "s04-001",
+    "en": "zero / oh",
+    "es": "cero (oh: al dictar teléfonos)",
+    "ejemplo": "My number is nine eight seven, six oh two…",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-002",
+    "en": "twelve",
+    "es": "doce",
+    "ejemplo": "Question twelve is difficult.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-003",
+    "en": "thirteen",
+    "es": "trece (acento al final)",
+    "ejemplo": "Question thirteen is easy.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-004",
+    "en": "thirty",
+    "es": "treinta (acento al inicio)",
+    "ejemplo": "My manager is thirty.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-005",
+    "en": "forty",
+    "es": "cuarenta (sin «u»)",
+    "ejemplo": "The class is forty minutes.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-006",
+    "en": "one hundred",
+    "es": "cien",
+    "ejemplo": "My score is one hundred!",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-007",
+    "en": "How old are you?",
+    "es": "¿Cuántos años tienes?",
+    "ejemplo": "How old are you? — I'm twenty-two.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-008",
+    "en": "years old",
+    "es": "años (de edad)",
+    "ejemplo": "I'm twenty-one years old.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-009",
+    "en": "phone number",
+    "es": "número de teléfono",
+    "ejemplo": "My phone number is 987 654 320.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-010",
+    "en": "email address",
+    "es": "dirección de correo electrónico",
+    "ejemplo": "What's your email address?",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-011",
+    "en": "What's your phone number?",
+    "es": "¿Cuál es tu número de teléfono?",
+    "ejemplo": "What's your phone number? — It's 987 654 320.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s04-012",
+    "en": "What's your email address?",
+    "es": "¿Cuál es tu email?",
+    "ejemplo": "What's your email address? — It's carla.ramos@outlook.com.",
+    "sesion": "S04"
+  },
+  {
+    "id": "s05-001",
+    "en": "laptop",
+    "es": "laptop, computadora portátil",
+    "ejemplo": "It's a new laptop.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-002",
+    "en": "keyboard",
+    "es": "teclado",
+    "ejemplo": "The keyboard is black.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-003",
+    "en": "mouse",
+    "es": "mouse, ratón",
+    "ejemplo": "The mouse is old.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-004",
+    "en": "screen",
+    "es": "pantalla",
+    "ejemplo": "The screens are big.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-005",
+    "en": "charger",
+    "es": "cargador",
+    "ejemplo": "Is it a laptop charger?",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-006",
+    "en": "desk",
+    "es": "escritorio",
+    "ejemplo": "My desk is small.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-007",
+    "en": "chair",
+    "es": "silla",
+    "ejemplo": "The chairs are new.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-008",
+    "en": "headphones",
+    "es": "audífonos",
+    "ejemplo": "The headphones are on the chair.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-009",
+    "en": "file",
+    "es": "archivo",
+    "ejemplo": "It's an Excel file.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-010",
+    "en": "spreadsheet",
+    "es": "hoja de cálculo",
+    "ejemplo": "Spreadsheets are useful.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-011",
+    "en": "printer",
+    "es": "impresora",
+    "ejemplo": "The printer isn't ready.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s05-012",
+    "en": "person — people",
+    "es": "persona — personas (plural irregular)",
+    "ejemplo": "They're new people on the team.",
+    "sesion": "S05"
+  },
+  {
+    "id": "s06-001",
+    "en": "mother",
+    "es": "madre, mamá",
+    "ejemplo": "This is my mother, Rosa.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-002",
+    "en": "father",
+    "es": "padre, papá",
+    "ejemplo": "My father is an engineer.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-003",
+    "en": "parents",
+    "es": "padres (papá y mamá)",
+    "ejemplo": "My parents are from Cusco.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-004",
+    "en": "brother",
+    "es": "hermano",
+    "ejemplo": "These are my brothers, Luis and Pedro.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-005",
+    "en": "sister",
+    "es": "hermana",
+    "ejemplo": "This is my sister. She's a student.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-006",
+    "en": "family",
+    "es": "familia",
+    "ejemplo": "This is my family.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-007",
+    "en": "friend",
+    "es": "amigo / amiga",
+    "ejemplo": "This is my friend Diego.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-008",
+    "en": "classmate",
+    "es": "compañero/a de clase",
+    "ejemplo": "Ana is my classmate.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-009",
+    "en": "coworker",
+    "es": "compañero/a de trabajo",
+    "ejemplo": "Those people are my coworkers.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-010",
+    "en": "boss",
+    "es": "jefe / jefa",
+    "ejemplo": "His boss is from Chile.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-011",
+    "en": "This is…",
+    "es": "Este / esta es… (para presentar a alguien)",
+    "ejemplo": "This is my friend Ana. — Nice to meet you, Ana.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s06-012",
+    "en": "his / her",
+    "es": "su (de él) / su (de ella)",
+    "ejemplo": "Luis and his sister. Ana and her brother.",
+    "sesion": "S06"
+  },
+  {
+    "id": "s07-001",
+    "en": "work",
+    "es": "trabajar",
+    "ejemplo": "I work at a bank.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-002",
+    "en": "study",
+    "es": "estudiar",
+    "ejemplo": "I study statistics at the university.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-003",
+    "en": "learn",
+    "es": "aprender",
+    "ejemplo": "I learn English every day.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-004",
+    "en": "use",
+    "es": "usar",
+    "ejemplo": "We use Excel and Power BI.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-005",
+    "en": "analyze",
+    "es": "analizar",
+    "ejemplo": "They analyze sales data.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-006",
+    "en": "clean",
+    "es": "limpiar (datos, una tabla)",
+    "ejemplo": "I clean the data every morning.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-007",
+    "en": "create",
+    "es": "crear",
+    "ejemplo": "We create reports for the manager.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-008",
+    "en": "check",
+    "es": "revisar, verificar",
+    "ejemplo": "I check my email every morning.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-009",
+    "en": "write",
+    "es": "escribir",
+    "ejemplo": "I write SQL queries.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-010",
+    "en": "read",
+    "es": "leer",
+    "ejemplo": "I read the report.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-011",
+    "en": "report",
+    "es": "reporte, informe",
+    "ejemplo": "The report is ready.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s07-012",
+    "en": "every day",
+    "es": "todos los días",
+    "ejemplo": "I use Excel every day.",
+    "sesion": "S07"
+  },
+  {
+    "id": "s08-001",
+    "en": "get up",
+    "es": "levantarse",
+    "ejemplo": "She gets up early.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-002",
+    "en": "have breakfast",
+    "es": "tomar el desayuno",
+    "ejemplo": "He has breakfast at home.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-003",
+    "en": "have lunch",
+    "es": "almorzar",
+    "ejemplo": "Diego has lunch with his coworkers.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-004",
+    "en": "have dinner",
+    "es": "cenar",
+    "ejemplo": "We have dinner at home.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-005",
+    "en": "take the bus",
+    "es": "tomar el bus",
+    "ejemplo": "Ana takes the bus to work.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-006",
+    "en": "go to work",
+    "es": "ir al trabajo",
+    "ejemplo": "He goes to work by bus.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-007",
+    "en": "start work",
+    "es": "empezar a trabajar",
+    "ejemplo": "My boss starts work early.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-008",
+    "en": "finish work",
+    "es": "terminar de trabajar",
+    "ejemplo": "She finishes work late.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-009",
+    "en": "go home",
+    "es": "ir a casa, volver a casa",
+    "ejemplo": "Carla goes home by bus.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-010",
+    "en": "go to bed",
+    "es": "acostarse",
+    "ejemplo": "He goes to bed late.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-011",
+    "en": "early / late",
+    "es": "temprano / tarde",
+    "ejemplo": "She gets up early and goes to bed late.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s08-012",
+    "en": "every morning",
+    "es": "todas las mañanas",
+    "ejemplo": "She checks the dashboards every morning.",
+    "sesion": "S08"
+  },
+  {
+    "id": "s09-001",
+    "en": "cook",
+    "es": "cocinar",
+    "ejemplo": "Does she cook? — Yes, she does.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-002",
+    "en": "exercise",
+    "es": "hacer ejercicio",
+    "ejemplo": "Do you exercise? — No, I don't.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-003",
+    "en": "drive",
+    "es": "manejar, conducir",
+    "ejemplo": "I don't drive. I take the bus.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-004",
+    "en": "walk",
+    "es": "caminar",
+    "ejemplo": "We walk to the university.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-005",
+    "en": "work from home",
+    "es": "trabajar desde casa",
+    "ejemplo": "Do you work from home?",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-006",
+    "en": "take a break",
+    "es": "tomar un descanso",
+    "ejemplo": "She doesn't take a break.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-007",
+    "en": "answer emails",
+    "es": "responder correos",
+    "ejemplo": "My boss doesn't answer emails at night.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-008",
+    "en": "have a meeting",
+    "es": "tener una reunión",
+    "ejemplo": "We have a short meeting every morning.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-009",
+    "en": "listen to music",
+    "es": "escuchar música",
+    "ejemplo": "I listen to music at work.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-010",
+    "en": "do homework",
+    "es": "hacer la tarea",
+    "ejemplo": "Does he do homework every day?",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-011",
+    "en": "don't / doesn't",
+    "es": "no (negativo del presente simple)",
+    "ejemplo": "I don't drive. She doesn't drive.",
+    "sesion": "S09"
+  },
+  {
+    "id": "s09-012",
+    "en": "Do you…? / Does she…?",
+    "es": "¿Tú…? / ¿Ella…? (preguntas del presente simple)",
+    "ejemplo": "Do you use Excel? Does she use SQL?",
+    "sesion": "S09"
+  },
+  {
+    "id": "s10-001",
+    "en": "Wednesday",
+    "es": "miércoles (la primera «d» no suena)",
+    "ejemplo": "I have class on Wednesday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-002",
+    "en": "Thursday",
+    "es": "jueves",
+    "ejemplo": "I work on Tuesday and Thursday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-003",
+    "en": "weekend",
+    "es": "fin de semana",
+    "ejemplo": "I relax on the weekend.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-004",
+    "en": "What time is it?",
+    "es": "¿Qué hora es?",
+    "ejemplo": "What time is it? — It's nine thirty.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-005",
+    "en": "o'clock",
+    "es": "en punto",
+    "ejemplo": "It's nine o'clock.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-006",
+    "en": "a.m. / p.m.",
+    "es": "de la mañana / de la tarde-noche",
+    "ejemplo": "I start at 9 a.m. and finish at 6 p.m.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-007",
+    "en": "at 9 a.m.",
+    "es": "a las 9 a. m. (at + hora)",
+    "ejemplo": "My class starts at 9 a.m.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-008",
+    "en": "on Monday",
+    "es": "el lunes (on + día)",
+    "ejemplo": "We have a meeting on Monday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-009",
+    "en": "in October",
+    "es": "en octubre (in + mes / año)",
+    "ejemplo": "My birthday is in October.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-010",
+    "en": "in the morning",
+    "es": "en la mañana",
+    "ejemplo": "I go to the gym in the morning.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-011",
+    "en": "at night",
+    "es": "en la noche",
+    "ejemplo": "I study English at night.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s10-012",
+    "en": "schedule",
+    "es": "horario",
+    "ejemplo": "My schedule is busy on Monday.",
+    "sesion": "S10"
+  },
+  {
+    "id": "s11-001",
+    "en": "always",
+    "es": "siempre",
+    "ejemplo": "I always check my email in the morning.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-002",
+    "en": "usually",
+    "es": "normalmente, por lo general",
+    "ejemplo": "She usually takes the bus.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-003",
+    "en": "often",
+    "es": "a menudo, con frecuencia",
+    "ejemplo": "We are often busy on Mondays.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-004",
+    "en": "sometimes",
+    "es": "a veces",
+    "ejemplo": "I sometimes work from home.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-005",
+    "en": "rarely",
+    "es": "casi nunca, rara vez",
+    "ejemplo": "I rarely study on Sunday.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-006",
+    "en": "never",
+    "es": "nunca",
+    "ejemplo": "I never use Python. (sin don't)",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-007",
+    "en": "once a week",
+    "es": "una vez por semana",
+    "ejemplo": "I go to the gym once a week.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-008",
+    "en": "twice a week",
+    "es": "dos veces por semana",
+    "ejemplo": "We have a meeting twice a week.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-009",
+    "en": "How often…?",
+    "es": "¿Con qué frecuencia…?",
+    "ejemplo": "How often do you study English?",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-010",
+    "en": "review",
+    "es": "repasar, revisar",
+    "ejemplo": "I review my flashcards every day.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-011",
+    "en": "practice",
+    "es": "practicar",
+    "ejemplo": "I practice SQL three times a week.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s11-012",
+    "en": "habit",
+    "es": "hábito, costumbre",
+    "ejemplo": "My study habits are good.",
+    "sesion": "S11"
+  },
+  {
+    "id": "s12-001",
+    "en": "what",
+    "es": "qué, cuál",
+    "ejemplo": "What do you do? — I'm a student.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-002",
+    "en": "where",
+    "es": "dónde",
+    "ejemplo": "Where do you live? — In Surco.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-003",
+    "en": "when",
+    "es": "cuándo",
+    "ejemplo": "When is the meeting? — On Friday.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-004",
+    "en": "why",
+    "es": "por qué",
+    "ejemplo": "Why do you study English?",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-005",
+    "en": "how",
+    "es": "cómo",
+    "ejemplo": "How do you go to work? — By bus.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-006",
+    "en": "who",
+    "es": "quién",
+    "ejemplo": "Who is your boss? — Sofía.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-007",
+    "en": "what time",
+    "es": "a qué hora",
+    "ejemplo": "What time do you start work?",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-008",
+    "en": "because",
+    "es": "porque (en respuestas)",
+    "ejemplo": "Because I want a job in data.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-009",
+    "en": "What do you do?",
+    "es": "¿A qué te dedicas?",
+    "ejemplo": "What do you do? — I'm a data intern.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-010",
+    "en": "Where do you live?",
+    "es": "¿Dónde vives?",
+    "ejemplo": "Where do you live? — I live in Lima.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-011",
+    "en": "live",
+    "es": "vivir",
+    "ejemplo": "She lives in Miraflores.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s12-012",
+    "en": "tool",
+    "es": "herramienta",
+    "ejemplo": "What tools do you use? — Excel and SQL.",
+    "sesion": "S12"
+  },
+  {
+    "id": "s13-001",
+    "en": "there is / there are",
+    "es": "hay (singular / plural)",
+    "ejemplo": "There's a park. There are two banks.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-002",
+    "en": "Is there…?",
+    "es": "¿Hay…? (singular)",
+    "ejemplo": "Is there a library? — Yes, there is.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-003",
+    "en": "university",
+    "es": "universidad",
+    "ejemplo": "My university is in Lima.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-004",
+    "en": "library",
+    "es": "biblioteca (no «librería»)",
+    "ejemplo": "There's a big library on campus.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-005",
+    "en": "store",
+    "es": "tienda",
+    "ejemplo": "There's a store next to my house.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-006",
+    "en": "supermarket",
+    "es": "supermercado",
+    "ejemplo": "There are two supermarkets on my street.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-007",
+    "en": "bank",
+    "es": "banco",
+    "ejemplo": "Is there a bank near here?",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-008",
+    "en": "park",
+    "es": "parque",
+    "ejemplo": "There's a big park near my house.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-009",
+    "en": "gym",
+    "es": "gimnasio",
+    "ejemplo": "There isn't a gym at the university.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-010",
+    "en": "bus stop",
+    "es": "paradero",
+    "ejemplo": "There's a bus stop near the entrance.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-011",
+    "en": "near",
+    "es": "cerca de",
+    "ejemplo": "I live near the university.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s13-012",
+    "en": "next to",
+    "es": "al lado de",
+    "ejemplo": "The café is next to the library.",
+    "sesion": "S13"
+  },
+  {
+    "id": "s14-001",
+    "en": "can",
+    "es": "poder, saber (hacer algo)",
+    "ejemplo": "I can use Excel.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-002",
+    "en": "can't",
+    "es": "no poder, no saber (hacer algo)",
+    "ejemplo": "I can't drive.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-003",
+    "en": "Can you…?",
+    "es": "¿Sabes / puedes…?",
+    "ejemplo": "Can you use Power BI? — Yes, I can.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-004",
+    "en": "speak",
+    "es": "hablar (un idioma)",
+    "ejemplo": "She can speak English and Spanish.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-005",
+    "en": "make a chart",
+    "es": "hacer un gráfico",
+    "ejemplo": "He can make charts in Power BI.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-006",
+    "en": "write code",
+    "es": "escribir código, programar",
+    "ejemplo": "I can't write Python code yet.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-007",
+    "en": "query",
+    "es": "consulta (SQL)",
+    "ejemplo": "I can write simple SQL queries.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-008",
+    "en": "solve a problem",
+    "es": "resolver un problema",
+    "ejemplo": "She can solve problems quickly.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-009",
+    "en": "well / very well",
+    "es": "bien / muy bien",
+    "ejemplo": "I can use Excel very well.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-010",
+    "en": "a little",
+    "es": "un poco",
+    "ejemplo": "I can speak English a little.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-011",
+    "en": "quickly",
+    "es": "rápido, rápidamente",
+    "ejemplo": "I can learn quickly.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s14-012",
+    "en": "skill",
+    "es": "habilidad",
+    "ejemplo": "Excel is an important skill.",
+    "sesion": "S14"
+  },
+  {
+    "id": "s15-001",
+    "en": "like",
+    "es": "gustar (I like = me gusta)",
+    "ejemplo": "I like reading.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-002",
+    "en": "love",
+    "es": "encantar, amar",
+    "ejemplo": "I love traveling.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-003",
+    "en": "enjoy",
+    "es": "disfrutar",
+    "ejemplo": "I enjoy working with data.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-004",
+    "en": "hate",
+    "es": "odiar",
+    "ejemplo": "I hate getting up early.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-005",
+    "en": "hobby",
+    "es": "pasatiempo",
+    "ejemplo": "My hobby is taking photos.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-006",
+    "en": "free time",
+    "es": "tiempo libre",
+    "ejemplo": "What do you like doing in your free time?",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-007",
+    "en": "reading",
+    "es": "leer, la lectura",
+    "ejemplo": "She likes reading.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-008",
+    "en": "traveling",
+    "es": "viajar",
+    "ejemplo": "Tom enjoys traveling.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-009",
+    "en": "playing video games",
+    "es": "jugar videojuegos",
+    "ejemplo": "He enjoys playing video games.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-010",
+    "en": "watching series",
+    "es": "ver series",
+    "ejemplo": "I like watching series on the weekend.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-011",
+    "en": "running",
+    "es": "correr (salir a correr)",
+    "ejemplo": "Sofía loves running.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s15-012",
+    "en": "taking photos",
+    "es": "tomar fotos",
+    "ejemplo": "Carla likes taking photos of Lima.",
+    "sesion": "S15"
+  },
+  {
+    "id": "s16-001",
+    "en": "hundred",
+    "es": "cien, ciento (sin -s tras un número)",
+    "ejemplo": "two hundred fifty customers",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-002",
+    "en": "thousand",
+    "es": "mil",
+    "ejemplo": "Total sales are forty-eight thousand dollars.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-003",
+    "en": "million",
+    "es": "millón",
+    "ejemplo": "three point four million users",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-004",
+    "en": "point",
+    "es": "punto decimal (12.5 = twelve point five)",
+    "ejemplo": "The average is twelve point five.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-005",
+    "en": "percent",
+    "es": "por ciento",
+    "ejemplo": "Lima has 62.5 percent of sales.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-006",
+    "en": "first / second / third",
+    "es": "primero / segundo / tercero",
+    "ejemplo": "The report is on October first.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-007",
+    "en": "twentieth",
+    "es": "vigésimo (fecha: el 20)",
+    "ejemplo": "The meeting is on May twentieth.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-008",
+    "en": "10/05/2026 (US)",
+    "es": "5 de octubre de 2026 (en EE. UU. el mes va primero)",
+    "ejemplo": "October fifth, twenty twenty-six",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-009",
+    "en": "dollars and cents",
+    "es": "dólares y centavos",
+    "ejemplo": "$38.50 = thirty-eight dollars and fifty cents",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-010",
+    "en": "total",
+    "es": "total",
+    "ejemplo": "The total is $48,300.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-011",
+    "en": "average",
+    "es": "promedio",
+    "ejemplo": "The average order is $38.64.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s16-012",
+    "en": "growth",
+    "es": "crecimiento",
+    "ejemplo": "Growth is four point five percent.",
+    "sesion": "S16"
+  },
+  {
+    "id": "s17-001",
+    "en": "open",
+    "es": "abrir",
+    "ejemplo": "Open the sales file.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-002",
+    "en": "click",
+    "es": "hacer clic",
+    "ejemplo": "Click the Data tab.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-003",
+    "en": "double-click",
+    "es": "hacer doble clic",
+    "ejemplo": "Double-click the file to open it.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-004",
+    "en": "select",
+    "es": "seleccionar",
+    "ejemplo": "Select column B.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-005",
+    "en": "copy",
+    "es": "copiar",
+    "ejemplo": "Copy the data.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-006",
+    "en": "paste",
+    "es": "pegar",
+    "ejemplo": "Paste it in a new sheet.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-007",
+    "en": "type",
+    "es": "escribir (con el teclado)",
+    "ejemplo": "Type your password.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-008",
+    "en": "filter",
+    "es": "filtrar",
+    "ejemplo": "Filter the table by city.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-009",
+    "en": "sort",
+    "es": "ordenar (A–Z, mayor a menor)",
+    "ejemplo": "Sort the sales from largest to smallest.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-010",
+    "en": "save",
+    "es": "guardar",
+    "ejemplo": "Save the file as a PDF.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-011",
+    "en": "delete",
+    "es": "borrar, eliminar",
+    "ejemplo": "Don't delete the original data.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s17-012",
+    "en": "sheet",
+    "es": "hoja (de cálculo)",
+    "ejemplo": "Copy the table to a new sheet.",
+    "sesion": "S17"
+  },
+  {
+    "id": "s18-001",
+    "en": "rice",
+    "es": "arroz (incontable)",
+    "ejemplo": "We need some rice.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-002",
+    "en": "bread",
+    "es": "pan (incontable)",
+    "ejemplo": "There isn't any bread.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-003",
+    "en": "eggs",
+    "es": "huevos",
+    "ejemplo": "How many eggs do we need?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-004",
+    "en": "chicken",
+    "es": "pollo",
+    "ejemplo": "How much is the chicken?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-005",
+    "en": "fruit",
+    "es": "fruta (incontable)",
+    "ejemplo": "Is there any fruit?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-006",
+    "en": "vegetables",
+    "es": "verduras",
+    "ejemplo": "We buy vegetables on Saturday.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-007",
+    "en": "milk",
+    "es": "leche",
+    "ejemplo": "We don't have any milk.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-008",
+    "en": "money",
+    "es": "dinero (incontable)",
+    "ejemplo": "We don't have much money.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-009",
+    "en": "information",
+    "es": "información (incontable, sin -s)",
+    "ejemplo": "I need some information.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-010",
+    "en": "some / any",
+    "es": "algo de, unos (afirmativo / negativo y preguntas)",
+    "ejemplo": "I have some eggs. I don't have any milk.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-011",
+    "en": "How much…? / How many…?",
+    "es": "¿Cuánto…? (incontable) / ¿Cuántos…? (contable)",
+    "ejemplo": "How much money? How many files?",
+    "sesion": "S18"
+  },
+  {
+    "id": "s18-012",
+    "en": "a lot of",
+    "es": "mucho, muchos",
+    "ejemplo": "We have a lot of data.",
+    "sesion": "S18"
+  },
+  {
+    "id": "s19-001",
+    "en": "right now",
+    "es": "ahora mismo",
+    "ejemplo": "I'm working on a dashboard right now.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-002",
+    "en": "at the moment",
+    "es": "en este momento",
+    "ejemplo": "She's talking to a client at the moment.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-003",
+    "en": "these days",
+    "es": "estos días, últimamente",
+    "ejemplo": "These days I'm learning Python.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-004",
+    "en": "this week",
+    "es": "esta semana",
+    "ejemplo": "We're cleaning the data this week.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-005",
+    "en": "work on",
+    "es": "trabajar en (un proyecto, una tarea)",
+    "ejemplo": "I'm working on a sales dashboard.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-006",
+    "en": "look for",
+    "es": "buscar",
+    "ejemplo": "I'm looking for an internship.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-007",
+    "en": "take a course",
+    "es": "llevar un curso",
+    "ejemplo": "I'm taking an online SQL course.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-008",
+    "en": "prepare",
+    "es": "preparar",
+    "ejemplo": "We're preparing a report.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-009",
+    "en": "wait",
+    "es": "esperar",
+    "ejemplo": "They're waiting for the data.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-010",
+    "en": "internship",
+    "es": "prácticas (preprofesionales)",
+    "ejemplo": "I'm doing an internship at DataLab.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-011",
+    "en": "project",
+    "es": "proyecto",
+    "ejemplo": "I'm working on a small data project.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s19-012",
+    "en": "What are you doing?",
+    "es": "¿Qué estás haciendo?",
+    "ejemplo": "What are you doing? — I'm studying.",
+    "sesion": "S19"
+  },
+  {
+    "id": "s20-001",
+    "en": "normally",
+    "es": "normalmente",
+    "ejemplo": "I normally work at the office.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-002",
+    "en": "generally",
+    "es": "por lo general",
+    "ejemplo": "We generally have a meeting on Monday.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-003",
+    "en": "currently",
+    "es": "actualmente",
+    "ejemplo": "I'm currently learning SQL.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-004",
+    "en": "nowadays",
+    "es": "hoy en día",
+    "ejemplo": "Nowadays, companies need data analysts.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-005",
+    "en": "this month",
+    "es": "este mes",
+    "ejemplo": "This month I'm working remotely.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-006",
+    "en": "this semester",
+    "es": "este semestre",
+    "ejemplo": "What are you studying this semester?",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-007",
+    "en": "work remotely",
+    "es": "trabajar a distancia",
+    "ejemplo": "Everybody is working remotely this month.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-008",
+    "en": "temporary",
+    "es": "temporal",
+    "ejemplo": "It's a temporary change.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-009",
+    "en": "update",
+    "es": "actualizar",
+    "ejemplo": "I'm updating the sales report.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-010",
+    "en": "build",
+    "es": "construir, armar",
+    "ejemplo": "We're building a dashboard for a client.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-011",
+    "en": "client",
+    "es": "cliente (de una empresa de servicios)",
+    "ejemplo": "She's visiting our new client.",
+    "sesion": "S20"
+  },
+  {
+    "id": "s20-012",
+    "en": "traffic",
+    "es": "tráfico",
+    "ejemplo": "I don't miss the traffic!",
+    "sesion": "S20"
+  },
+  {
+    "id": "s21-001",
+    "en": "think",
+    "es": "pensar, creer (th sorda)",
+    "ejemplo": "I think the data is very valuable.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-002",
+    "en": "month",
+    "es": "mes (th sorda al final)",
+    "ejemplo": "This month, the analysts are very busy.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-003",
+    "en": "they / these",
+    "es": "ellos / estos (th sonora)",
+    "ejemplo": "They need these reports.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-004",
+    "en": "very",
+    "es": "muy (v: dientes en el labio)",
+    "ejemplo": "Thank you very much.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-005",
+    "en": "value",
+    "es": "valor (v)",
+    "ejemplo": "The values are in the third sheet.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-006",
+    "en": "ship / sheep",
+    "es": "barco / oveja (i corta / i larga)",
+    "ejemplo": "A ship is big. A sheep is white.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-007",
+    "en": "live / leave",
+    "es": "vivir / irse, dejar (i corta / i larga)",
+    "ejemplo": "I live in Lima. I leave at six.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-008",
+    "en": "full / fool",
+    "es": "lleno / tonto (u corta / u larga)",
+    "ejemplo": "The room is full.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-009",
+    "en": "sheet",
+    "es": "hoja (de cálculo) — ¡i larga!",
+    "ejemplo": "The data is in the third sheet.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-010",
+    "en": "data",
+    "es": "datos (DAY-tə)",
+    "ejemplo": "The data is ready.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-011",
+    "en": "analyst",
+    "es": "analista (AN-ə-list)",
+    "ejemplo": "She's a data analyst.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s21-012",
+    "en": "analysis",
+    "es": "análisis (ə-NAL-ə-sis)",
+    "ejemplo": "The analysis is ready.",
+    "sesion": "S21"
+  },
+  {
+    "id": "s22-001",
+    "en": "and",
+    "es": "y (suma)",
+    "ejemplo": "I can use Excel and Power BI.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-002",
+    "en": "but",
+    "es": "pero (contraste)",
+    "ejemplo": "SQL is useful, but it's difficult.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-003",
+    "en": "because",
+    "es": "porque (causa)",
+    "ejemplo": "I study English because I want a job in data.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-004",
+    "en": "so",
+    "es": "así que, por eso (resultado)",
+    "ejemplo": "The file is big, so it's slow.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-005",
+    "en": "I think…",
+    "es": "Creo que…",
+    "ejemplo": "I think data analysis is interesting.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-006",
+    "en": "I don't think…",
+    "es": "No creo que…",
+    "ejemplo": "I don't think it's boring.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-007",
+    "en": "in my opinion",
+    "es": "en mi opinión",
+    "ejemplo": "In my opinion, SQL is very useful.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-008",
+    "en": "useful",
+    "es": "útil",
+    "ejemplo": "Excel is a useful tool.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-009",
+    "en": "interesting",
+    "es": "interesante",
+    "ejemplo": "This dataset is interesting.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-010",
+    "en": "boring",
+    "es": "aburrido (que aburre)",
+    "ejemplo": "The work is never boring.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-011",
+    "en": "exciting",
+    "es": "emocionante",
+    "ejemplo": "It's an exciting project.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s22-012",
+    "en": "challenging",
+    "es": "desafiante, retador",
+    "ejemplo": "The work is challenging, but I like it.",
+    "sesion": "S22"
+  },
+  {
+    "id": "s23-001",
+    "en": "Tell me about yourself.",
+    "es": "Háblame de ti.",
+    "ejemplo": "Tell me about yourself. — Sure. I'm Carla, a statistics student.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-002",
+    "en": "major",
+    "es": "carrera (universitaria)",
+    "ejemplo": "My major is statistics.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-003",
+    "en": "I'm in my fourth year.",
+    "es": "Estoy en cuarto año (de la carrera).",
+    "ejemplo": "I'm in my fourth year of economics.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-004",
+    "en": "be good at",
+    "es": "ser bueno/a en",
+    "ejemplo": "I'm good at cleaning data.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-005",
+    "en": "be passionate about",
+    "es": "apasionarle (algo a alguien)",
+    "ejemplo": "I'm passionate about data.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-006",
+    "en": "currently",
+    "es": "actualmente (no «actually»)",
+    "ejemplo": "I'm currently doing an internship.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-007",
+    "en": "part-time",
+    "es": "a medio tiempo",
+    "ejemplo": "I'm working part-time as a junior analyst.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-008",
+    "en": "detail-oriented",
+    "es": "detallista",
+    "ejemplo": "I'm very detail-oriented.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-009",
+    "en": "motivated",
+    "es": "motivado/a",
+    "ejemplo": "I'm motivated and I learn quickly.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-010",
+    "en": "team player",
+    "es": "alguien que trabaja bien en equipo",
+    "ejemplo": "My coworkers say I'm a team player.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-011",
+    "en": "opportunity",
+    "es": "oportunidad",
+    "ejemplo": "Thank you for the opportunity.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s23-012",
+    "en": "analytics team",
+    "es": "equipo de analítica",
+    "ejemplo": "I'm looking for an internship on your analytics team.",
+    "sesion": "S23"
+  },
+  {
+    "id": "s24-001",
+    "en": "collect",
+    "es": "recolectar, reunir",
+    "ejemplo": "Analysts collect data from different sources.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-002",
+    "en": "source",
+    "es": "fuente",
+    "ejemplo": "The data comes from three sources.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-003",
+    "en": "remove duplicates",
+    "es": "quitar duplicados",
+    "ejemplo": "First, remove duplicates.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-004",
+    "en": "missing values",
+    "es": "valores faltantes",
+    "ejemplo": "Check the missing values in each column.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-005",
+    "en": "fix errors",
+    "es": "corregir errores",
+    "ejemplo": "They fix errors in the data.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-006",
+    "en": "trend",
+    "es": "tendencia",
+    "ejemplo": "They look for trends in sales.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-007",
+    "en": "visualize",
+    "es": "visualizar",
+    "ejemplo": "They visualize the results in charts.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-008",
+    "en": "dashboard",
+    "es": "tablero, dashboard",
+    "ejemplo": "She builds dashboards in Power BI.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-009",
+    "en": "insight",
+    "es": "hallazgo, conclusión útil",
+    "ejemplo": "A good analyst communicates insights.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-010",
+    "en": "stakeholder",
+    "es": "interesado (jefe, cliente, otro equipo)",
+    "ejemplo": "They present the results to stakeholders.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-011",
+    "en": "make a decision",
+    "es": "tomar una decisión",
+    "ejemplo": "Data helps companies make better decisions.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s24-012",
+    "en": "communicate",
+    "es": "comunicar",
+    "ejemplo": "She communicates the results to the team.",
+    "sesion": "S24"
+  },
+  {
+    "id": "s25-001",
+    "en": "was / were",
+    "es": "era, estaba, fui, estuve",
+    "ejemplo": "I was at home. They were at the office.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-002",
+    "en": "wasn't / weren't",
+    "es": "no era / no estaba",
+    "ejemplo": "The file wasn't ready.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-003",
+    "en": "yesterday",
+    "es": "ayer",
+    "ejemplo": "I was very busy yesterday.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-004",
+    "en": "last night",
+    "es": "anoche",
+    "ejemplo": "Where were you last night?",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-005",
+    "en": "last weekend",
+    "es": "el fin de semana pasado",
+    "ejemplo": "We were on vacation last weekend.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-006",
+    "en": "I was born in…",
+    "es": "Nací en…",
+    "ejemplo": "I was born in Arequipa in 2003.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-007",
+    "en": "at home",
+    "es": "en casa",
+    "ejemplo": "I was at home last night.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-008",
+    "en": "at a party",
+    "es": "en una fiesta",
+    "ejemplo": "She was at a birthday party.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-009",
+    "en": "on vacation",
+    "es": "de vacaciones",
+    "ejemplo": "They were on vacation last week.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-010",
+    "en": "in class",
+    "es": "en clase",
+    "ejemplo": "We were in class from 8 to 10.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-011",
+    "en": "crowded",
+    "es": "lleno (de gente)",
+    "ejemplo": "The place was very crowded.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s25-012",
+    "en": "helpful",
+    "es": "servicial, de mucha ayuda",
+    "ejemplo": "Diego was very helpful.",
+    "sesion": "S25"
+  },
+  {
+    "id": "s26-001",
+    "en": "worked",
+    "es": "trabajé, trabajó… (/t/)",
+    "ejemplo": "I worked from home yesterday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-002",
+    "en": "studied",
+    "es": "estudié (study → studied)",
+    "ejemplo": "She studied Python last night.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-003",
+    "en": "cleaned",
+    "es": "limpié (/d/)",
+    "ejemplo": "Carla cleaned the data.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-004",
+    "en": "checked",
+    "es": "revisé (/t/)",
+    "ejemplo": "I checked my emails first.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-005",
+    "en": "started",
+    "es": "empecé (/ɪd/)",
+    "ejemplo": "We started the project last week.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-006",
+    "en": "finished",
+    "es": "terminé (/t/)",
+    "ejemplo": "We finished the report at six.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-007",
+    "en": "called",
+    "es": "llamé (/d/)",
+    "ejemplo": "She called the client.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-008",
+    "en": "analyzed",
+    "es": "analicé (/d/)",
+    "ejemplo": "Tom analyzed the sales numbers.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-009",
+    "en": "updated",
+    "es": "actualicé (/ɪd/)",
+    "ejemplo": "I updated the dashboard yesterday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-010",
+    "en": "presented",
+    "es": "presenté (/ɪd/)",
+    "ejemplo": "We presented the results to the client.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-011",
+    "en": "planned",
+    "es": "planifiqué (plan → planned)",
+    "ejemplo": "We planned the project on Monday.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s26-012",
+    "en": "asked",
+    "es": "pregunté, pedí (/t/)",
+    "ejemplo": "They asked a lot of questions.",
+    "sesion": "S26"
+  },
+  {
+    "id": "s27-001",
+    "en": "go → went",
+    "es": "ir → fui",
+    "ejemplo": "I went to the office by bus.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-002",
+    "en": "have → had",
+    "es": "tener → tuve",
+    "ejemplo": "We had a meeting with the client.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-003",
+    "en": "do → did",
+    "es": "hacer (tarea) → hice",
+    "ejemplo": "She did her homework last night.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-004",
+    "en": "make → made",
+    "es": "hacer (crear) → hice",
+    "ejemplo": "I made a dashboard with sales data.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-005",
+    "en": "get → got",
+    "es": "conseguir, recibir → conseguí",
+    "ejemplo": "I got the internship!",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-006",
+    "en": "take → took",
+    "es": "tomar → tomé",
+    "ejemplo": "They took a taxi home.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-007",
+    "en": "see → saw",
+    "es": "ver → vi",
+    "ejemplo": "I saw a post on LinkedIn.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-008",
+    "en": "meet → met",
+    "es": "conocer, reunirse → conocí",
+    "ejemplo": "I met Diego at a data event.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-009",
+    "en": "buy → bought",
+    "es": "comprar → compré",
+    "ejemplo": "I bought a new laptop.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-010",
+    "en": "eat → ate",
+    "es": "comer → comí",
+    "ejemplo": "We ate ceviche at a small restaurant.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-011",
+    "en": "write → wrote",
+    "es": "escribir → escribí",
+    "ejemplo": "I wrote my CV in English.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s27-012",
+    "en": "send → sent",
+    "es": "enviar → envié",
+    "ejemplo": "I sent the report to my boss.",
+    "sesion": "S27"
+  },
+  {
+    "id": "s28-001",
+    "en": "didn't + verbo base",
+    "es": "no + pasado (I didn't go = no fui)",
+    "ejemplo": "I didn't go to class yesterday.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-002",
+    "en": "Did you…?",
+    "es": "¿(Tú) …? en pasado",
+    "ejemplo": "Did you visit Machu Picchu? — Yes, I did.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-003",
+    "en": "What did you do?",
+    "es": "¿Qué hiciste?",
+    "ejemplo": "What did you do last weekend?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-004",
+    "en": "How was…?",
+    "es": "¿Cómo estuvo…?",
+    "ejemplo": "How was the trip? — It was amazing!",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-005",
+    "en": "trip",
+    "es": "viaje",
+    "ejemplo": "Did you have a good trip?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-006",
+    "en": "travel",
+    "es": "viajar",
+    "ejemplo": "How did you travel? — By bus.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-007",
+    "en": "stay",
+    "es": "quedarse, alojarse",
+    "ejemplo": "Where did you stay? — At a small hotel.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-008",
+    "en": "visit",
+    "es": "visitar",
+    "ejemplo": "We visited the historic center.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-009",
+    "en": "fly → flew",
+    "es": "volar, ir en avión → volé",
+    "ejemplo": "We flew from Lima.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-010",
+    "en": "flight",
+    "es": "vuelo",
+    "ejemplo": "The flight was one hour and a half.",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-011",
+    "en": "arrive",
+    "es": "llegar",
+    "ejemplo": "When did you arrive?",
+    "sesion": "S28"
+  },
+  {
+    "id": "s28-012",
+    "en": "amazing",
+    "es": "increíble",
+    "ejemplo": "It was amazing!",
+    "sesion": "S28"
+  },
+  {
+    "id": "s29-001",
+    "en": "ago",
+    "es": "hace (tiempo) — va al final",
+    "ejemplo": "I started three months ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-002",
+    "en": "last week",
+    "es": "la semana pasada (sin the)",
+    "ejemplo": "Last week I worked from home.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-003",
+    "en": "last month",
+    "es": "el mes pasado",
+    "ejemplo": "I started last month.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-004",
+    "en": "last year",
+    "es": "el año pasado",
+    "ejemplo": "I took an online course last year.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-005",
+    "en": "the day before yesterday",
+    "es": "anteayer",
+    "ejemplo": "We met the day before yesterday.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-006",
+    "en": "yesterday morning",
+    "es": "ayer en la mañana",
+    "ejemplo": "I called her yesterday morning.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-007",
+    "en": "this morning",
+    "es": "esta mañana",
+    "ejemplo": "I sent it this morning.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-008",
+    "en": "an hour ago",
+    "es": "hace una hora",
+    "ejemplo": "I saw that email an hour ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-009",
+    "en": "a few days ago",
+    "es": "hace unos días",
+    "ejemplo": "I finished the course a few days ago.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-010",
+    "en": "When did you…?",
+    "es": "¿Cuándo (tú)…?",
+    "ejemplo": "When did you start your internship?",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-011",
+    "en": "graduate",
+    "es": "graduarse, egresar",
+    "ejemplo": "I graduated in 2023.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s29-012",
+    "en": "record",
+    "es": "grabar",
+    "ejemplo": "I recorded my one-minute presentation.",
+    "sesion": "S29"
+  },
+  {
+    "id": "s30-001",
+    "en": "high school",
+    "es": "secundaria (el colegio)",
+    "ejemplo": "I graduated from high school in 2020.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-002",
+    "en": "college",
+    "es": "universidad, estudios superiores (EE. UU.)",
+    "ejemplo": "I studied economics in college.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-003",
+    "en": "bachelor's degree",
+    "es": "título de pregrado, bachillerato",
+    "ejemplo": "I'm doing a bachelor's degree in statistics.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-004",
+    "en": "major in",
+    "es": "especializarse en (carrera)",
+    "ejemplo": "I majored in statistics.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-005",
+    "en": "graduate from",
+    "es": "graduarse de, egresar de",
+    "ejemplo": "She graduated from San Marcos in 2023.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-006",
+    "en": "take a course → took",
+    "es": "llevar un curso → llevé",
+    "ejemplo": "I took an online course in Power BI.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-007",
+    "en": "certificate",
+    "es": "certificado",
+    "ejemplo": "I got a certificate in data analysis.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-008",
+    "en": "learn how to",
+    "es": "aprender a (hacer algo)",
+    "ejemplo": "I learned how to build dashboards.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-009",
+    "en": "scholarship",
+    "es": "beca",
+    "ejemplo": "I got a scholarship in my second year.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-010",
+    "en": "grades",
+    "es": "notas, calificaciones",
+    "ejemplo": "I got a scholarship because of my grades.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-011",
+    "en": "subject",
+    "es": "curso, materia",
+    "ejemplo": "Math was my favorite subject.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s30-012",
+    "en": "thesis",
+    "es": "tesis",
+    "ejemplo": "My thesis is about sales data.",
+    "sesion": "S30"
+  },
+  {
+    "id": "s31-001",
+    "en": "be going to",
+    "es": "ir a (plan decidido)",
+    "ejemplo": "I'm going to learn Python.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-002",
+    "en": "tomorrow",
+    "es": "mañana",
+    "ejemplo": "I'm not going to work tomorrow.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-003",
+    "en": "next week",
+    "es": "la próxima semana (sin the)",
+    "ejemplo": "We're going to present it next week.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-004",
+    "en": "next year",
+    "es": "el próximo año",
+    "ejemplo": "I'm going to finish my degree next year.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-005",
+    "en": "this weekend",
+    "es": "este fin de semana",
+    "ejemplo": "What are you going to do this weekend?",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-006",
+    "en": "in two months",
+    "es": "dentro de dos meses",
+    "ejemplo": "She's going to move in two months.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-007",
+    "en": "soon",
+    "es": "pronto",
+    "ejemplo": "I'm going to apply soon.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-008",
+    "en": "plan",
+    "es": "plan; planear",
+    "ejemplo": "What are your plans for next year?",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-009",
+    "en": "move",
+    "es": "mudarse",
+    "ejemplo": "We're going to move to Lima.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-010",
+    "en": "save money",
+    "es": "ahorrar dinero",
+    "ejemplo": "I'm going to save money for a trip.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-011",
+    "en": "full-time job",
+    "es": "trabajo a tiempo completo",
+    "ejemplo": "I'm going to look for a full-time job.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s31-012",
+    "en": "portfolio",
+    "es": "portafolio (de proyectos)",
+    "ejemplo": "I'm going to build two projects for my portfolio.",
+    "sesion": "S31"
+  },
+  {
+    "id": "s32-001",
+    "en": "will / 'll",
+    "es": "(futuro) -ré, -rás…",
+    "ejemplo": "I'll help you with the report.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-002",
+    "en": "won't",
+    "es": "no + futuro (will not)",
+    "ejemplo": "It won't be easy.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-003",
+    "en": "I think… will",
+    "es": "Creo que… (predicción)",
+    "ejemplo": "I think companies will need analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-004",
+    "en": "I don't think… will",
+    "es": "No creo que…",
+    "ejemplo": "I don't think AI will replace analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-005",
+    "en": "probably",
+    "es": "probablemente",
+    "ejemplo": "She'll probably get the job.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-006",
+    "en": "definitely",
+    "es": "definitivamente, sin duda",
+    "ejemplo": "I'll definitely learn Python.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-007",
+    "en": "maybe",
+    "es": "quizás",
+    "ejemplo": "Maybe I'll work abroad.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-008",
+    "en": "in the future",
+    "es": "en el futuro",
+    "ejemplo": "You'll use AI tools in the future.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-009",
+    "en": "AI (artificial intelligence)",
+    "es": "IA (inteligencia artificial)",
+    "ejemplo": "AI will change a lot of jobs.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-010",
+    "en": "replace",
+    "es": "reemplazar",
+    "ejemplo": "AI won't replace data analysts.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-011",
+    "en": "abroad",
+    "es": "en el extranjero",
+    "ejemplo": "Maybe I'll work abroad.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s32-012",
+    "en": "I promise.",
+    "es": "Lo prometo.",
+    "ejemplo": "I'll finish it today. I promise.",
+    "sesion": "S32"
+  },
+  {
+    "id": "s33-001",
+    "en": "appointment",
+    "es": "cita (médico, trámite)",
+    "ejemplo": "I have a dentist appointment on Friday.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-002",
+    "en": "calendar",
+    "es": "calendario, agenda (digital)",
+    "ejemplo": "Check my calendar for next week.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-003",
+    "en": "agenda",
+    "es": "orden del día (de una reunión)",
+    "ejemplo": "Here's the agenda for the meeting.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-004",
+    "en": "video call",
+    "es": "videollamada",
+    "ejemplo": "We're having a video call tomorrow at 3.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-005",
+    "en": "one-on-one",
+    "es": "reunión uno a uno (con tu jefe)",
+    "ejemplo": "I'm having a one-on-one with Tom at 9.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-006",
+    "en": "deadline",
+    "es": "fecha límite",
+    "ejemplo": "The deadline is on Wednesday.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-007",
+    "en": "available",
+    "es": "disponible",
+    "ejemplo": "Are you available on Thursday at 11?",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-008",
+    "en": "reschedule",
+    "es": "reprogramar",
+    "ejemplo": "Can we reschedule the meeting to Friday?",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-009",
+    "en": "cancel",
+    "es": "cancelar",
+    "ejemplo": "They're canceling the meeting.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-010",
+    "en": "confirm",
+    "es": "confirmar",
+    "ejemplo": "Please confirm your attendance.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-011",
+    "en": "book a room",
+    "es": "reservar una sala",
+    "ejemplo": "I'm booking the meeting room for 2 p.m.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s33-012",
+    "en": "join",
+    "es": "unirse, participar (en una reunión)",
+    "ejemplo": "Carla and Diego are joining the call.",
+    "sesion": "S33"
+  },
+  {
+    "id": "s34-001",
+    "en": "want to",
+    "es": "querer (+ verbo)",
+    "ejemplo": "I want to learn Python.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-002",
+    "en": "would like to / I'd like to",
+    "es": "me gustaría (educado)",
+    "ejemplo": "I'd like to work on your team.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-003",
+    "en": "hope to",
+    "es": "esperar (con ilusión)",
+    "ejemplo": "I hope to get an internship.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-004",
+    "en": "plan to",
+    "es": "planear",
+    "ejemplo": "I plan to take a course next year.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-005",
+    "en": "goal",
+    "es": "meta, objetivo",
+    "ejemplo": "My goal is to become a data analyst.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-006",
+    "en": "become",
+    "es": "llegar a ser, convertirse en",
+    "ejemplo": "She wants to become a data scientist.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-007",
+    "en": "career",
+    "es": "carrera profesional",
+    "ejemplo": "I'd like to start my career in data.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-008",
+    "en": "in five years",
+    "es": "dentro de cinco años",
+    "ejemplo": "Where do you want to be in five years?",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-009",
+    "en": "senior analyst",
+    "es": "analista senior",
+    "ejemplo": "I hope to be a senior analyst.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-010",
+    "en": "data scientist",
+    "es": "científico/a de datos",
+    "ejemplo": "My goal is to become a data scientist.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-011",
+    "en": "lead a team",
+    "es": "dirigir un equipo",
+    "ejemplo": "One day I'd like to lead a team.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s34-012",
+    "en": "long-term goal",
+    "es": "meta a largo plazo",
+    "ejemplo": "My long-term goal is to work abroad.",
+    "sesion": "S34"
+  },
+  {
+    "id": "s35-001",
+    "en": "Subject",
+    "es": "Asunto (de un email)",
+    "ejemplo": "Subject: Question about the internship",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-002",
+    "en": "Dear Ms. / Mr. …,",
+    "es": "Estimada / Estimado … (con el apellido)",
+    "ejemplo": "Dear Ms. Torres,",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-003",
+    "en": "I hope you're well.",
+    "es": "Espero que esté bien.",
+    "ejemplo": "Dear Mr. Soto, I hope you're well.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-004",
+    "en": "I'm writing to…",
+    "es": "Le escribo para…",
+    "ejemplo": "I'm writing to ask about the internship.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-005",
+    "en": "Could you please…?",
+    "es": "¿Podría…, por favor?",
+    "ejemplo": "Could you please send me the file?",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-006",
+    "en": "I'd like to know…",
+    "es": "Me gustaría saber…",
+    "ejemplo": "I'd like to know the start date.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-007",
+    "en": "Please find attached…",
+    "es": "Adjunto… (le envío adjunto)",
+    "ejemplo": "Please find attached my CV.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-008",
+    "en": "Thank you in advance.",
+    "es": "Gracias de antemano.",
+    "ejemplo": "Thank you in advance for your help.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-009",
+    "en": "I look forward to hearing from you.",
+    "es": "Quedo atento/a a su respuesta.",
+    "ejemplo": "I look forward to hearing from you.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-010",
+    "en": "Best regards,",
+    "es": "Saludos cordiales,",
+    "ejemplo": "Best regards, Carla Ramos",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-011",
+    "en": "Let me know if…",
+    "es": "Avíseme si…",
+    "ejemplo": "Please let me know if you have any questions.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s35-012",
+    "en": "hybrid",
+    "es": "híbrido (oficina y casa)",
+    "ejemplo": "It's a hybrid position.",
+    "sesion": "S35"
+  },
+  {
+    "id": "s36-001",
+    "en": "job posting",
+    "es": "anuncio de trabajo",
+    "ejemplo": "I read a job posting on LinkedIn.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-002",
+    "en": "requirements",
+    "es": "requisitos (obligatorios)",
+    "ejemplo": "Advanced Excel is one of the requirements.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-003",
+    "en": "responsibilities",
+    "es": "funciones, responsabilidades",
+    "ejemplo": "The responsibilities include building dashboards.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-004",
+    "en": "qualifications",
+    "es": "requisitos, formación requerida",
+    "ejemplo": "Check the qualifications before you apply.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-005",
+    "en": "nice to have",
+    "es": "deseable (no obligatorio)",
+    "ejemplo": "Python is nice to have.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-006",
+    "en": "apply (for)",
+    "es": "postular (a)",
+    "ejemplo": "I'd like to apply for the internship.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-007",
+    "en": "currently enrolled in",
+    "es": "matriculado/a actualmente en",
+    "ejemplo": "You are currently enrolled in Economics.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-008",
+    "en": "knowledge of",
+    "es": "conocimientos de",
+    "ejemplo": "Basic knowledge of SQL.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-009",
+    "en": "proficiency in",
+    "es": "dominio de",
+    "ejemplo": "Proficiency in Excel is required.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-010",
+    "en": "the ability to",
+    "es": "la capacidad de",
+    "ejemplo": "The ability to work in a team.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-011",
+    "en": "benefits",
+    "es": "beneficios",
+    "ejemplo": "The benefits include training and a mentor.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s36-012",
+    "en": "allowance",
+    "es": "subvención, pago (de prácticas)",
+    "ejemplo": "The internship has a monthly allowance.",
+    "sesion": "S36"
+  },
+  {
+    "id": "s37-001",
+    "en": "higher / lower",
+    "es": "más alto / más bajo",
+    "ejemplo": "Sales were higher than in October.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-002",
+    "en": "bigger / smaller",
+    "es": "más grande / más pequeño",
+    "ejemplo": "This dataset is bigger than the other one.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-003",
+    "en": "cheaper",
+    "es": "más barato",
+    "ejemplo": "Laptop A is cheaper than Laptop B.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-004",
+    "en": "more expensive",
+    "es": "más caro",
+    "ejemplo": "This laptop is more expensive than that one.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-005",
+    "en": "better",
+    "es": "mejor (good → better)",
+    "ejemplo": "Our profit was better in November.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-006",
+    "en": "worse",
+    "es": "peor (bad → worse)",
+    "ejemplo": "Delivery times were worse in September.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-007",
+    "en": "than",
+    "es": "que (en comparaciones)",
+    "ejemplo": "Lima is bigger than Cusco.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-008",
+    "en": "more … than",
+    "es": "más … que",
+    "ejemplo": "We had more customers than last month.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-009",
+    "en": "less (+ incontable)",
+    "es": "menos (dinero, tiempo)",
+    "ejemplo": "We spent less money in June.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-010",
+    "en": "fewer (+ contable)",
+    "es": "menos (clientes, pedidos)",
+    "ejemplo": "There were fewer returns in Q3.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-011",
+    "en": "much higher",
+    "es": "mucho más alto",
+    "ejemplo": "Sales were much higher in December.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s37-012",
+    "en": "a little lower",
+    "es": "un poco más bajo",
+    "ejemplo": "Costs were a little lower than in June.",
+    "sesion": "S37"
+  },
+  {
+    "id": "s38-001",
+    "en": "the highest",
+    "es": "el más alto / los más altos",
+    "ejemplo": "Lima has the highest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-002",
+    "en": "the lowest",
+    "es": "el más bajo",
+    "ejemplo": "Trujillo has the lowest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-003",
+    "en": "the biggest",
+    "es": "el más grande",
+    "ejemplo": "Lima is the biggest store.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-004",
+    "en": "the best",
+    "es": "el mejor (good → better → the best)",
+    "ejemplo": "Arequipa has the best rating.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-005",
+    "en": "the worst",
+    "es": "el peor (bad → worse → the worst)",
+    "ejemplo": "March was the worst month.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-006",
+    "en": "the most popular",
+    "es": "el más popular",
+    "ejemplo": "It's our most popular product.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-007",
+    "en": "the least",
+    "es": "el menos",
+    "ejemplo": "It's the least expensive option.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-008",
+    "en": "the fewest",
+    "es": "la menor cantidad de (contables)",
+    "ejemplo": "Arequipa had the fewest returns.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-009",
+    "en": "the second highest",
+    "es": "el segundo más alto",
+    "ejemplo": "Cusco has the second highest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-010",
+    "en": "top 3",
+    "es": "los 3 primeros, el top 3",
+    "ejemplo": "These are the top 3 products of the year.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-011",
+    "en": "at the bottom",
+    "es": "al final (del ranking)",
+    "ejemplo": "Trujillo is at the bottom of the ranking.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-012",
+    "en": "best-selling",
+    "es": "más vendido",
+    "ejemplo": "The best-selling product was the basic laptop.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s39-001",
+    "en": "increase / decrease",
+    "es": "aumentar / disminuir",
+    "ejemplo": "Sales increased in March and decreased in May.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-002",
+    "en": "rise → rose",
+    "es": "subir → subió",
+    "ejemplo": "Traffic rose sharply in March.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-003",
+    "en": "fall → fell",
+    "es": "caer, bajar → bajó",
+    "ejemplo": "Costs fell in May.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-004",
+    "en": "go up / go down",
+    "es": "subir / bajar",
+    "ejemplo": "Prices went up slightly.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-005",
+    "en": "peak",
+    "es": "llegar al punto máximo; pico",
+    "ejemplo": "Traffic peaked in April.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-006",
+    "en": "remain stable",
+    "es": "mantenerse estable",
+    "ejemplo": "Prices remained stable.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-007",
+    "en": "fluctuate",
+    "es": "fluctuar, subir y bajar",
+    "ejemplo": "Delivery times fluctuated.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-008",
+    "en": "sharply",
+    "es": "bruscamente, mucho y rápido",
+    "ejemplo": "Sales increased sharply.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-009",
+    "en": "slightly",
+    "es": "ligeramente",
+    "ejemplo": "Users fell slightly in June.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-010",
+    "en": "steadily",
+    "es": "de forma constante",
+    "ejemplo": "Users grew steadily.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-011",
+    "en": "significantly",
+    "es": "de forma importante",
+    "ejemplo": "Costs decreased significantly.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-012",
+    "en": "a sharp increase",
+    "es": "un aumento brusco",
+    "ejemplo": "There was a sharp increase in March.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s40-001",
+    "en": "chart",
+    "es": "gráfico",
+    "ejemplo": "This chart shows monthly sales.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-002",
+    "en": "bar chart",
+    "es": "gráfico de barras",
+    "ejemplo": "A bar chart compares the five regions.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-003",
+    "en": "line chart",
+    "es": "gráfico de líneas",
+    "ejemplo": "A line chart shows daily sales.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-004",
+    "en": "pie chart",
+    "es": "gráfico circular (de torta)",
+    "ejemplo": "A pie chart shows sales by channel.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-005",
+    "en": "x-axis / y-axis",
+    "es": "eje X (horizontal) / eje Y (vertical)",
+    "ejemplo": "The x-axis shows the months.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-006",
+    "en": "legend",
+    "es": "leyenda",
+    "ejemplo": "The legend shows two years.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-007",
+    "en": "title",
+    "es": "título",
+    "ejemplo": "Always write a clear title.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-008",
+    "en": "label",
+    "es": "etiqueta",
+    "ejemplo": "The labels show the exact values.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-009",
+    "en": "target",
+    "es": "meta, objetivo",
+    "ejemplo": "The dashed line is the target.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-010",
+    "en": "This chart shows…",
+    "es": "Este gráfico muestra…",
+    "ejemplo": "This chart shows our sales by month.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-011",
+    "en": "According to the chart,…",
+    "es": "Según el gráfico,…",
+    "ejemplo": "According to the chart, June was the best month.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-012",
+    "en": "below / above the target",
+    "es": "por debajo / por encima de la meta",
+    "ejemplo": "Sales were below the target in May.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s41-001",
+    "en": "increase by",
+    "es": "aumentar en (la diferencia)",
+    "ejemplo": "Sales increased by 5%.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-002",
+    "en": "from … to",
+    "es": "de … a",
+    "ejemplo": "Users rose from 20,000 to 30,000.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-003",
+    "en": "fall to",
+    "es": "bajar a (valor final)",
+    "ejemplo": "The return rate fell to 4%.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-004",
+    "en": "an increase of",
+    "es": "un aumento de",
+    "ejemplo": "There was an increase of 10% in orders.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-005",
+    "en": "peak at",
+    "es": "llegar al máximo en",
+    "ejemplo": "Traffic peaked at 90,000 visits.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-006",
+    "en": "remain stable at",
+    "es": "mantenerse estable en",
+    "ejemplo": "Costs remained stable at $8,000.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-007",
+    "en": "between … and",
+    "es": "entre … y",
+    "ejemplo": "Prices were between $20 and $25.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-008",
+    "en": "about / around",
+    "es": "aproximadamente",
+    "ejemplo": "About 60% of the visits came from phones.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-009",
+    "en": "nearly",
+    "es": "casi",
+    "ejemplo": "Traffic peaked at nearly 90,000 visits.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-010",
+    "en": "over / under",
+    "es": "más de / menos de",
+    "ejemplo": "over $50,000 · under 5%",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-011",
+    "en": "a total of",
+    "es": "un total de",
+    "ejemplo": "We had a total of 4,400 orders.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-012",
+    "en": "double",
+    "es": "duplicarse, el doble",
+    "ejemplo": "The number of users doubled.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s42-001",
+    "en": "Let me walk you through…",
+    "es": "Déjame explicarte paso a paso…",
+    "ejemplo": "Let me walk you through this chart.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-002",
+    "en": "As you can see,",
+    "es": "Como puedes ver,",
+    "ejemplo": "As you can see, online sales grew every month.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-003",
+    "en": "Overall,",
+    "es": "En general,",
+    "ejemplo": "Overall, the trend is positive.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-004",
+    "en": "The main takeaway is…",
+    "es": "La conclusión principal es…",
+    "ejemplo": "The main takeaway is that customers are moving online.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-005",
+    "en": "overtake → overtook",
+    "es": "superar, adelantar",
+    "ejemplo": "Online sales overtook store sales in May.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-006",
+    "en": "compared with",
+    "es": "comparado con",
+    "ejemplo": "Compared with January, sales were 10% lower.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-007",
+    "en": "triple / double",
+    "es": "triplicarse / duplicarse",
+    "ejemplo": "Online sales tripled in six months.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-008",
+    "en": "jump",
+    "es": "salto, subida brusca",
+    "ejemplo": "The biggest jump was in May.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-009",
+    "en": "channel",
+    "es": "canal (de venta)",
+    "ejemplo": "This chart shows sales by channel.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-010",
+    "en": "gradually",
+    "es": "gradualmente",
+    "ejemplo": "Store sales fell gradually.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-011",
+    "en": "invest (in)",
+    "es": "invertir (en)",
+    "ejemplo": "We need to invest more in the website.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-012",
+    "en": "period",
+    "es": "periodo",
+    "ejemplo": "The chart covers a six-month period.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s43-001",
+    "en": "cell",
+    "es": "celda",
+    "ejemplo": "The total is in cell B12.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-002",
+    "en": "row / column",
+    "es": "fila / columna",
+    "ejemplo": "The dates are in column A, row 2 to row 500.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-003",
+    "en": "range",
+    "es": "rango",
+    "ejemplo": "Select the range A1:D50.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-004",
+    "en": "workbook / sheet",
+    "es": "libro / hoja",
+    "ejemplo": "The workbook has two sheets.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-005",
+    "en": "formula",
+    "es": "fórmula",
+    "ejemplo": "The formula returns the total sales.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-006",
+    "en": "pivot table",
+    "es": "tabla dinámica",
+    "ejemplo": "I created a pivot table by region.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-007",
+    "en": "lookup",
+    "es": "búsqueda (VLOOKUP, XLOOKUP)",
+    "ejemplo": "I used XLOOKUP to bring the region.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-008",
+    "en": "conditional formatting",
+    "es": "formato condicional",
+    "ejemplo": "I used conditional formatting to highlight the top values.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-009",
+    "en": "add up",
+    "es": "sumar",
+    "ejemplo": "SUM adds up all the values.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-010",
+    "en": "return (a value)",
+    "es": "devolver (un valor)",
+    "ejemplo": "The formula returns the average.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-011",
+    "en": "drag down",
+    "es": "arrastrar hacia abajo",
+    "ejemplo": "Drag the formula down to row 50.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s43-012",
+    "en": "absolute reference",
+    "es": "referencia absoluta ($B$1)",
+    "ejemplo": "$B$1 is an absolute reference.",
+    "sesion": "S43"
+  },
+  {
+    "id": "s44-001",
+    "en": "dashboard / report",
+    "es": "tablero / reporte",
+    "ejemplo": "The report has three pages.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-002",
+    "en": "visual",
+    "es": "visual (gráfico, tabla, tarjeta)",
+    "ejemplo": "Hover over a visual to see more details.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-003",
+    "en": "card",
+    "es": "tarjeta (muestra un número)",
+    "ejemplo": "The cards show the main KPIs.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-004",
+    "en": "slicer",
+    "es": "segmentador (filtro visual)",
+    "ejemplo": "Use the slicer to filter by region.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-005",
+    "en": "measure",
+    "es": "medida (cálculo en DAX)",
+    "ejemplo": "I created a measure for total sales.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-006",
+    "en": "calculated column",
+    "es": "columna calculada",
+    "ejemplo": "I added a calculated column with the month.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-007",
+    "en": "data model",
+    "es": "modelo de datos",
+    "ejemplo": "The data model has four tables.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-008",
+    "en": "relationship",
+    "es": "relación (entre tablas)",
+    "ejemplo": "There's a one-to-many relationship between Products and Sales.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-009",
+    "en": "fact table / dimension table",
+    "es": "tabla de hechos / de dimensión",
+    "ejemplo": "Sales is the fact table.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-010",
+    "en": "refresh",
+    "es": "actualizar (los datos)",
+    "ejemplo": "The dataset refreshes every morning.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-011",
+    "en": "publish",
+    "es": "publicar",
+    "ejemplo": "We published the report to the service.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s44-012",
+    "en": "hover over",
+    "es": "pasar el cursor sobre",
+    "ejemplo": "Hover over the chart to see the tooltip.",
+    "sesion": "S44"
+  },
+  {
+    "id": "s45-001",
+    "en": "query",
+    "es": "consulta",
+    "ejemplo": "Can you explain what this query does?",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-002",
+    "en": "database",
+    "es": "base de datos",
+    "ejemplo": "The data comes from a SQL database.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-003",
+    "en": "record / field",
+    "es": "registro (fila) / campo (columna)",
+    "ejemplo": "The table has 5,000 records.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-004",
+    "en": "primary key",
+    "es": "clave primaria (identificador único)",
+    "ejemplo": "customer_id is the primary key.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-005",
+    "en": "foreign key",
+    "es": "clave foránea",
+    "ejemplo": "customer_id in orders is a foreign key.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-006",
+    "en": "join",
+    "es": "unir (tablas)",
+    "ejemplo": "It joins orders with customers.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-007",
+    "en": "filter rows",
+    "es": "filtrar filas",
+    "ejemplo": "WHERE filters the rows.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-008",
+    "en": "group by",
+    "es": "agrupar por",
+    "ejemplo": "It groups the results by region.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-009",
+    "en": "aggregate function",
+    "es": "función de agregación (SUM, COUNT…)",
+    "ejemplo": "SUM is an aggregate function.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-010",
+    "en": "ascending / descending",
+    "es": "ascendente / descendente",
+    "ejemplo": "Sort the results in descending order.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-011",
+    "en": "NULL",
+    "es": "valor nulo, faltante",
+    "ejemplo": "Missing values appear as NULL.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s45-012",
+    "en": "one row per…",
+    "es": "una fila por…",
+    "ejemplo": "The query returns one row per region.",
+    "sesion": "S45"
+  },
+  {
+    "id": "s46-001",
+    "en": "DataFrame",
+    "es": "tabla de pandas",
+    "ejemplo": "I loaded the CSV file into a DataFrame.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-002",
+    "en": "missing values (NaN)",
+    "es": "valores faltantes",
+    "ejemplo": "I filled the missing values with zero.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-003",
+    "en": "drop / fill",
+    "es": "eliminar / rellenar",
+    "ejemplo": "I dropped the empty rows and filled the rest.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-004",
+    "en": "merge",
+    "es": "combinar (DataFrames)",
+    "ejemplo": "I merged the two DataFrames on store_id.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-005",
+    "en": "function",
+    "es": "función",
+    "ejemplo": "I wrote a function to clean the dates.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-006",
+    "en": "argument",
+    "es": "argumento (de una función)",
+    "ejemplo": "The function takes two arguments.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-007",
+    "en": "library",
+    "es": "librería",
+    "ejemplo": "pandas is a Python library for data analysis.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-008",
+    "en": "error message",
+    "es": "mensaje de error",
+    "ejemplo": "The error message said 'Region'.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-009",
+    "en": "bug",
+    "es": "error (en el código)",
+    "ejemplo": "The bug took me two hours.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-010",
+    "en": "crash",
+    "es": "fallar, caerse (un programa)",
+    "ejemplo": "My script crashed with a TypeError.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-011",
+    "en": "It turned out that…",
+    "es": "Resultó que…",
+    "ejemplo": "It turned out that the column was text.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s46-012",
+    "en": "I fixed it by + -ing",
+    "es": "Lo arreglé + gerundio",
+    "ejemplo": "I fixed it by removing the duplicates.",
+    "sesion": "S46"
+  },
+  {
+    "id": "s47-001",
+    "en": "documentation (docs)",
+    "es": "documentación",
+    "ejemplo": "Check the docs before you ask.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-002",
+    "en": "parameter",
+    "es": "parámetro",
+    "ejemplo": "The subset parameter is optional.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-003",
+    "en": "default (value)",
+    "es": "valor por defecto",
+    "ejemplo": "The default value is \"first\".",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-004",
+    "en": "optional / required",
+    "es": "opcional / obligatorio",
+    "ejemplo": "This parameter is optional.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-005",
+    "en": "return value",
+    "es": "valor que devuelve",
+    "ejemplo": "The return value is a new DataFrame.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-006",
+    "en": "raise (an error)",
+    "es": "lanzar (un error)",
+    "ejemplo": "It raises a KeyError if the column doesn't exist.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-007",
+    "en": "deprecated",
+    "es": "obsoleto",
+    "ejemplo": "This parameter is deprecated.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-008",
+    "en": "signature",
+    "es": "firma (nombre y parámetros de una función)",
+    "ejemplo": "The signature shows all the parameters.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-009",
+    "en": "by default",
+    "es": "por defecto",
+    "ejemplo": "By default, it uses all the columns.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-010",
+    "en": "If True, …",
+    "es": "Si es True (verdadero), …",
+    "ejemplo": "If True, it modifies the original DataFrame.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-011",
+    "en": "See also",
+    "es": "Ver también",
+    "ejemplo": "See also: DataFrame.duplicated.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s47-012",
+    "en": "give back",
+    "es": "devolver",
+    "ejemplo": "The Returns section tells you what the function gives back.",
+    "sesion": "S47"
+  },
+  {
+    "id": "s48-001",
+    "en": "technical test",
+    "es": "prueba técnica",
+    "ejemplo": "They sent me a technical test by email.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-002",
+    "en": "task",
+    "es": "tarea",
+    "ejemplo": "The test has four tasks.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-003",
+    "en": "deliverable",
+    "es": "entregable",
+    "ejemplo": "The deliverable is a short report.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-004",
+    "en": "deadline",
+    "es": "fecha límite",
+    "ejemplo": "The deadline is Friday at 6 p.m.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-005",
+    "en": "submit",
+    "es": "enviar, entregar",
+    "ejemplo": "Please submit your work by email.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-006",
+    "en": "within",
+    "es": "dentro de (un plazo)",
+    "ejemplo": "Submit it within 72 hours.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-007",
+    "en": "assumption",
+    "es": "supuesto",
+    "ejemplo": "State any assumptions you make.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-008",
+    "en": "background",
+    "es": "contexto, antecedentes",
+    "ejemplo": "Read the background first.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-009",
+    "en": "evaluation criteria",
+    "es": "criterios de evaluación",
+    "ejemplo": "Check the evaluation criteria.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-010",
+    "en": "bonus (optional)",
+    "es": "opcional, puntos extra",
+    "ejemplo": "Task 4 is a bonus.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-011",
+    "en": "Feel free to…",
+    "es": "Siéntete libre de…",
+    "ejemplo": "Feel free to use any tool.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s48-012",
+    "en": "findings",
+    "es": "hallazgos",
+    "ejemplo": "Write your findings and recommendations.",
+    "sesion": "S48"
+  },
+  {
+    "id": "s49-001",
+    "en": "I have worked",
+    "es": "he trabajado",
+    "ejemplo": "I have worked with Excel for two years.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-002",
+    "en": "Have you ever…?",
+    "es": "¿Alguna vez has…?",
+    "ejemplo": "Have you ever used Power BI?",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-003",
+    "en": "How long have you…?",
+    "es": "¿Cuánto tiempo has…?",
+    "ejemplo": "How long have you studied English?",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-004",
+    "en": "for (+ periodo)",
+    "es": "durante (un periodo)",
+    "ejemplo": "I've used SQL for six months.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-005",
+    "en": "since (+ momento)",
+    "es": "desde (un momento)",
+    "ejemplo": "I've practiced English since October.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-006",
+    "en": "yet",
+    "es": "todavía (en negativas y preguntas)",
+    "ejemplo": "I haven't finished the report yet.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-007",
+    "en": "already",
+    "es": "ya",
+    "ejemplo": "I've already finished the course.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-008",
+    "en": "so far",
+    "es": "hasta ahora",
+    "ejemplo": "So far, I've built two dashboards.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-009",
+    "en": "experience",
+    "es": "experiencia",
+    "ejemplo": "I have some experience with SQL.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-010",
+    "en": "written (write)",
+    "es": "escrito (participio de write)",
+    "ejemplo": "I've written three Python scripts.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-011",
+    "en": "built (build)",
+    "es": "construido (participio de build)",
+    "ejemplo": "I've built a sales dashboard.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s49-012",
+    "en": "been (be)",
+    "es": "sido, estado (participio de be)",
+    "ejemplo": "This year has been very important for me.",
+    "sesion": "S49"
+  },
+  {
+    "id": "s50-001",
+    "en": "When did you…?",
+    "es": "¿Cuándo…? (pasado)",
+    "ejemplo": "When did you learn SQL?",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-002",
+    "en": "since then",
+    "es": "desde entonces",
+    "ejemplo": "I started last semester. Since then, I've built two dashboards.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-003",
+    "en": "for the first time",
+    "es": "por primera vez",
+    "ejemplo": "In June, I used SQL for the first time.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-004",
+    "en": "last semester",
+    "es": "el ciclo pasado",
+    "ejemplo": "I started with Power BI last semester.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-005",
+    "en": "recently",
+    "es": "recientemente",
+    "ejemplo": "I've recently started a Python course.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-006",
+    "en": "in the last two years",
+    "es": "en los últimos dos años",
+    "ejemplo": "I've used Excel a lot in the last two years.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-007",
+    "en": "I'm comfortable with…",
+    "es": "Me siento cómodo/a con…, manejo bien…",
+    "ejemplo": "I'm comfortable with pivot tables.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-008",
+    "en": "I'm familiar with…",
+    "es": "Conozco…, estoy familiarizado/a con…",
+    "ejemplo": "I'm familiar with Power BI.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-009",
+    "en": "hands-on experience",
+    "es": "experiencia práctica",
+    "ejemplo": "I have hands-on experience with SQL.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-010",
+    "en": "basic / intermediate / advanced",
+    "es": "básico / intermedio / avanzado",
+    "ejemplo": "My level of Python is basic.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-011",
+    "en": "self-taught",
+    "es": "autodidacta",
+    "ejemplo": "I'm self-taught in Power BI.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s50-012",
+    "en": "get better at",
+    "es": "mejorar en",
+    "ejemplo": "I've gotten better at SQL this year.",
+    "sesion": "S50"
+  },
+  {
+    "id": "s51-001",
+    "en": "however",
+    "es": "sin embargo",
+    "ejemplo": "Sales increased. However, profit decreased.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-002",
+    "en": "therefore",
+    "es": "por lo tanto",
+    "ejemplo": "The file had errors. Therefore, I cleaned it first.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-003",
+    "en": "as a result",
+    "es": "como resultado",
+    "ejemplo": "We changed the price. As a result, sales went up.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-004",
+    "en": "in addition",
+    "es": "además",
+    "ejemplo": "In addition, I've built two dashboards.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-005",
+    "en": "also",
+    "es": "también",
+    "ejemplo": "I also know some SQL.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-006",
+    "en": "for example",
+    "es": "por ejemplo",
+    "ejemplo": "For example, I removed duplicates.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-007",
+    "en": "such as",
+    "es": "como (antes de una lista)",
+    "ejemplo": "I use tools such as Excel and SQL.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-008",
+    "en": "then",
+    "es": "luego, después",
+    "ejemplo": "Then, I created a pivot table.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-009",
+    "en": "after that",
+    "es": "después de eso",
+    "ejemplo": "After that, I built a dashboard.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-010",
+    "en": "finally",
+    "es": "finalmente, por último",
+    "ejemplo": "Finally, I presented the results.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-011",
+    "en": "on the other hand",
+    "es": "por otro lado",
+    "ejemplo": "On the other hand, cakes had a high margin.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s51-012",
+    "en": "in summary",
+    "es": "en resumen",
+    "ejemplo": "In summary, profit matters more than sales.",
+    "sesion": "S51"
+  },
+  {
+    "id": "s52-001",
+    "en": "a person who…",
+    "es": "una persona que…",
+    "ejemplo": "A data analyst is a person who turns data into decisions.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-002",
+    "en": "a tool that…",
+    "es": "una herramienta que…",
+    "ejemplo": "A pivot table is a tool that summarizes data.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-003",
+    "en": "which (relativo)",
+    "es": "que (para cosas)",
+    "ejemplo": "A slicer is a visual which filters the page.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-004",
+    "en": "define",
+    "es": "definir",
+    "ejemplo": "Can you define KPI in one sentence?",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-005",
+    "en": "definition",
+    "es": "definición",
+    "ejemplo": "Write a short definition for each term.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-006",
+    "en": "term",
+    "es": "término",
+    "ejemplo": "Here are some terms that you will hear every day.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-007",
+    "en": "KPI (key performance indicator)",
+    "es": "indicador clave de desempeño",
+    "ejemplo": "Monthly sales is a KPI that we track every week.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-008",
+    "en": "metric",
+    "es": "métrica",
+    "ejemplo": "Revenue is the main metric in this report.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-009",
+    "en": "outlier",
+    "es": "valor atípico",
+    "ejemplo": "An outlier is a value that is very different from the others.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-010",
+    "en": "track",
+    "es": "hacer seguimiento a",
+    "ejemplo": "We track two KPIs every week.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-011",
+    "en": "data pipeline",
+    "es": "flujo automático de datos",
+    "ejemplo": "A data pipeline moves data from one system to another.",
+    "sesion": "S52"
+  },
+  {
+    "id": "s52-012",
+    "en": "data engineer",
+    "es": "ingeniero/a de datos",
+    "ejemplo": "A data engineer is a person who builds data pipelines.",
+    "sesion": "S52"
   }
 ]

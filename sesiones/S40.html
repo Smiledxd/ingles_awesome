@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S40 · Partes de un gráfico</title>
+    <meta
+      name="description"
+      content="Sesión 40 de inglés: las partes de un gráfico (chart, axis, bar, line, legend) y cómo describir un gráfico simple."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/estilos.css" />
+  </head>
+  <body data-sesion="S40" data-numero="40">
+    <main class="contenedor">
+      <header class="cabecera">
+        <nav class="migas"><a href="../index.html">← Todas las sesiones</a></nav>
+        <h1>Sesión 40 · Eje, barra, leyenda</h1>
+        <p class="subtitulo">
+          Las partes de un gráfico (<i>chart, axis, bar, line, legend</i>) y las frases para
+          describirlo en voz alta.
+        </p>
+        <ul class="etiquetas">
+          <li>Fase 2 · Construir</li>
+          <li>Semana 7</li>
+          <li>≈ 60 min</li>
+        </ul>
+      </header>
+
+      <div data-aviso-audio></div>
+
+      <section class="bloque">
+        <h2>Tu hora de hoy</h2>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <td>10 min</td>
+              <td>
+                Tarjetas: repasa las pendientes en la
+                <a href="../tarjetas/index.html">app de tarjetas</a>. Las 12 palabras de esta sesión
+                ya están en el mazo.
+              </td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Warm-up, concepto y ejercicios.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escucha y repite en voz alta, y la lectura corta.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escribe tu producción y pégala en el chat para que te la corrijan.</td>
+            </tr>
+            <tr>
+              <td>5 min</td>
+              <td>Palabras nuevas y checklist de cierre.</td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota">
+          🔊 Cada frase tiene dos botones: <b>▶</b> velocidad normal y <b>🐢</b> lento. Repite
+          siempre en voz alta.
+        </p>
+      </section>
+
+      <section class="bloque" id="warmup">
+        <h2><span class="num">1</span> Warm-up <span class="minutos">2 min</span></h2>
+        <p>Tres preguntas de la sesión 39. Responde en voz alta antes de mirar la respuesta.</p>
+        <ol class="warmup">
+          <li>
+            Pasado de <i>rise</i> y <i>fall</i>.
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">rose, fell</span>
+                <span class="audio" data-say="rose. fell."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «Las ventas subieron bruscamente en marzo».
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">Sales rose sharply in March.</span>
+                <span class="audio" data-say="Sales rose sharply in March."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «El tráfico llegó a su punto máximo en abril».
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">Traffic peaked in April.</span>
+                <span class="audio" data-say="Traffic peaked in April."></span>
+              </p>
+            </details>
+          </li>
+        </ol>
+      </section>
+
+      <section class="bloque" id="concepto">
+        <h2><span class="num">2</span> <span>Concepto: las partes de un gráfico</span></h2>
+
+        <p>Mira este gráfico: lo usarás en toda la sesión.</p>
+        <svg
+          viewBox="0 0 320 222"
+          role="img"
+          aria-labelledby="g-tit g-desc"
+          style="
+            width: 100%;
+            max-width: 32rem;
+            display: block;
+            margin: 0.5rem auto;
+            font-family: inherit;
+          "
+        >
+          <title id="g-tit">Monthly sales, January to June 2026</title>
+          <desc id="g-desc">
+            Bar chart of monthly sales in thousands of dollars: January 42, February 38, March 55,
+            April 61, May 49, June 70. A dashed line shows the target of 50.
+          </desc>
+          <text
+            x="160"
+            y="14"
+            text-anchor="middle"
+            font-size="11"
+            font-weight="700"
+            fill="currentColor"
+          >
+            Monthly sales, Jan–Jun 2026
+          </text>
+          <line
+            x1="44"
+            x2="312"
+            y1="182.0"
+            y2="182.0"
+            style="stroke: var(--borde)"
+            stroke-width="0.8"
+          />
+          <text x="39" y="185.0" text-anchor="end" font-size="8" fill="currentColor">0</text>
+          <line
+            x1="44"
+            x2="312"
+            y1="145.5"
+            y2="145.5"
+            style="stroke: var(--borde)"
+            stroke-width="0.8"
+          />
+          <text x="39" y="148.5" text-anchor="end" font-size="8" fill="currentColor">20</text>
+          <line
+            x1="44"
+            x2="312"
+            y1="109.0"
+            y2="109.0"
+            style="stroke: var(--borde)"
+            stroke-width="0.8"
+          />
+          <text x="39" y="112.0" text-anchor="end" font-size="8" fill="currentColor">40</text>
+          <line
+            x1="44"
+            x2="312"
+            y1="72.5"
+            y2="72.5"
+            style="stroke: var(--borde)"
+            stroke-width="0.8"
+          />
+          <text x="39" y="75.5" text-anchor="end" font-size="8" fill="currentColor">60</text>
+          <line
+            x1="44"
+            x2="312"
+            y1="36.0"
+            y2="36.0"
+            style="stroke: var(--borde)"
+            stroke-width="0.8"
+          />
+          <text x="39" y="39.0" text-anchor="end" font-size="8" fill="currentColor">80</text>
+          <rect x="52.3" y="105.3" width="28" height="76.7" rx="2" style="fill: var(--acento)" />
+          <text x="66.3" y="102.3" text-anchor="middle" font-size="7.5" fill="currentColor">
+            42
+          </text>
+          <text x="66.3" y="193" text-anchor="middle" font-size="8" fill="currentColor">Jan</text>
+          <rect x="97.0" y="112.7" width="28" height="69.3" rx="2" style="fill: var(--acento)" />
+          <text x="111.0" y="109.7" text-anchor="middle" font-size="7.5" fill="currentColor">
+            38
+          </text>
+          <text x="111.0" y="193" text-anchor="middle" font-size="8" fill="currentColor">Feb</text>
+          <rect x="141.7" y="81.6" width="28" height="100.4" rx="2" style="fill: var(--acento)" />
+          <text x="155.7" y="78.6" text-anchor="middle" font-size="7.5" fill="currentColor">
+            55
+          </text>
+          <text x="155.7" y="193" text-anchor="middle" font-size="8" fill="currentColor">Mar</text>
+          <rect x="186.3" y="70.7" width="28" height="111.3" rx="2" style="fill: var(--acento)" />
+          <text x="200.3" y="67.7" text-anchor="middle" font-size="7.5" fill="currentColor">
+            61
+          </text>
+          <text x="200.3" y="193" text-anchor="middle" font-size="8" fill="currentColor">Apr</text>
+          <rect x="231.0" y="92.6" width="28" height="89.4" rx="2" style="fill: var(--acento)" />
+          <text x="245.0" y="89.6" text-anchor="middle" font-size="7.5" fill="currentColor">
+            49
+          </text>
+          <text x="245.0" y="193" text-anchor="middle" font-size="8" fill="currentColor">May</text>
+          <rect x="275.7" y="54.2" width="28" height="127.8" rx="2" style="fill: var(--acento)" />
+          <text x="289.7" y="51.2" text-anchor="middle" font-size="7.5" fill="currentColor">
+            70
+          </text>
+          <text x="289.7" y="193" text-anchor="middle" font-size="8" fill="currentColor">Jun</text>
+          <line
+            x1="44"
+            x2="312"
+            y1="90.8"
+            y2="90.8"
+            style="stroke: var(--error)"
+            stroke-width="2"
+            stroke-dasharray="5 3"
+          />
+          <line x1="44" x2="44" y1="32" y2="182" stroke="currentColor" stroke-width="1" />
+          <line x1="44" x2="312" y1="182" y2="182" stroke="currentColor" stroke-width="1" />
+          <text x="178" y="206" text-anchor="middle" font-size="8.5" fill="currentColor">
+            Month (x-axis)
+          </text>
+          <text
+            transform="translate(12 109) rotate(-90)"
+            text-anchor="middle"
+            font-size="8.5"
+            fill="currentColor"
+          >
+            Sales, thousands of $ (y-axis)
+          </text>
+          <rect x="196" y="22" width="10" height="7" rx="1" style="fill: var(--acento)" />
+          <text x="209" y="28.5" font-size="8" fill="currentColor">Sales</text>
+          <line
+            x1="241"
+            x2="256"
+            y1="25.5"
+            y2="25.5"
+            style="stroke: var(--error)"
+            stroke-width="2"
+            stroke-dasharray="5 3"
+          />
+          <text x="259" y="28.5" font-size="8" fill="currentColor">Target</text>
+        </svg>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Parte</th>
+              <th>En el gráfico</th>
+            </tr>
+            <tr>
+              <td><span class="en">title</span></td>
+              <td>
+                el título, arriba: <i>Monthly sales, Jan–Jun 2026</i><br /><span
+                  class="audio"
+                  data-say="title"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">x-axis</span></td>
+              <td>
+                el eje horizontal: los meses<br /><span class="audio" data-say="x-axis"></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">y-axis</span></td>
+              <td>
+                el eje vertical: las ventas en miles de dólares<br /><span
+                  class="audio"
+                  data-say="y-axis"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">bar</span></td>
+              <td>cada barra azul es un mes<br /><span class="audio" data-say="bar"></span></td>
+            </tr>
+            <tr>
+              <td><span class="en">line</span></td>
+              <td>
+                la línea roja punteada es la meta (<i>target</i>)<br /><span
+                  class="audio"
+                  data-say="line"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">legend</span></td>
+              <td>
+                la leyenda: explica qué es cada color<br /><span
+                  class="audio"
+                  data-say="legend"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">label</span></td>
+              <td>
+                las etiquetas con los valores (42, 38…)<br /><span
+                  class="audio"
+                  data-say="label"
+                ></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Tipos de gráfico</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Tipo</th>
+              <th>Sirve para</th>
+            </tr>
+            <tr>
+              <td>
+                <span class="en">bar chart</span><br /><span
+                  class="audio"
+                  data-say="bar chart"
+                ></span>
+              </td>
+              <td>comparar categorías (tiendas, meses)</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="en">line chart</span><br /><span
+                  class="audio"
+                  data-say="line chart"
+                ></span>
+              </td>
+              <td>mostrar una tendencia en el tiempo</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="en">pie chart</span><br /><span
+                  class="audio"
+                  data-say="pie chart"
+                ></span>
+              </td>
+              <td>mostrar partes de un total (%)</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="en">table</span><br /><span class="audio" data-say="table"></span>
+              </td>
+              <td>mostrar cifras exactas</td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Frases para describir un gráfico</h3>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">This chart shows monthly sales from January to June.</span
+              ><span class="es"
+                >Este gráfico muestra las ventas mensuales de enero a junio.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="This chart shows monthly sales from January to June."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >The x-axis shows the months, and the y-axis shows sales in thousands of
+                dollars.</span
+              ><span class="es"
+                >El eje X muestra los meses y el eje Y, las ventas en miles de dólares.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="The x-axis shows the months, and the y-axis shows sales in thousands of dollars."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Each bar represents one month.</span
+              ><span class="es">Cada barra representa un mes.</span></span
+            ><span class="audio" data-say="Each bar represents one month."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">The dashed line is the target.</span
+              ><span class="es">La línea punteada es la meta.</span></span
+            ><span class="audio" data-say="The dashed line is the target."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">According to the chart, June had the highest sales.</span
+              ><span class="es">Según el gráfico, junio tuvo las ventas más altas.</span></span
+            ><span
+              class="audio"
+              data-say="According to the chart, June had the highest sales."
+            ></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="escucha">
+        <h2><span class="num">3</span> Escucha y repite</h2>
+        <p>
+          Carla presenta el gráfico en una reunión. Escucha cada línea en normal, luego en lento, y
+          repítela en voz alta <b>tres veces</b> imitando el ritmo.
+        </p>
+        <p>
+          <b>Todo el texto:</b>
+          <span
+            class="audio"
+            data-say="This chart shows our monthly sales for the first half of the year. The x-axis shows the months, and the y-axis shows sales in thousands of dollars. fifty thousand dollars. Sales were below the target in January, February and May. June was the best month, with seventy thousand dollars. Overall, the trend is positive."
+          ></span>
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >This chart shows our monthly sales for the first half of the year.</span
+              ><span class="es"
+                >Este gráfico muestra nuestras ventas mensuales del primer semestre.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="This chart shows our monthly sales for the first half of the year."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >The x-axis shows the months, and the y-axis shows sales in thousands of
+                dollars.</span
+              ><span class="es"
+                >El eje X muestra los meses y el eje Y, las ventas en miles de dólares.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="The x-axis shows the months, and the y-axis shows sales in thousands of dollars."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >The red dashed line is our monthly target: fifty thousand dollars.</span
+              ><span class="es"
+                >La línea roja punteada es nuestra meta mensual: cincuenta mil dólares.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="The red dashed line is our monthly target: fifty thousand dollars."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Sales were below the target in January, February and May.</span
+              ><span class="es"
+                >Las ventas estuvieron por debajo de la meta en enero, febrero y mayo.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="Sales were below the target in January, February and May."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">June was the best month, with seventy thousand dollars.</span
+              ><span class="es">Junio fue el mejor mes, con setenta mil dólares.</span></span
+            ><span
+              class="audio"
+              data-say="June was the best month, with seventy thousand dollars."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Overall, the trend is positive.</span
+              ><span class="es">En general, la tendencia es positiva.</span></span
+            ><span class="audio" data-say="Overall, the trend is positive."></span>
+          </li>
+        </ul>
+        <p class="nota">
+          💡 <i>axis</i> se dice «ÁK-sis»; el plural es <i>axes</i> «ÁK-siiz». <i>legend</i> se dice
+          «LÉ-yend».
+        </p>
+      </section>
+
+      <section class="bloque" id="ejercicios">
+        <h2><span class="num">4</span> Ejercicios</h2>
+
+        <p class="marcador" data-marcador aria-live="polite"></p>
+        <div
+          class="ej"
+          data-id="e1"
+          data-tipo="elegir"
+          data-respuestas="The months."
+          data-explica="El eje horizontal (x-axis) muestra los meses."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">In the chart, what does the x-axis show?</p>
+          <div class="opciones">
+            <button>The months.</button><button>Sales in thousands of dollars.</button
+            ><button>The target.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e2"
+          data-tipo="elegir"
+          data-respuestas="Sales in thousands of dollars."
+          data-explica="El eje vertical (y-axis) muestra las ventas."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">What does the y-axis show?</p>
+          <div class="opciones">
+            <button>The months.</button><button>Sales in thousands of dollars.</button
+            ><button>The number of stores.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e3"
+          data-tipo="elegir"
+          data-respuestas="la leyenda (explica cada color)"
+          data-explica="Legend = leyenda."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><i>legend</i> es…</p>
+          <div class="opciones">
+            <button>el título</button><button>la leyenda (explica cada color)</button
+            ><button>el eje</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e4"
+          data-tipo="elegir"
+          data-respuestas="pie chart"
+          data-explica="Partes de un total → pie chart."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">Para mostrar el % de ventas por tienda sobre el total, usas un…</p>
+          <div class="opciones">
+            <button>line chart</button><button>pie chart</button><button>table</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e5"
+          data-tipo="elegir"
+          data-respuestas="line chart"
+          data-explica="Tendencia en el tiempo → line chart."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">Para mostrar cómo cambian las visitas cada día, usas un…</p>
+          <div class="opciones">
+            <button>line chart</button><button>pie chart</button><button>bar chart</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e6"
+          data-tipo="completar"
+          data-respuestas="shows"
+          data-explica="This chart shows… = este gráfico muestra…"
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            This chart <input class="hueco" aria-label="Hueco" /> monthly sales. (muestra)
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e7"
+          data-tipo="elegir"
+          data-respuestas="June."
+          data-explica="La barra más alta es junio (70)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">According to the chart, which month had the highest sales?</p>
+          <div class="opciones">
+            <button>April.</button><button>June.</button><button>March.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e8"
+          data-tipo="elegir"
+          data-respuestas="January, February and May."
+          data-explica="42, 38 y 49 están debajo de la línea de 50."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">In which months were sales below the target?</p>
+          <div class="opciones">
+            <button>March and April.</button><button>January, February and May.</button
+            ><button>Only May.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e9"
+          data-tipo="ordenar"
+          data-respuestas="The y-axis shows sales in thousands of dollars."
+          data-explica="The y-axis + shows + qué muestra."
+          data-fichas="The|y-axis|shows|sales|in|thousands|of|dollars."
+        >
+          <span class="tipo">Ordena las palabras</span>
+          <p class="enunciado">
+            Forma la frase: «El eje Y muestra las ventas en miles de dólares».
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e10"
+          data-tipo="traducir"
+          data-respuestas="According to the chart, sales went up in June.|According to the chart, sales increased in June.|According to the chart, sales rose in June."
+          data-explica="Según el gráfico = according to the chart."
+        >
+          <span class="tipo">Traduce al inglés</span>
+          <p class="enunciado">Según el gráfico, las ventas subieron en junio.</p>
+          <input aria-label="Tu respuesta" />
+        </div>
+        <div class="acciones">
+          <button type="button" class="btn" data-reiniciar>Borrar mis respuestas</button>
+        </div>
+      </section>
+
+      <section class="bloque" id="lectura">
+        <h2><span class="num">5</span> Lectura corta</h2>
+        <p>
+          La descripción de la primera página de un dashboard de ventas en Power BI. Léelo primero
+          sin audio, luego escúchalo y responde las preguntas.
+        </p>
+        <div class="nota" style="background: var(--superficie-2)">
+          <h3 style="margin-top: 0">Sales dashboard: page 1</h3>
+          <p lang="en">The first page of the dashboard has four visuals.</p>
+          <p lang="en">
+            At the top, there are three cards with the main KPIs: total sales, number of orders and
+            average order value.
+          </p>
+          <p lang="en">
+            On the left, a line chart shows daily sales for the last 30 days. The x-axis shows the
+            dates, and the y-axis shows sales in soles.
+          </p>
+          <p lang="en">
+            On the right, a bar chart compares the five regions. Lima has the longest bar. The
+            colors in the legend show two years: 2025 in gray and 2026 in blue.
+          </p>
+          <p lang="en">
+            At the bottom, a pie chart shows sales by channel: stores, website and app. Each slice
+            is a channel.
+          </p>
+          <p>
+            <span
+              class="audio"
+              data-say="The first page of the dashboard has four visuals. At the top, there are three cards with the main KPIs: total sales, number of orders and average order value. On the left, a line chart shows daily sales for the last 30 days. The x-axis shows the dates, and the y-axis shows sales in soles. On the right, a bar chart compares the five regions. Lima has the longest bar. The colors in the legend show two years: 2025 in gray and 2026 in blue. At the bottom, a pie chart shows sales by channel: stores, website and app. Each slice is a channel."
+            ></span>
+          </p>
+        </div>
+        <p class="estado">104 palabras.</p>
+        <div
+          class="ej"
+          data-id="e11"
+          data-tipo="elegir"
+          data-respuestas="Three."
+          data-explica="«…there are three cards with the main KPIs…»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">How many KPI cards are there at the top?</p>
+          <div class="opciones">
+            <button>Two.</button><button>Three.</button><button>Four.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e12"
+          data-tipo="elegir"
+          data-respuestas="A line chart."
+          data-explica="«…a line chart shows daily sales for the last 30 days.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What type of chart shows daily sales?</p>
+          <div class="opciones">
+            <button>A bar chart.</button><button>A line chart.</button><button>A pie chart.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e13"
+          data-tipo="elegir"
+          data-respuestas="Sales by channel."
+          data-explica="«…a pie chart shows sales by channel…»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What does the pie chart show?</p>
+          <div class="opciones">
+            <button>Sales by region.</button><button>Sales by channel.</button
+            ><button>Sales by day.</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bloque" id="produccion">
+        <h2><span class="num">6</span> Producción abierta</h2>
+        <p>
+          <b>Describe el gráfico</b> de la sección 2 en 5–6 frases, como si lo presentaras en una
+          reunión: qué muestra, qué hay en cada eje, qué es la línea, el mejor y el peor mes, y la
+          tendencia general.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >This chart shows monthly sales from January to June 2026. The x-axis shows the
+                months, and the y-axis shows sales in thousands of dollars.</span
+              ><span class="es">Modelo (inicio)</span></span
+            ><span
+              class="audio"
+              data-say="This chart shows monthly sales from January to June 2026. The x-axis shows the months, and the y-axis shows sales in thousands of dollars."
+            ></span>
+          </li>
+        </ul>
+        <textarea
+          data-prod="p1"
+          aria-label="Tu producción"
+          placeholder="This chart shows ..."
+          lang="en"
+        ></textarea>
+        <div class="acciones">
+          <button type="button" class="btn btn-principal" data-copiar="p1">
+            📋 Copiar para corregir
+          </button>
+          <span class="estado" data-copiado="p1" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <section class="bloque" id="palabras">
+        <h2><span class="num">7</span> Palabras nuevas</h2>
+        <p>
+          Ya están en la <a href="../tarjetas/index.html">app de tarjetas</a>. Escúchalas una vez
+          aquí y repásalas allí mañana.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"><span class="en">chart</span><span class="es">gráfico</span></span
+            ><span class="audio" data-say="chart"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">bar chart</span><span class="es">gráfico de barras</span></span
+            ><span class="audio" data-say="bar chart"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">line chart</span><span class="es">gráfico de líneas</span></span
+            ><span class="audio" data-say="line chart"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">pie chart</span
+              ><span class="es">gráfico circular (de torta)</span></span
+            ><span class="audio" data-say="pie chart"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">x-axis / y-axis</span
+              ><span class="es">eje X (horizontal) / eje Y (vertical)</span></span
+            ><span class="audio" data-say="x-axis / y-axis"></span>
+          </li>
+          <li>
+            <span class="texto"><span class="en">legend</span><span class="es">leyenda</span></span
+            ><span class="audio" data-say="legend"></span>
+          </li>
+          <li>
+            <span class="texto"><span class="en">title</span><span class="es">título</span></span
+            ><span class="audio" data-say="title"></span>
+          </li>
+          <li>
+            <span class="texto"><span class="en">label</span><span class="es">etiqueta</span></span
+            ><span class="audio" data-say="label"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">target</span><span class="es">meta, objetivo</span></span
+            ><span class="audio" data-say="target"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">This chart shows…</span
+              ><span class="es">Este gráfico muestra…</span></span
+            ><span class="audio" data-say="This chart shows…"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">According to the chart,…</span
+              ><span class="es">Según el gráfico,…</span></span
+            ><span class="audio" data-say="According to the chart,…"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">below / above the target</span
+              ><span class="es">por debajo / por encima de la meta</span></span
+            ><span class="audio" data-say="below / above the target"></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="cierre">
+        <h2><span class="num">8</span> Checklist de cierre</h2>
+        <ul class="checklist">
+          <li>
+            <label
+              ><input type="checkbox" data-check="c1" />
+              <span>Conozco <i>title, x-axis, y-axis, bar, line, legend, label</i>.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c2" />
+              <span>Sé para qué sirve un <i>bar chart, line chart, pie chart</i>.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c3" />
+              <span>Uso <i>This chart shows…</i> y <i>According to the chart,…</i></span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c4" />
+              <span>Digo si algo está <i>above</i> o <i>below the target</i>.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c5" />
+              <span>Puedo describir un gráfico simple en 5–6 frases.</span></label
+            >
+          </li>
+        </ul>
+      </section>
+
+      <nav class="acciones">
+        <a class="btn" href="../index.html">← Todas las sesiones</a>
+        <a class="btn btn-principal" href="../tarjetas/index.html">Ir a las tarjetas →</a>
+      </nav>
+    </main>
+    <script src="../assets/leccion.js"></script>
+  </body>
+</html>

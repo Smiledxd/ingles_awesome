@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S44 · Power BI en inglés</title>
+    <meta
+      name="description"
+      content="Sesión 44 de inglés: el vocabulario de Power BI en inglés (dashboard, visual, measure, slicer, data model, relationship, refresh)."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>"
+    />
+    <link rel="stylesheet" href="../assets/estilos.css" />
+  </head>
+  <body data-sesion="S44" data-numero="44">
+    <main class="contenedor">
+      <header class="cabecera">
+        <nav class="migas"><a href="../index.html">← Todas las sesiones</a></nav>
+        <h1>Sesión 44 · Power BI en inglés</h1>
+        <p class="subtitulo">
+          El vocabulario de Power BI en inglés y cómo describir un dashboard y cómo lo construiste.
+        </p>
+        <ul class="etiquetas">
+          <li>Fase 2 · Construir</li>
+          <li>Semana 8</li>
+          <li>≈ 60 min</li>
+        </ul>
+      </header>
+
+      <div data-aviso-audio></div>
+
+      <section class="bloque">
+        <h2>Tu hora de hoy</h2>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <td>10 min</td>
+              <td>
+                Tarjetas: repasa las pendientes en la
+                <a href="../tarjetas/index.html">app de tarjetas</a>. Las 12 palabras de esta sesión
+                ya están en el mazo.
+              </td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Warm-up, concepto y ejercicios.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escucha y repite en voz alta, y la lectura corta.</td>
+            </tr>
+            <tr>
+              <td>15 min</td>
+              <td>Escribe tu producción y pégala en el chat para que te la corrijan.</td>
+            </tr>
+            <tr>
+              <td>5 min</td>
+              <td>Palabras nuevas y checklist de cierre.</td>
+            </tr>
+          </table>
+        </div>
+        <p class="nota">
+          🔊 Cada frase tiene dos botones: <b>▶</b> velocidad normal y <b>🐢</b> lento. Repite
+          siempre en voz alta.
+        </p>
+      </section>
+
+      <section class="bloque" id="warmup">
+        <h2><span class="num">1</span> Warm-up <span class="minutos">2 min</span></h2>
+        <p>Tres preguntas de la sesión 43. Responde en voz alta antes de mirar la respuesta.</p>
+        <ol class="warmup">
+          <li>
+            ¿Cómo se lee <code>=SUM(B2:B10)</code>?
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">Equals SUM of B2 to B10.</span>
+                <span class="audio" data-say="Equals sum of B2 to B10."></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «Tabla dinámica»
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">pivot table</span>
+                <span class="audio" data-say="pivot table"></span>
+              </p>
+            </details>
+          </li>
+          <li>
+            «La fórmula devuelve el total».
+            <details>
+              <summary>Ver respuesta</summary>
+              <p>
+                <span class="en">The formula returns the total.</span>
+                <span class="audio" data-say="The formula returns the total."></span>
+              </p>
+            </details>
+          </li>
+        </ol>
+      </section>
+
+      <section class="bloque" id="concepto">
+        <h2><span class="num">2</span> <span>Concepto: Power BI en inglés</span></h2>
+
+        <p>
+          En Power BI casi todo el vocabulario es en inglés, incluso si usas la interfaz en español.
+          Esta es la ruta de trabajo típica:
+        </p>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Paso</th>
+              <th>Vocabulario</th>
+            </tr>
+            <tr>
+              <td>1. Get data<br /><span class="es">conectar las fuentes</span></td>
+              <td><span class="en">source, connect, import</span></td>
+            </tr>
+            <tr>
+              <td>2. Transform<br /><span class="es">limpiar en Power Query</span></td>
+              <td><span class="en">remove columns, change type, merge</span></td>
+            </tr>
+            <tr>
+              <td>3. Model<br /><span class="es">unir tablas y crear cálculos</span></td>
+              <td><span class="en">data model, relationship, measure, DAX</span></td>
+            </tr>
+            <tr>
+              <td>4. Visualize<br /><span class="es">armar las páginas del reporte</span></td>
+              <td><span class="en">visual, card, slicer, filter</span></td>
+            </tr>
+            <tr>
+              <td>5. Publish<br /><span class="es">compartir y actualizar</span></td>
+              <td><span class="en">publish, workspace, refresh</span></td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Palabras clave</h3>
+        <div class="tabla-scroll">
+          <table class="tabla">
+            <tr>
+              <th>Inglés</th>
+              <th>Qué es</th>
+            </tr>
+            <tr>
+              <td><span class="en">report / dashboard</span></td>
+              <td>
+                el reporte (varias páginas) / el tablero de una página<br /><span
+                  class="audio"
+                  data-say="report. dashboard."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">visual</span></td>
+              <td>
+                cada gráfico, tabla o tarjeta<br /><span class="audio" data-say="visual"></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">card</span></td>
+              <td>
+                visual que muestra un solo número (KPI)<br /><span
+                  class="audio"
+                  data-say="card"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">slicer</span></td>
+              <td>
+                filtro visual en la página (por región, fecha…)<br /><span
+                  class="audio"
+                  data-say="slicer"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">measure</span></td>
+              <td>
+                cálculo en DAX, como <i>Total Sales</i><br /><span
+                  class="audio"
+                  data-say="measure"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">calculated column</span></td>
+              <td>
+                columna nueva calculada fila por fila<br /><span
+                  class="audio"
+                  data-say="calculated column"
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">relationship (one-to-many)</span></td>
+              <td>
+                la unión entre dos tablas (uno a muchos)<br /><span
+                  class="audio"
+                  data-say="relationship. one to many."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">fact table / dimension table</span></td>
+              <td>
+                tabla de hechos (ventas) / de dimensión (productos)<br /><span
+                  class="audio"
+                  data-say="fact table. dimension table."
+                ></span>
+              </td>
+            </tr>
+            <tr>
+              <td><span class="en">refresh</span></td>
+              <td>actualizar los datos<br /><span class="audio" data-say="refresh"></span></td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Frases útiles</h3>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">I connected Power BI to an Excel file and a SQL database.</span
+              ><span class="es">Conecté Power BI a un Excel y a una base de datos SQL.</span></span
+            ><span
+              class="audio"
+              data-say="I connected Power BI to an Excel file and a SQL database."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">I cleaned the data in Power Query.</span
+              ><span class="es">Limpié los datos en Power Query.</span></span
+            ><span class="audio" data-say="I cleaned the data in Power Query."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >There&#x27;s a one-to-many relationship between Products and Sales.</span
+              ><span class="es">Hay una relación uno a muchos entre Productos y Ventas.</span></span
+            ><span
+              class="audio"
+              data-say="There&#x27;s a one-to-many relationship between Products and Sales."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">I created a measure to calculate total sales.</span
+              ><span class="es">Creé una medida para calcular las ventas totales.</span></span
+            ><span class="audio" data-say="I created a measure to calculate total sales."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">Users can filter the page with the region slicer.</span
+              ><span class="es"
+                >Los usuarios pueden filtrar la página con el segmentador de región.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="Users can filter the page with the region slicer."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">The dataset refreshes every morning at 7.</span
+              ><span class="es"
+                >El conjunto de datos se actualiza todas las mañanas a las 7.</span
+              ></span
+            ><span class="audio" data-say="The dataset refreshes every morning at seven."></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="escucha">
+        <h2><span class="num">3</span> Escucha y repite</h2>
+        <p>
+          Diego explica en una entrevista un dashboard que construyó. Escucha cada línea en normal,
+          luego en lento, y repítela en voz alta <b>tres veces</b> imitando el ritmo.
+        </p>
+        <p>
+          <b>Todo el texto:</b>
+          <span
+            class="audio"
+            data-say="I built a sales dashboard for a retail client. a SQL database and an Excel file. I cleaned and transformed the data in Power Query. The model has one fact table and three dimension tables. I wrote the main measures in DAX, like total sales and growth. The report has three pages, with cards, charts and slicers. It refreshes automatically every morning."
+          ></span>
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">I built a sales dashboard for a retail client.</span
+              ><span class="es"
+                >Construí un dashboard de ventas para un cliente de retail.</span
+              ></span
+            ><span class="audio" data-say="I built a sales dashboard for a retail client."></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >The data comes from two sources: a SQL database and an Excel file.</span
+              ><span class="es"
+                >Los datos vienen de dos fuentes: una base de datos SQL y un Excel.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="The data comes from two sources: a SQL database and an Excel file."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">I cleaned and transformed the data in Power Query.</span
+              ><span class="es">Limpié y transformé los datos en Power Query.</span></span
+            ><span
+              class="audio"
+              data-say="I cleaned and transformed the data in Power Query."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">The model has one fact table and three dimension tables.</span
+              ><span class="es"
+                >El modelo tiene una tabla de hechos y tres de dimensión.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="The model has one fact table and three dimension tables."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">I wrote the main measures in DAX, like total sales and growth.</span
+              ><span class="es"
+                >Escribí las medidas principales en DAX, como ventas totales y crecimiento.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="I wrote the main measures in DAX, like total sales and growth."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">The report has three pages, with cards, charts and slicers.</span
+              ><span class="es"
+                >El reporte tiene tres páginas, con tarjetas, gráficos y segmentadores.</span
+              ></span
+            ><span
+              class="audio"
+              data-say="The report has three pages, with cards, charts and slicers."
+            ></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">It refreshes automatically every morning.</span
+              ><span class="es">Se actualiza automáticamente todas las mañanas.</span></span
+            ><span class="audio" data-say="It refreshes automatically every morning."></span>
+          </li>
+        </ul>
+        <p class="nota">
+          💡 <i>DAX</i> se dice «daks». <i>Slicer</i> se dice «SLAI-sər». <i>Power Query</i>,
+          «pá-wer KWÍ-ri».
+        </p>
+      </section>
+
+      <section class="bloque" id="ejercicios">
+        <h2><span class="num">4</span> Ejercicios</h2>
+
+        <p class="marcador" data-marcador aria-live="polite"></p>
+        <div
+          class="ej"
+          data-id="e1"
+          data-tipo="elegir"
+          data-respuestas="un filtro visual en la página"
+          data-explica="Slicer = segmentador: un filtro visual."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><i>slicer</i> es…</p>
+          <div class="opciones">
+            <button>un gráfico de barras</button><button>un filtro visual en la página</button
+            ><button>una tabla de hechos</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e2"
+          data-tipo="elegir"
+          data-respuestas="un cálculo en DAX, como Total Sales"
+          data-explica="Measure = medida (cálculo en DAX)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><i>measure</i> es…</p>
+          <div class="opciones">
+            <button>un cálculo en DAX, como Total Sales</button><button>una columna de Excel</button
+            ><button>una página del reporte</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e3"
+          data-tipo="elegir"
+          data-respuestas="one-to-many"
+          data-explica="Un producto aparece en muchas ventas → uno a muchos."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">
+            Products (1 fila por producto) y Sales (muchas ventas por producto) tienen una relación…
+          </p>
+          <div class="opciones">
+            <button>one-to-one</button><button>one-to-many</button><button>many-to-many</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e4"
+          data-tipo="elegir"
+          data-respuestas="actualizar los datos"
+          data-explica="Refresh = actualizar."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado"><i>refresh</i> significa…</p>
+          <div class="opciones">
+            <button>borrar los datos</button><button>actualizar los datos</button
+            ><button>publicar el reporte</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e5"
+          data-tipo="elegir"
+          data-respuestas="a single number, like total sales"
+          data-explica="Una card muestra un solo número (un KPI)."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">A card visual shows…</p>
+          <div class="opciones">
+            <button>a single number, like total sales</button><button>a map</button
+            ><button>a list of all orders</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e6"
+          data-tipo="elegir"
+          data-respuestas="cleaning and transforming data"
+          data-explica="Power Query sirve para limpiar y transformar datos."
+        >
+          <span class="tipo">Elige la opción</span>
+          <p class="enunciado">Power Query is for…</p>
+          <div class="opciones">
+            <button>cleaning and transforming data</button><button>sending emails</button
+            ><button>drawing charts</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e7"
+          data-tipo="completar"
+          data-respuestas="refreshes"
+          data-explica="The data (it) → refreshes."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            The data <input class="hueco" aria-label="Hueco" /> every morning at 7. (se actualiza)
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e8"
+          data-tipo="completar"
+          data-respuestas="published|publish"
+          data-explica="Publicar = publish."
+        >
+          <span class="tipo">Completa</span>
+          <p class="enunciado">
+            Yesterday we <input class="hueco" aria-label="Hueco" /> the report to the Power BI
+            service. (publicamos)
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e9"
+          data-tipo="ordenar"
+          data-respuestas="Use the slicer to filter by region."
+          data-explica="Imperativo: Use + the slicer + to filter by region."
+          data-fichas="Use|the|slicer|to|filter|by|region."
+        >
+          <span class="tipo">Ordena las palabras</span>
+          <p class="enunciado">
+            Forma la instrucción: «Usa el segmentador para filtrar por región».
+          </p>
+        </div>
+        <div
+          class="ej"
+          data-id="e10"
+          data-tipo="traducir"
+          data-respuestas="I created a measure to calculate total sales.|I created a measure to calculate the total sales."
+          data-explica="Medida = measure; calcular = calculate."
+        >
+          <span class="tipo">Traduce al inglés</span>
+          <p class="enunciado">Creé una medida para calcular las ventas totales.</p>
+          <input aria-label="Tu respuesta" />
+        </div>
+        <div class="acciones">
+          <button type="button" class="btn" data-reiniciar>Borrar mis respuestas</button>
+        </div>
+      </section>
+
+      <section class="bloque" id="lectura">
+        <h2><span class="num">5</span> Lectura corta</h2>
+        <p>
+          La documentación corta de un dashboard, para los usuarios de la empresa. Léelo primero sin
+          audio, luego escúchalo y responde las preguntas.
+        </p>
+        <div class="nota" style="background: var(--superficie-2)">
+          <h3 style="margin-top: 0">Sales dashboard: how it works</h3>
+          <p lang="en">
+            This report helps managers follow sales every day. It has three pages: Overview,
+            Products and Stores.
+          </p>
+          <p lang="en">
+            Data: the dataset connects to the company's SQL database. It refreshes every day at 7
+            a.m., so the numbers show the sales until the previous night.
+          </p>
+          <p lang="en">
+            Model: Sales is the fact table. It has one-to-many relationships with three dimension
+            tables: Date, Product and Store.
+          </p>
+          <p lang="en">
+            Measures: Total Sales, Orders, Average Order Value and Growth vs. Last Year. All the
+            measures are in a folder called _Measures.
+          </p>
+          <p lang="en">
+            How to use it: use the slicers at the top to filter by date and region. Hover over a
+            visual to see the tooltip with more details.
+          </p>
+          <p>
+            <span
+              class="audio"
+              data-say="This report helps managers follow sales every day. It has three pages: Overview, Products and Stores. Data: the dataset connects to the company&#x27;s SQL database. It refreshes every day at 7 a.m., so the numbers show the sales until the previous night. Model: Sales is the fact table. It has one-to-many relationships with three dimension tables: Date, Product and Store. Measures: Total Sales, Orders, Average Order Value and Growth vs. Last Year. All the measures are in a folder called _Measures. How to use it: use the slicers at the top to filter by date and region. Hover over a visual to see the tooltip with more details."
+            ></span>
+          </p>
+        </div>
+        <p class="estado">108 palabras.</p>
+        <div
+          class="ej"
+          data-id="e11"
+          data-tipo="elegir"
+          data-respuestas="At 7 a.m. every day."
+          data-explica="«It refreshes every day at 7 a.m.…»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">When does the dataset refresh?</p>
+          <div class="opciones">
+            <button>Every hour.</button><button>At 7 a.m. every day.</button
+            ><button>Every Monday.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e12"
+          data-tipo="elegir"
+          data-respuestas="Sales."
+          data-explica="«Sales is the fact table.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">What is the fact table?</p>
+          <div class="opciones">
+            <button>Date.</button><button>Product.</button><button>Sales.</button>
+          </div>
+        </div>
+        <div
+          class="ej"
+          data-id="e13"
+          data-tipo="elegir"
+          data-respuestas="With the slicers at the top."
+          data-explica="«…use the slicers at the top to filter by date and region.»"
+        >
+          <span class="tipo">Comprensión</span>
+          <p class="enunciado">How can users filter by region?</p>
+          <div class="opciones">
+            <button>With the slicers at the top.</button><button>In Power Query.</button
+            ><button>With a new measure.</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bloque" id="produccion">
+        <h2><span class="num">6</span> Producción abierta</h2>
+        <p>
+          <b>Describe un dashboard</b> que hiciste (o que te gustaría hacer) en 5–6 frases: para
+          quién es, de dónde vienen los datos, cómo es el modelo, qué medidas y visuales tiene, y
+          cómo se actualiza.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en"
+                >I built a dashboard for my university&#x27;s library. The data comes from an Excel
+                file with book loans. I cleaned it in Power Query. The model has a fact table with
+                the loans and two dimension tables: Books and Students. I created measures like
+                Total Loans and Loans per Student. Users can filter by month with a slicer.</span
+              ><span class="es">Modelo</span></span
+            ><span
+              class="audio"
+              data-say="I built a dashboard for my university&#x27;s library. The data comes from an Excel file with book loans. I cleaned it in Power Query. The model has a fact table with the loans and two dimension tables: Books and Students. I created measures like Total Loans and Loans per Student. Users can filter by month with a slicer."
+            ></span>
+          </li>
+        </ul>
+        <textarea
+          data-prod="p1"
+          aria-label="Tu producción"
+          placeholder="I built a dashboard for ..."
+          lang="en"
+        ></textarea>
+        <div class="acciones">
+          <button type="button" class="btn btn-principal" data-copiar="p1">
+            📋 Copiar para corregir
+          </button>
+          <span class="estado" data-copiado="p1" aria-live="polite"></span>
+        </div>
+      </section>
+
+      <section class="bloque" id="palabras">
+        <h2><span class="num">7</span> Palabras nuevas</h2>
+        <p>
+          Ya están en la <a href="../tarjetas/index.html">app de tarjetas</a>. Escúchalas una vez
+          aquí y repásalas allí mañana.
+        </p>
+        <ul class="frases">
+          <li>
+            <span class="texto"
+              ><span class="en">dashboard / report</span
+              ><span class="es">tablero / reporte</span></span
+            ><span class="audio" data-say="dashboard / report"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">visual</span
+              ><span class="es">visual (gráfico, tabla, tarjeta)</span></span
+            ><span class="audio" data-say="visual"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">card</span><span class="es">tarjeta (muestra un número)</span></span
+            ><span class="audio" data-say="card"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">slicer</span
+              ><span class="es">segmentador (filtro visual)</span></span
+            ><span class="audio" data-say="slicer"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">measure</span><span class="es">medida (cálculo en DAX)</span></span
+            ><span class="audio" data-say="measure"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">calculated column</span
+              ><span class="es">columna calculada</span></span
+            ><span class="audio" data-say="calculated column"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">data model</span><span class="es">modelo de datos</span></span
+            ><span class="audio" data-say="data model"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">relationship</span
+              ><span class="es">relación (entre tablas)</span></span
+            ><span class="audio" data-say="relationship"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">fact table / dimension table</span
+              ><span class="es">tabla de hechos / de dimensión</span></span
+            ><span class="audio" data-say="fact table / dimension table"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">refresh</span><span class="es">actualizar (los datos)</span></span
+            ><span class="audio" data-say="refresh"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">publish</span><span class="es">publicar</span></span
+            ><span class="audio" data-say="publish"></span>
+          </li>
+          <li>
+            <span class="texto"
+              ><span class="en">hover over</span><span class="es">pasar el cursor sobre</span></span
+            ><span class="audio" data-say="hover over"></span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bloque" id="cierre">
+        <h2><span class="num">8</span> Checklist de cierre</h2>
+        <ul class="checklist">
+          <li>
+            <label
+              ><input type="checkbox" data-check="c1" />
+              <span
+                >Conozco la ruta <i>get data → transform → model → visualize → publish</i>.</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c2" />
+              <span>Uso <i>visual, card, slicer, measure, calculated column</i>.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c3" />
+              <span
+                >Explico un modelo con
+                <i>fact table, dimension table, one-to-many relationship</i>.</span
+              ></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c4" />
+              <span>Uso <i>refresh</i> y <i>publish</i>.</span></label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-check="c5" />
+              <span>Puedo describir un dashboard y cómo lo construí.</span></label
+            >
+          </li>
+        </ul>
+      </section>
+
+      <nav class="acciones">
+        <a class="btn" href="../index.html">← Todas las sesiones</a>
+        <a class="btn btn-principal" href="../tarjetas/index.html">Ir a las tarjetas →</a>
+      </nav>
+    </main>
+    <script src="../assets/leccion.js"></script>
+  </body>
+</html>
