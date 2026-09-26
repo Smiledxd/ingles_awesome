@@ -402,6 +402,16 @@ textarea:focus-visible {
   overflow-x: auto;
 }
 
+/* Tablas de datos con muchas columnas: menos relleno para que quepan en el celular */
+.tabla-compacta {
+  font-size: 0.8rem;
+}
+
+.tabla-compacta th,
+.tabla-compacta td {
+  padding: 0.35rem 0.25rem;
+}
+
 /* Warm-up */
 
 .warmup {

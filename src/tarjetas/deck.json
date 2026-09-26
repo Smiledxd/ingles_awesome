@@ -3106,5 +3106,257 @@
     "es": "un poco más bajo",
     "ejemplo": "Costs were a little lower than in June.",
     "sesion": "S37"
+  },
+  {
+    "id": "s38-001",
+    "en": "the highest",
+    "es": "el más alto / los más altos",
+    "ejemplo": "Lima has the highest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-002",
+    "en": "the lowest",
+    "es": "el más bajo",
+    "ejemplo": "Trujillo has the lowest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-003",
+    "en": "the biggest",
+    "es": "el más grande",
+    "ejemplo": "Lima is the biggest store.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-004",
+    "en": "the best",
+    "es": "el mejor (good → better → the best)",
+    "ejemplo": "Arequipa has the best rating.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-005",
+    "en": "the worst",
+    "es": "el peor (bad → worse → the worst)",
+    "ejemplo": "March was the worst month.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-006",
+    "en": "the most popular",
+    "es": "el más popular",
+    "ejemplo": "It's our most popular product.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-007",
+    "en": "the least",
+    "es": "el menos",
+    "ejemplo": "It's the least expensive option.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-008",
+    "en": "the fewest",
+    "es": "la menor cantidad de (contables)",
+    "ejemplo": "Arequipa had the fewest returns.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-009",
+    "en": "the second highest",
+    "es": "el segundo más alto",
+    "ejemplo": "Cusco has the second highest sales.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-010",
+    "en": "top 3",
+    "es": "los 3 primeros, el top 3",
+    "ejemplo": "These are the top 3 products of the year.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-011",
+    "en": "at the bottom",
+    "es": "al final (del ranking)",
+    "ejemplo": "Trujillo is at the bottom of the ranking.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s38-012",
+    "en": "best-selling",
+    "es": "más vendido",
+    "ejemplo": "The best-selling product was the basic laptop.",
+    "sesion": "S38"
+  },
+  {
+    "id": "s39-001",
+    "en": "increase / decrease",
+    "es": "aumentar / disminuir",
+    "ejemplo": "Sales increased in March and decreased in May.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-002",
+    "en": "rise → rose",
+    "es": "subir → subió",
+    "ejemplo": "Traffic rose sharply in March.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-003",
+    "en": "fall → fell",
+    "es": "caer, bajar → bajó",
+    "ejemplo": "Costs fell in May.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-004",
+    "en": "go up / go down",
+    "es": "subir / bajar",
+    "ejemplo": "Prices went up slightly.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-005",
+    "en": "peak",
+    "es": "llegar al punto máximo; pico",
+    "ejemplo": "Traffic peaked in April.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-006",
+    "en": "remain stable",
+    "es": "mantenerse estable",
+    "ejemplo": "Prices remained stable.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-007",
+    "en": "fluctuate",
+    "es": "fluctuar, subir y bajar",
+    "ejemplo": "Delivery times fluctuated.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-008",
+    "en": "sharply",
+    "es": "bruscamente, mucho y rápido",
+    "ejemplo": "Sales increased sharply.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-009",
+    "en": "slightly",
+    "es": "ligeramente",
+    "ejemplo": "Users fell slightly in June.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-010",
+    "en": "steadily",
+    "es": "de forma constante",
+    "ejemplo": "Users grew steadily.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-011",
+    "en": "significantly",
+    "es": "de forma importante",
+    "ejemplo": "Costs decreased significantly.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s39-012",
+    "en": "a sharp increase",
+    "es": "un aumento brusco",
+    "ejemplo": "There was a sharp increase in March.",
+    "sesion": "S39"
+  },
+  {
+    "id": "s40-001",
+    "en": "chart",
+    "es": "gráfico",
+    "ejemplo": "This chart shows monthly sales.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-002",
+    "en": "bar chart",
+    "es": "gráfico de barras",
+    "ejemplo": "A bar chart compares the five regions.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-003",
+    "en": "line chart",
+    "es": "gráfico de líneas",
+    "ejemplo": "A line chart shows daily sales.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-004",
+    "en": "pie chart",
+    "es": "gráfico circular (de torta)",
+    "ejemplo": "A pie chart shows sales by channel.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-005",
+    "en": "x-axis / y-axis",
+    "es": "eje X (horizontal) / eje Y (vertical)",
+    "ejemplo": "The x-axis shows the months.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-006",
+    "en": "legend",
+    "es": "leyenda",
+    "ejemplo": "The legend shows two years.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-007",
+    "en": "title",
+    "es": "título",
+    "ejemplo": "Always write a clear title.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-008",
+    "en": "label",
+    "es": "etiqueta",
+    "ejemplo": "The labels show the exact values.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-009",
+    "en": "target",
+    "es": "meta, objetivo",
+    "ejemplo": "The dashed line is the target.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-010",
+    "en": "This chart shows…",
+    "es": "Este gráfico muestra…",
+    "ejemplo": "This chart shows our sales by month.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-011",
+    "en": "According to the chart,…",
+    "es": "Según el gráfico,…",
+    "ejemplo": "According to the chart, June was the best month.",
+    "sesion": "S40"
+  },
+  {
+    "id": "s40-012",
+    "en": "below / above the target",
+    "es": "por debajo / por encima de la meta",
+    "ejemplo": "Sales were below the target in May.",
+    "sesion": "S40"
   }
 ]
