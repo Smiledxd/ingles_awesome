@@ -3358,5 +3358,173 @@
     "es": "por debajo / por encima de la meta",
     "ejemplo": "Sales were below the target in May.",
     "sesion": "S40"
+  },
+  {
+    "id": "s41-001",
+    "en": "increase by",
+    "es": "aumentar en (la diferencia)",
+    "ejemplo": "Sales increased by 5%.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-002",
+    "en": "from … to",
+    "es": "de … a",
+    "ejemplo": "Users rose from 20,000 to 30,000.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-003",
+    "en": "fall to",
+    "es": "bajar a (valor final)",
+    "ejemplo": "The return rate fell to 4%.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-004",
+    "en": "an increase of",
+    "es": "un aumento de",
+    "ejemplo": "There was an increase of 10% in orders.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-005",
+    "en": "peak at",
+    "es": "llegar al máximo en",
+    "ejemplo": "Traffic peaked at 90,000 visits.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-006",
+    "en": "remain stable at",
+    "es": "mantenerse estable en",
+    "ejemplo": "Costs remained stable at $8,000.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-007",
+    "en": "between … and",
+    "es": "entre … y",
+    "ejemplo": "Prices were between $20 and $25.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-008",
+    "en": "about / around",
+    "es": "aproximadamente",
+    "ejemplo": "About 60% of the visits came from phones.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-009",
+    "en": "nearly",
+    "es": "casi",
+    "ejemplo": "Traffic peaked at nearly 90,000 visits.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-010",
+    "en": "over / under",
+    "es": "más de / menos de",
+    "ejemplo": "over $50,000 · under 5%",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-011",
+    "en": "a total of",
+    "es": "un total de",
+    "ejemplo": "We had a total of 4,400 orders.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s41-012",
+    "en": "double",
+    "es": "duplicarse, el doble",
+    "ejemplo": "The number of users doubled.",
+    "sesion": "S41"
+  },
+  {
+    "id": "s42-001",
+    "en": "Let me walk you through…",
+    "es": "Déjame explicarte paso a paso…",
+    "ejemplo": "Let me walk you through this chart.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-002",
+    "en": "As you can see,",
+    "es": "Como puedes ver,",
+    "ejemplo": "As you can see, online sales grew every month.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-003",
+    "en": "Overall,",
+    "es": "En general,",
+    "ejemplo": "Overall, the trend is positive.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-004",
+    "en": "The main takeaway is…",
+    "es": "La conclusión principal es…",
+    "ejemplo": "The main takeaway is that customers are moving online.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-005",
+    "en": "overtake → overtook",
+    "es": "superar, adelantar",
+    "ejemplo": "Online sales overtook store sales in May.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-006",
+    "en": "compared with",
+    "es": "comparado con",
+    "ejemplo": "Compared with January, sales were 10% lower.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-007",
+    "en": "triple / double",
+    "es": "triplicarse / duplicarse",
+    "ejemplo": "Online sales tripled in six months.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-008",
+    "en": "jump",
+    "es": "salto, subida brusca",
+    "ejemplo": "The biggest jump was in May.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-009",
+    "en": "channel",
+    "es": "canal (de venta)",
+    "ejemplo": "This chart shows sales by channel.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-010",
+    "en": "gradually",
+    "es": "gradualmente",
+    "ejemplo": "Store sales fell gradually.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-011",
+    "en": "invest (in)",
+    "es": "invertir (en)",
+    "ejemplo": "We need to invest more in the website.",
+    "sesion": "S42"
+  },
+  {
+    "id": "s42-012",
+    "en": "period",
+    "es": "periodo",
+    "ejemplo": "The chart covers a six-month period.",
+    "sesion": "S42"
   }
 ]
